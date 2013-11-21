@@ -3,10 +3,11 @@
 #for check the server services status
 #file format in each line: ip:port
 
-import time
-import socket,re,urllib,urllib2,os,sys
+#import time
+#import socket,re,urllib,urllib2,os,sys
+#import subprocess
+import socket
 from threading import Thread
-import subprocess
 from Queue import Queue
 from termcolor import colored
 
