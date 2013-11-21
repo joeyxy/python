@@ -10,7 +10,7 @@ from Queue import Queue
 
 timeout = 5
 ip_queue = Queue()
-num_threads = 2
+num_threads = 10 
 
 def scan_port(iq,timeout=timeout):
 	line=iq.get()
@@ -24,17 +24,23 @@ def scan_port(iq,timeout=timeout):
 		status=cs.connect_ex(address)
 		if status == 0:
 			print "host:%s port:%s ok" % (ip,port)
+			iq.task_done()
 			#print inGreen("host:%s port:%s ok" % ip,port)
 		else:
 			print "host:%s port:%s down" % (ip,port)
+			iq.task_done()
 			return 0
+			
 	except Exception,e:
 		#print inRed("error:%s" % ip)
 		print "error:%s" % e
 		return 1
-	return 0
+		iq.task_done()
+	except KeyboardInterrupt:
+		print "You pressed Ctrl+c"
+		sys.exit()
 
-file = raw_input("enter the file to check the services:")
+file = raw_input("Enter the file to check the services:")
 f = open(file,'r')
 
 #place ip into ip_queue
@@ -43,6 +49,7 @@ for eachline in f:
 
 f.close()
 #spawn pool of scan_port threads
+num_threads = ip_queue.qsize()
 for i in range(num_threads):
 	worker = Thread(target=scan_port,args=(ip_queue,5))
 	worker.setDaemon(True)
