@@ -10,8 +10,12 @@ from Queue import Queue
 
 timeout = 5
 ip_queue = Queue()
+num_threads = 2
 
-def scan_port(ip,port,timeout=timeout):
+def scan_port(iq,timeout=timeout):
+	line=iq.get()
+	ip=line.split(':')[0].strip('\n')
+	port=line.split(':')[1].strip('\n')
 	try:
 		#print "ip:%s,port:%s"% (ip,port)
 		cs=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
@@ -32,11 +36,18 @@ def scan_port(ip,port,timeout=timeout):
 
 file = raw_input("enter the file to check the services:")
 f = open(file,'r')
+
+#place ip into ip_queue
 for eachline in f:
-	ip=eachline.split(':')[0].strip('\n')
-        port=eachline.split(':')[1].strip('\n')
-	#print "ip:%s,port:%s"% (ip,port)
-	scan_port(ip,port,5)
+	ip_queue.put(eachline)
+
 f.close()
+#spawn pool of scan_port threads
+for i in range(num_threads):
+	worker = Thread(target=scan_port,args=(ip_queue,5))
+	worker.setDaemon(True)
+	worker.start()
 
-
+print "Main Thread waiting"
+ip_queue.join()
+print "Done"
