@@ -1,16 +1,19 @@
 #!/usr/bin/env python
+#create at:20131121 joey joeyxy83@gmail.com
+#for check the server services status
+#file format in each line: ip:port
 
 import time
 import socket,re,urllib,urllib2,os,sys
 from threading import Thread
 import subprocess
 from Queue import Queue
-#from color import inRed, inGreen
-
+from termcolor import colored
 
 timeout = 5
 ip_queue = Queue()
 num_threads = 10 
+
 
 def scan_port(iq,timeout=timeout):
 	line=iq.get()
@@ -23,16 +26,14 @@ def scan_port(iq,timeout=timeout):
 		address=(str(ip),int(port))
 		status=cs.connect_ex(address)
 		if status == 0:
-			print "host:%s port:%s ok" % (ip,port)
+			print colored("host:%s port:%s ok" % (ip,port),'green')
 			iq.task_done()
-			#print inGreen("host:%s port:%s ok" % ip,port)
 		else:
-			print "host:%s port:%s down" % (ip,port)
+			print colored("host:%s port:%s down" % (ip,port),'red')
 			iq.task_done()
 			return 0
 			
 	except Exception,e:
-		#print inRed("error:%s" % ip)
 		print "error:%s" % e
 		return 1
 		iq.task_done()
