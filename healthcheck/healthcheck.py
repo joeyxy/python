@@ -13,34 +13,33 @@ from termcolor import colored
 
 timeout = 5
 ip_queue = Queue()
-num_threads = 10 
+num_threads = 100 
 
 
 def scan_port(iq,timeout=timeout):
-	line=iq.get()
-	ip=line.split(':')[0].strip('\n')
-	port=line.split(':')[1].strip('\n')
-	try:
-		#print "ip:%s,port:%s"% (ip,port)
-		cs=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-		cs.settimeout(float(timeout))
-		address=(str(ip),int(port))
-		status=cs.connect_ex(address)
-		if status == 0:
-			print colored("host:%s port:%s ok" % (ip,port),'green')
-			iq.task_done()
-		else:
-			print colored("host:%s port:%s down" % (ip,port),'red')
-			iq.task_done()
-			return 0
+	while True:
+		line=iq.get()
+  		ip=line.split(':')[0].strip('\n')
+		port=line.split(':')[1].strip('\n')
+		try:
+			#print "ip:%s,port:%s"% (ip,port)
+			cs=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+			cs.settimeout(float(timeout))
+			address=(str(ip),int(port))
+			status=cs.connect_ex(address)
+			if status == 0:
+				print colored("host:%s port:%s ok" % (ip,port),'green')
+				iq.task_done()
+			else:
+				print colored("host:%s port:%s down" % (ip,port),'red')
+				iq.task_done()
 			
-	except Exception,e:
-		print "error:%s" % e
-		return 1
-		iq.task_done()
-	except KeyboardInterrupt:
-		print "You pressed Ctrl+c"
-		sys.exit()
+		except Exception,e:
+			print "error:%s" % e
+			iq.task_done()
+		except KeyboardInterrupt:
+			print "You pressed Ctrl+c"
+			sys.exit()
 
 file = raw_input("Enter the file to check the services:")
 f = open(file,'r')
@@ -51,7 +50,10 @@ for eachline in f:
 
 f.close()
 #spawn pool of scan_port threads
-num_threads = ip_queue.qsize()
+if ip_queue.qsize() < num_threads:
+	num_threads = ip_queue.qsize()
+
+	
 for i in range(num_threads):
 	worker = Thread(target=scan_port,args=(ip_queue,5))
 	worker.setDaemon(True)
