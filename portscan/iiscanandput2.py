@@ -47,6 +47,8 @@ def options(i, iq, oq):
 				iq.task_done()
         
 def put(i,oq):
+    if oq.qsize == 0:
+        sys.exit()
     try:
         ip = oq.get()
         sock=socket.socket(socket.AF_INET, socket.SOCK_STREAM)
