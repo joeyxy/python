@@ -117,7 +117,7 @@ print "\n[1] Check the Vulnerability"
 #f=open(IP,'r')
 #lines=f.readlines()
 #print "input info" + IP
-lines = IP("61.139.94.0/24")
+lines = IP("61.139.0.0/16")
 
 #b = 'nmap'+' '+'--open '+''+'-p 80 ' + '' + IP
 #print b +'\r\n'+'Now go for find the dork server'
