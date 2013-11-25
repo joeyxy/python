@@ -25,7 +25,9 @@ def options(i, iq, oq):
 			ip = str(ip1)
 			#print "thread %s start test ip:%s" % (i,ip)
 			sock=socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-			sock.connect((ip,t_port))
+			sock.settimeout(3)
+			address=(ip,t_port)
+			sock.connect_ex(address)
 			req = "OPTIONS / HTTP/1.1\r\n"
 			req += "Host: " + ip + "\r\n"
 			req += "Connection: close\r\n"
