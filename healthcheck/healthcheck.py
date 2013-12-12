@@ -41,7 +41,7 @@ def scan_port(iq,timeout=timeout):
 			print "You pressed Ctrl+c"
 			sys.exit()
 
-file = raw_input("Enter the file to check the services:")
+file = raw_input("Enter the file to check the services:\n")
 f = open(file,'r')
 
 #place ip into ip_queue
