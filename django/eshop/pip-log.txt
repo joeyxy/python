@@ -1,0 +1,821 @@
+Downloading/unpacking pysqlite
+  Getting page http://pypi.python.org/simple/pysqlite
+  URLs to search for versions for pysqlite:
+  * http://pypi.python.org/simple/pysqlite
+  Getting page http://code.google.com/p/pysqlite/downloads/list
+  Getting page http://pysqlite.googlecode.com/
+  Getting page https://github.com/ghaering/pysqlite
+  Analyzing links from page https://pypi.python.org/simple/pysqlite/
+    Found link https://pypi.python.org/packages/source/p/pysqlite/pysqlite-2.5.6.tar.gz#md5=1b2f338c8d6db971e34edb799a92e2ee (from https://pypi.python.org/simple/pysqlite/), version: 2.5.6
+    Found link https://pypi.python.org/packages/source/p/pysqlite/pysqlite-2.6.0.tar.gz#md5=f80397bd211a15bbe4a8646e738c35e6 (from https://pypi.python.org/simple/pysqlite/), version: 2.6.0
+    Found link https://pypi.python.org/packages/source/p/pysqlite/pysqlite-2.6.3.tar.gz#md5=7ff1cedee74646b50117acff87aa1cfa (from https://pypi.python.org/simple/pysqlite/), version: 2.6.3
+    Skipping link http://code.google.com/p/pysqlite/downloads/list (from https://pypi.python.org/simple/pysqlite/); not a file
+    Skipping link http://pysqlite.googlecode.com/ (from https://pypi.python.org/simple/pysqlite/); not a file
+    Skipping link https://github.com/ghaering/pysqlite (from https://pypi.python.org/simple/pysqlite/); not a file
+  Analyzing links from page https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=http%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2Fdownloads%2Flist
+    Skipping link https://fonts.googleapis.com/css?family=Open+Sans:300,400&lang=en (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=http%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2Fdownloads%2Flist); not a file
+    Skipping link https://accounts.google.com/RecoverAccount?service=code&amp;continue=http%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2Fdownloads%2Flist (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=http%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2Fdownloads%2Flist); not a file
+    Skipping link https://accounts.google.com/SignUp?service=code&amp;continue=http%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2Fdownloads%2Flist&amp;ltmpl=phosting (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=http%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2Fdownloads%2Flist); not a file
+    Skipping link https://accounts.google.com/TOS?loc=CN&hl=en (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=http%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2Fdownloads%2Flist); not a file
+    Skipping link http://www.google.com/support/accounts?hl=en (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=http%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2Fdownloads%2Flist); not a file
+  Analyzing links from page https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=http%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2Fdownloads%2Flist
+    Skipping link https://fonts.googleapis.com/css?family=Open+Sans:300,400&lang=en (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=http%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2Fdownloads%2Flist); not a file
+    Skipping link https://accounts.google.com/RecoverAccount?service=code&amp;continue=http%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2Fdownloads%2Flist (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=http%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2Fdownloads%2Flist); not a file
+    Skipping link https://accounts.google.com/SignUp?service=code&amp;continue=http%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2Fdownloads%2Flist&amp;ltmpl=phosting (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=http%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2Fdownloads%2Flist); not a file
+    Skipping link https://accounts.google.com/TOS?loc=CN&hl=en (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=http%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2Fdownloads%2Flist); not a file
+    Skipping link http://www.google.com/support/accounts?hl=en (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=http%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2Fdownloads%2Flist); not a file
+  Analyzing links from page https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=http%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2Fdownloads%2Flist
+    Skipping link https://fonts.googleapis.com/css?family=Open+Sans:300,400&lang=en (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=http%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2Fdownloads%2Flist); not a file
+    Skipping link https://accounts.google.com/RecoverAccount?service=code&amp;continue=http%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2Fdownloads%2Flist (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=http%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2Fdownloads%2Flist); not a file
+    Skipping link https://accounts.google.com/SignUp?service=code&amp;continue=http%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2Fdownloads%2Flist&amp;ltmpl=phosting (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=http%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2Fdownloads%2Flist); not a file
+    Skipping link https://accounts.google.com/TOS?loc=CN&hl=en (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=http%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2Fdownloads%2Flist); not a file
+    Skipping link http://www.google.com/support/accounts?hl=en (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=http%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2Fdownloads%2Flist); not a file
+  Analyzing links from page https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=http%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2Fdownloads%2Flist
+    Skipping link https://fonts.googleapis.com/css?family=Open+Sans:300,400&lang=en (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=http%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2Fdownloads%2Flist); not a file
+    Skipping link https://accounts.google.com/RecoverAccount?service=code&amp;continue=http%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2Fdownloads%2Flist (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=http%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2Fdownloads%2Flist); not a file
+    Skipping link https://accounts.google.com/SignUp?service=code&amp;continue=http%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2Fdownloads%2Flist&amp;ltmpl=phosting (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=http%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2Fdownloads%2Flist); not a file
+    Skipping link https://accounts.google.com/TOS?loc=CN&hl=en (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=http%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2Fdownloads%2Flist); not a file
+    Skipping link http://www.google.com/support/accounts?hl=en (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=http%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2Fdownloads%2Flist); not a file
+  Analyzing links from page https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=http%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2Fdownloads%2Flist
+    Skipping link https://fonts.googleapis.com/css?family=Open+Sans:300,400&lang=en (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=http%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2Fdownloads%2Flist); not a file
+    Skipping link https://accounts.google.com/RecoverAccount?service=code&amp;continue=http%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2Fdownloads%2Flist (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=http%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2Fdownloads%2Flist); not a file
+    Skipping link https://accounts.google.com/SignUp?service=code&amp;continue=http%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2Fdownloads%2Flist&amp;ltmpl=phosting (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=http%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2Fdownloads%2Flist); not a file
+    Skipping link https://accounts.google.com/TOS?loc=CN&hl=en (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=http%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2Fdownloads%2Flist); not a file
+    Skipping link http://www.google.com/support/accounts?hl=en (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=http%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2Fdownloads%2Flist); not a file
+  Analyzing links from page https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=https%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2F
+    Skipping link https://fonts.googleapis.com/css?family=Open+Sans:300,400&lang=en (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=https%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2F); not a file
+    Skipping link https://accounts.google.com/RecoverAccount?service=code&amp;continue=https%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2F (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=https%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2F); not a file
+    Skipping link https://accounts.google.com/SignUp?service=code&amp;continue=https%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2F&amp;ltmpl=phosting (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=https%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2F); not a file
+    Skipping link https://accounts.google.com/TOS?loc=CN&hl=en (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=https%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2F); not a file
+    Skipping link http://www.google.com/support/accounts?hl=en (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=https%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2F); not a file
+  Analyzing links from page https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=https%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2F
+    Skipping link https://fonts.googleapis.com/css?family=Open+Sans:300,400&lang=en (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=https%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2F); not a file
+    Skipping link https://accounts.google.com/RecoverAccount?service=code&amp;continue=https%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2F (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=https%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2F); not a file
+    Skipping link https://accounts.google.com/SignUp?service=code&amp;continue=https%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2F&amp;ltmpl=phosting (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=https%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2F); not a file
+    Skipping link https://accounts.google.com/TOS?loc=CN&hl=en (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=https%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2F); not a file
+    Skipping link http://www.google.com/support/accounts?hl=en (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=https%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2F); not a file
+  Analyzing links from page https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=https%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2F
+    Skipping link https://fonts.googleapis.com/css?family=Open+Sans:300,400&lang=en (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=https%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2F); not a file
+    Skipping link https://accounts.google.com/RecoverAccount?service=code&amp;continue=https%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2F (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=https%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2F); not a file
+    Skipping link https://accounts.google.com/SignUp?service=code&amp;continue=https%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2F&amp;ltmpl=phosting (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=https%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2F); not a file
+    Skipping link https://accounts.google.com/TOS?loc=CN&hl=en (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=https%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2F); not a file
+    Skipping link http://www.google.com/support/accounts?hl=en (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=https%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2F); not a file
+  Analyzing links from page https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=https%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2F
+    Skipping link https://fonts.googleapis.com/css?family=Open+Sans:300,400&lang=en (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=https%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2F); not a file
+    Skipping link https://accounts.google.com/RecoverAccount?service=code&amp;continue=https%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2F (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=https%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2F); not a file
+    Skipping link https://accounts.google.com/SignUp?service=code&amp;continue=https%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2F&amp;ltmpl=phosting (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=https%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2F); not a file
+    Skipping link https://accounts.google.com/TOS?loc=CN&hl=en (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=https%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2F); not a file
+    Skipping link http://www.google.com/support/accounts?hl=en (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=https%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2F); not a file
+  Analyzing links from page https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=https%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2F
+    Skipping link https://fonts.googleapis.com/css?family=Open+Sans:300,400&lang=en (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=https%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2F); not a file
+    Skipping link https://accounts.google.com/RecoverAccount?service=code&amp;continue=https%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2F (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=https%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2F); not a file
+    Skipping link https://accounts.google.com/SignUp?service=code&amp;continue=https%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2F&amp;ltmpl=phosting (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=https%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2F); not a file
+    Skipping link https://accounts.google.com/TOS?loc=CN&hl=en (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=https%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2F); not a file
+    Skipping link http://www.google.com/support/accounts?hl=en (from https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=https%3A%2F%2Fcode.google.com%2Fp%2Fpysqlite%2F); not a file
+  Analyzing links from page https://github.com/ghaering/pysqlite
+    Skipping link https://github.com/opensearch.xml (from https://github.com/ghaering/pysqlite); unknown archive format: .xml
+    Skipping link https://github.com/fluidicon.png (from https://github.com/ghaering/pysqlite); unknown archive format: .png
+    Skipping link https://github.com/apple-touch-icon-114.png (from https://github.com/ghaering/pysqlite); unknown archive format: .png
+    Skipping link https://github.com/apple-touch-icon-144.png (from https://github.com/ghaering/pysqlite); unknown archive format: .png
+    Skipping link https://github-media-downloads.s3.amazonaws.com/github-logo.svg (from https://github.com/ghaering/pysqlite); unknown archive format: .svg
+    Skipping link https://github.global.ssl.fastly.net/ (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://ghconduit.com:25035/ (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/_sockets (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/favicon.ico (from https://github.com/ghaering/pysqlite); unknown archive format: .ico
+    Skipping link https://github.global.ssl.fastly.net/assets/github-8f6ca9b17ae3eba1e30276eef0a16282cb651c78.css (from https://github.com/ghaering/pysqlite); unknown archive format: .css
+    Skipping link https://github.global.ssl.fastly.net/assets/github2-7ac593afddcc7532d8340dcde39be16c8cb6f732.css (from https://github.com/ghaering/pysqlite); unknown archive format: .css
+    Skipping link https://github.com/ghaering/pysqlite/commits/master.atom (from https://github.com/ghaering/pysqlite); unknown archive format: .atom
+    Skipping link https://github.com/ (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/join (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/login?return_to=%2Fghaering%2Fpysqlite (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/explore (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/features (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://enterprise.github.com/ (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/blog (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/ghaering/pysqlite/stargazers (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/ghaering/pysqlite/network (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/ghaering (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/ghaering/pysqlite (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/ghaering/pysqlite/issues (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/ghaering/pysqlite/pulls (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/ghaering/pysqlite/pulse (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/ghaering/pysqlite/graphs (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://help.github.com/articles/which-remote-url-should-i-use (from https://github.com/ghaering/pysqlite); not a file
+    Could not parse version from link: https://github.com/ghaering/pysqlite/archive/master.zip (from https://github.com/ghaering/pysqlite)
+    Skipping link https://github.com/ghaering/pysqlite/archive/master.zip (from https://github.com/ghaering/pysqlite); wrong project name (not pysqlite)
+    Skipping link https://github.com/ghaering/pysqlite/commits/master (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/ghaering/pysqlite/branches (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/ghaering/pysqlite/releases (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/ghaering/pysqlite/graphs/contributors (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/ghaering/pysqlite/search?l=c (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/ghaering/pysqlite/search?l=python (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/ghaering/pysqlite/search?l=c%2B%2B (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/ghaering/pysqlite/search?l=css (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/ghaering/pysqlite/compare (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/ghaering/pysqlite/tree/1.0 (from https://github.com/ghaering/pysqlite); unknown archive format: .0
+    Skipping link https://github.com/ghaering/pysqlite/tree/1.1 (from https://github.com/ghaering/pysqlite); unknown archive format: .1
+    Skipping link https://github.com/ghaering/pysqlite/tree/ctypes (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/ghaering/pysqlite/tree/cython (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/ghaering/pysqlite/tree/master (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/ghaering/pysqlite/tree/py3-trunk (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/ghaering/pysqlite/find/master (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/ghaering/pysqlite/commit/51c1a18eac3d1d14a052b09e3546dd0c4ce70638 (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/ghaering/pysqlite/issues/34 (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/ghaering/pysqlite/tree/master/benchmarks (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/ghaering/pysqlite/commit/5a009ed6fb2e90b952438f5786f93cd1e8ac8722 (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/ghaering/pysqlite/tree/master/doc (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/ghaering/pysqlite/commit/2be0aeacc08961d95e0438dcd852909a56195f47 (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/ghaering/pysqlite/tree/master/lib (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/ghaering/pysqlite/tree/master/misc (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/ghaering/pysqlite/commit/c5d37013152d9e1e629a537efbcf5ed1513a4dc3 (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/ghaering/pysqlite/tree/master/scripts (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/ghaering/pysqlite/commit/1ab0001abf51e2aa58069892730fd7ec1e0f71a2 (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/ghaering/pysqlite/tree/master/src (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/ghaering/pysqlite/blob/master/.gitignore (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/ghaering/pysqlite/commit/199b0c8707e1bbd4a918ff8917d774d9ff3498ca (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/ghaering/pysqlite/blob/master/.hgignore (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/ghaering/pysqlite/commit/b3528e11bd3e577f40b310ab80d851e0e4848e5c (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/ghaering/pysqlite/blob/master/LICENSE (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/ghaering/pysqlite/commit/ad262bd83b7b562d3198e456df2b445e5e56ef80 (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/ghaering/pysqlite/blob/master/MANIFEST.in (from https://github.com/ghaering/pysqlite); unknown archive format: .in
+    Skipping link https://github.com/ghaering/pysqlite/commit/30bb2b38a7329cae28bba56919662613bc1d4a12 (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/ghaering/pysqlite/blob/master/README.md (from https://github.com/ghaering/pysqlite); unknown archive format: .md
+    Skipping link https://github.com/ghaering/pysqlite/commit/905c5f4d699aa7da1b51c26fb70b80200edf5ae9 (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/ghaering/pysqlite/blob/master/cross_bdist_wininst.py (from https://github.com/ghaering/pysqlite); unknown archive format: .py
+    Skipping link https://github.com/ghaering/pysqlite/commit/fec2dbca1fa860d351907d3c2f063105e188a7a6 (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/ghaering/pysqlite/blob/master/mkwin32.py (from https://github.com/ghaering/pysqlite); unknown archive format: .py
+    Skipping link https://github.com/ghaering/pysqlite/commit/ec36a173142735fee6225d1f8da2e0bca101e93c (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/ghaering/pysqlite/blob/master/setup.cfg (from https://github.com/ghaering/pysqlite); unknown archive format: .cfg
+    Skipping link https://github.com/ghaering/pysqlite/commit/83b648ae5037d8e0740cfe7996346d906827caa1 (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/ghaering/pysqlite/blob/master/setup.py (from https://github.com/ghaering/pysqlite); unknown archive format: .py
+    Skipping link https://github.com/ghaering/pysqlite/commit/2d7360cc94c652b8ebfd063940beeaa7451db9dd (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/ghaering/pysqlite#pysqlite (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://pysqlite.readthedocs.org/en/latest/sqlite3.html (from https://github.com/ghaering/pysqlite); unknown archive format: .html
+    Skipping link https://status.github.com/ (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link http://developer.github.com (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link http://training.github.com (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link http://shop.github.com (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/about (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/site/terms (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/site/privacy (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/security (from https://github.com/ghaering/pysqlite); not a file
+    Skipping link https://github.com/contact (from https://github.com/ghaering/pysqlite); not a file
+  Using version 2.6.3 (newest of versions: 2.6.3, 2.6.0, 2.5.6)
+  Downloading from URL https://pypi.python.org/packages/source/p/pysqlite/pysqlite-2.6.3.tar.gz#md5=7ff1cedee74646b50117acff87aa1cfa (from https://pypi.python.org/simple/pysqlite/)
+  Running setup.py egg_info for package pysqlite
+    running egg_info
+    creating pip-egg-info/pysqlite.egg-info
+    writing pip-egg-info/pysqlite.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/pysqlite.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/pysqlite.egg-info/dependency_links.txt
+    writing manifest file 'pip-egg-info/pysqlite.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    reading manifest file 'pip-egg-info/pysqlite.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'pip-egg-info/pysqlite.egg-info/SOURCES.txt'
+  Source in ./build/pysqlite has version 2.6.3, which satisfies requirement pysqlite
+Installing collected packages: pysqlite
+  Running setup.py install for pysqlite
+    Running command /usr/bin/python -c "import setuptools; __file__='/data/python/django/eshop/build/pysqlite/setup.py'; execfile('/data/python/django/eshop/build/pysqlite/setup.py')" install --single-version-externally-managed --record /tmp/pip-KTBU9o-record/install-record.txt --install-headers /data/python/django/eshop/lib/include
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib.linux-i686-2.6
+    creating build/lib.linux-i686-2.6/pysqlite2
+    copying lib/dump.py -> build/lib.linux-i686-2.6/pysqlite2
+    copying lib/dbapi2.py -> build/lib.linux-i686-2.6/pysqlite2
+    copying lib/__init__.py -> build/lib.linux-i686-2.6/pysqlite2
+    creating build/lib.linux-i686-2.6/pysqlite2/test
+    copying lib/test/userfunctions.py -> build/lib.linux-i686-2.6/pysqlite2/test
+    copying lib/test/factory.py -> build/lib.linux-i686-2.6/pysqlite2/test
+    copying lib/test/regression.py -> build/lib.linux-i686-2.6/pysqlite2/test
+    copying lib/test/transactions.py -> build/lib.linux-i686-2.6/pysqlite2/test
+    copying lib/test/dump.py -> build/lib.linux-i686-2.6/pysqlite2/test
+    copying lib/test/hooks.py -> build/lib.linux-i686-2.6/pysqlite2/test
+    copying lib/test/types.py -> build/lib.linux-i686-2.6/pysqlite2/test
+    copying lib/test/dbapi.py -> build/lib.linux-i686-2.6/pysqlite2/test
+    copying lib/test/__init__.py -> build/lib.linux-i686-2.6/pysqlite2/test
+    creating build/lib.linux-i686-2.6/pysqlite2/test/py25
+    copying lib/test/py25/py25tests.py -> build/lib.linux-i686-2.6/pysqlite2/test/py25
+    copying lib/test/py25/__init__.py -> build/lib.linux-i686-2.6/pysqlite2/test/py25
+    running build_ext
+    building 'pysqlite2._sqlite' extension
+    creating build/temp.linux-i686-2.6
+    creating build/temp.linux-i686-2.6/src
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DMODULE_NAME="pysqlite2.dbapi2" -DSQLITE_OMIT_LOAD_EXTENSION=1 -I/usr/include/python2.6 -c src/module.c -o build/temp.linux-i686-2.6/src/module.o
+    In file included from src/module.c:24:
+    src/connection.h:26:20: error: Python.h: No such file or directory
+    src/connection.h:27:22: error: pythread.h: No such file or directory
+    src/connection.h:28:26: error: structmember.h: No such file or directory
+    In file included from src/connection.h:30,
+                     from src/module.c:24:
+    src/cache.h:34: error: expected specifier-qualifier-list before ‘PyObject_HEAD’
+    src/cache.h:44: error: expected specifier-qualifier-list before ‘PyObject_HEAD’
+    src/cache.h:61: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘pysqlite_NodeType’
+    src/cache.h:62: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘pysqlite_CacheType’
+    src/cache.h:64: error: expected declaration specifiers or ‘...’ before ‘PyObject’
+    src/cache.h:64: error: expected declaration specifiers or ‘...’ before ‘PyObject’
+    src/cache.h:67: error: expected declaration specifiers or ‘...’ before ‘PyObject’
+    src/cache.h:67: error: expected declaration specifiers or ‘...’ before ‘PyObject’
+    src/cache.h:69: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    In file included from src/connection.h:31,
+                     from src/module.c:24:
+    src/module.h:30: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    src/module.h:31: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    src/module.h:32: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    src/module.h:33: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    src/module.h:34: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    src/module.h:35: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    src/module.h:36: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    src/module.h:37: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    src/module.h:38: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    src/module.h:39: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    src/module.h:41: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    src/module.h:44: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    src/module.h:45: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    src/module.h:51: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    src/connection.h:33:21: error: sqlite3.h: No such file or directory
+    In file included from src/module.c:24:
+    src/connection.h:37: error: expected specifier-qualifier-list before ‘PyObject_HEAD’
+    src/connection.h:120: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘pysqlite_ConnectionType’
+    src/connection.h:122: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    src/connection.h:124: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    src/connection.h:125: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    src/connection.h:126: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    src/connection.h:127: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    src/connection.h:128: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    src/connection.h:129: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    src/connection.h:130: error: expected declaration specifiers or ‘...’ before ‘PyObject’
+    src/connection.h:130: error: expected declaration specifiers or ‘...’ before ‘PyObject’
+    src/connection.h:132: error: expected declaration specifiers or ‘...’ before ‘PyObject’
+    In file included from src/module.c:25:
+    src/statement.h:36: error: expected specifier-qualifier-list before ‘PyObject_HEAD’
+    src/statement.h:44: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘pysqlite_StatementType’
+    src/statement.h:46: error: expected declaration specifiers or ‘...’ before ‘PyObject’
+    src/statement.h:49: error: expected declaration specifiers or ‘...’ before ‘PyObject’
+    src/statement.h:50: error: expected declaration specifiers or ‘...’ before ‘PyObject’
+    src/statement.h:52: error: expected declaration specifiers or ‘...’ before ‘PyObject’
+    In file included from src/module.c:26:
+    src/cursor.h:34: error: expected specifier-qualifier-list before ‘PyObject_HEAD’
+    src/cursor.h:60: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘pysqlite_CursorType’
+    src/cursor.h:62: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    src/cursor.h:63: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    src/cursor.h:64: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    src/cursor.h:65: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    src/cursor.h:66: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    src/cursor.h:67: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    src/cursor.h:68: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    src/cursor.h:69: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    src/cursor.h:70: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    In file included from src/module.c:28:
+    src/prepare_protocol.h:30: error: expected specifier-qualifier-list before ‘PyObject_HEAD’
+    src/prepare_protocol.h:33: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘pysqlite_PrepareProtocolType’
+    src/prepare_protocol.h:35: error: expected declaration specifiers or ‘...’ before ‘PyObject’
+    src/prepare_protocol.h:35: error: expected declaration specifiers or ‘...’ before ‘PyObject’
+    In file included from src/module.c:29:
+    src/microprotocols.h:33: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    src/microprotocols.h:44: error: expected ‘)’ before ‘*’ token
+    src/microprotocols.h:46: error: expected ‘)’ before ‘*’ token
+    src/microprotocols.h:47: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    src/microprotocols.h:50: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    In file included from src/module.c:30:
+    src/row.h:30: error: expected specifier-qualifier-list before ‘PyObject_HEAD’
+    src/row.h:35: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘pysqlite_RowType’
+    src/module.c:42: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    src/module.c:46: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    src/module.c:50: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    src/module.c:84: error: expected ‘)’ before string constant
+    src/module.c:90: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    src/module.c:115: error: expected ‘)’ before string constant
+    src/module.c:150: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    src/module.c:176: error: expected ‘)’ before string constant
+    src/module.c:180: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    src/module.c:209: error: expected ‘)’ before string constant
+    src/module.c:213: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    src/module.c:224: error: expected ‘)’ before string constant
+    src/module.c:228: error: expected ‘)’ before ‘*’ token
+    src/module.c:238: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘module_methods’
+    src/module.c:269: error: ‘SQLITE_OK’ undeclared here (not in a function)
+    src/module.c:270: error: ‘SQLITE_DENY’ undeclared here (not in a function)
+    src/module.c:271: error: ‘SQLITE_IGNORE’ undeclared here (not in a function)
+    src/module.c:272: error: ‘SQLITE_CREATE_INDEX’ undeclared here (not in a function)
+    src/module.c:273: error: ‘SQLITE_CREATE_TABLE’ undeclared here (not in a function)
+    src/module.c:274: error: ‘SQLITE_CREATE_TEMP_INDEX’ undeclared here (not in a function)
+    src/module.c:275: error: ‘SQLITE_CREATE_TEMP_TABLE’ undeclared here (not in a function)
+    src/module.c:276: error: ‘SQLITE_CREATE_TEMP_TRIGGER’ undeclared here (not in a function)
+    src/module.c:277: error: ‘SQLITE_CREATE_TEMP_VIEW’ undeclared here (not in a function)
+    src/module.c:278: error: ‘SQLITE_CREATE_TRIGGER’ undeclared here (not in a function)
+    src/module.c:279: error: ‘SQLITE_CREATE_VIEW’ undeclared here (not in a function)
+    src/module.c:280: error: ‘SQLITE_DELETE’ undeclared here (not in a function)
+    src/module.c:281: error: ‘SQLITE_DROP_INDEX’ undeclared here (not in a function)
+    src/module.c:282: error: ‘SQLITE_DROP_TABLE’ undeclared here (not in a function)
+    src/module.c:283: error: ‘SQLITE_DROP_TEMP_INDEX’ undeclared here (not in a function)
+    src/module.c:284: error: ‘SQLITE_DROP_TEMP_TABLE’ undeclared here (not in a function)
+    src/module.c:285: error: ‘SQLITE_DROP_TEMP_TRIGGER’ undeclared here (not in a function)
+    src/module.c:286: error: ‘SQLITE_DROP_TEMP_VIEW’ undeclared here (not in a function)
+    src/module.c:287: error: ‘SQLITE_DROP_TRIGGER’ undeclared here (not in a function)
+    src/module.c:288: error: ‘SQLITE_DROP_VIEW’ undeclared here (not in a function)
+    src/module.c:289: error: ‘SQLITE_INSERT’ undeclared here (not in a function)
+    src/module.c:290: error: ‘SQLITE_PRAGMA’ undeclared here (not in a function)
+    src/module.c:291: error: ‘SQLITE_READ’ undeclared here (not in a function)
+    src/module.c:292: error: ‘SQLITE_SELECT’ undeclared here (not in a function)
+    src/module.c:293: error: ‘SQLITE_TRANSACTION’ undeclared here (not in a function)
+    src/module.c:294: error: ‘SQLITE_UPDATE’ undeclared here (not in a function)
+    src/module.c:295: error: ‘SQLITE_ATTACH’ undeclared here (not in a function)
+    src/module.c:296: error: ‘SQLITE_DETACH’ undeclared here (not in a function)
+    src/module.c:304: error: ‘NULL’ undeclared here (not in a function)
+    src/module.c:307: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘init_sqlite’
+    error: command 'gcc' failed with exit status 1
+    Complete output from command /usr/bin/python -c "import setuptools; __file__='/data/python/django/eshop/build/pysqlite/setup.py'; execfile('/data/python/django/eshop/build/pysqlite/setup.py')" install --single-version-externally-managed --record /tmp/pip-KTBU9o-record/install-record.txt --install-headers /data/python/django/eshop/lib/include:
+    running install
+
+running build
+
+running build_py
+
+creating build
+
+creating build/lib.linux-i686-2.6
+
+creating build/lib.linux-i686-2.6/pysqlite2
+
+copying lib/dump.py -> build/lib.linux-i686-2.6/pysqlite2
+
+copying lib/dbapi2.py -> build/lib.linux-i686-2.6/pysqlite2
+
+copying lib/__init__.py -> build/lib.linux-i686-2.6/pysqlite2
+
+creating build/lib.linux-i686-2.6/pysqlite2/test
+
+copying lib/test/userfunctions.py -> build/lib.linux-i686-2.6/pysqlite2/test
+
+copying lib/test/factory.py -> build/lib.linux-i686-2.6/pysqlite2/test
+
+copying lib/test/regression.py -> build/lib.linux-i686-2.6/pysqlite2/test
+
+copying lib/test/transactions.py -> build/lib.linux-i686-2.6/pysqlite2/test
+
+copying lib/test/dump.py -> build/lib.linux-i686-2.6/pysqlite2/test
+
+copying lib/test/hooks.py -> build/lib.linux-i686-2.6/pysqlite2/test
+
+copying lib/test/types.py -> build/lib.linux-i686-2.6/pysqlite2/test
+
+copying lib/test/dbapi.py -> build/lib.linux-i686-2.6/pysqlite2/test
+
+copying lib/test/__init__.py -> build/lib.linux-i686-2.6/pysqlite2/test
+
+creating build/lib.linux-i686-2.6/pysqlite2/test/py25
+
+copying lib/test/py25/py25tests.py -> build/lib.linux-i686-2.6/pysqlite2/test/py25
+
+copying lib/test/py25/__init__.py -> build/lib.linux-i686-2.6/pysqlite2/test/py25
+
+running build_ext
+
+building 'pysqlite2._sqlite' extension
+
+creating build/temp.linux-i686-2.6
+
+creating build/temp.linux-i686-2.6/src
+
+gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DMODULE_NAME="pysqlite2.dbapi2" -DSQLITE_OMIT_LOAD_EXTENSION=1 -I/usr/include/python2.6 -c src/module.c -o build/temp.linux-i686-2.6/src/module.o
+
+In file included from src/module.c:24:
+
+src/connection.h:26:20: error: Python.h: No such file or directory
+
+src/connection.h:27:22: error: pythread.h: No such file or directory
+
+src/connection.h:28:26: error: structmember.h: No such file or directory
+
+In file included from src/connection.h:30,
+
+                 from src/module.c:24:
+
+src/cache.h:34: error: expected specifier-qualifier-list before ‘PyObject_HEAD’
+
+src/cache.h:44: error: expected specifier-qualifier-list before ‘PyObject_HEAD’
+
+src/cache.h:61: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘pysqlite_NodeType’
+
+src/cache.h:62: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘pysqlite_CacheType’
+
+src/cache.h:64: error: expected declaration specifiers or ‘...’ before ‘PyObject’
+
+src/cache.h:64: error: expected declaration specifiers or ‘...’ before ‘PyObject’
+
+src/cache.h:67: error: expected declaration specifiers or ‘...’ before ‘PyObject’
+
+src/cache.h:67: error: expected declaration specifiers or ‘...’ before ‘PyObject’
+
+src/cache.h:69: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+In file included from src/connection.h:31,
+
+                 from src/module.c:24:
+
+src/module.h:30: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+src/module.h:31: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+src/module.h:32: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+src/module.h:33: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+src/module.h:34: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+src/module.h:35: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+src/module.h:36: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+src/module.h:37: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+src/module.h:38: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+src/module.h:39: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+src/module.h:41: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+src/module.h:44: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+src/module.h:45: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+src/module.h:51: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+src/connection.h:33:21: error: sqlite3.h: No such file or directory
+
+In file included from src/module.c:24:
+
+src/connection.h:37: error: expected specifier-qualifier-list before ‘PyObject_HEAD’
+
+src/connection.h:120: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘pysqlite_ConnectionType’
+
+src/connection.h:122: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+src/connection.h:124: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+src/connection.h:125: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+src/connection.h:126: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+src/connection.h:127: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+src/connection.h:128: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+src/connection.h:129: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+src/connection.h:130: error: expected declaration specifiers or ‘...’ before ‘PyObject’
+
+src/connection.h:130: error: expected declaration specifiers or ‘...’ before ‘PyObject’
+
+src/connection.h:132: error: expected declaration specifiers or ‘...’ before ‘PyObject’
+
+In file included from src/module.c:25:
+
+src/statement.h:36: error: expected specifier-qualifier-list before ‘PyObject_HEAD’
+
+src/statement.h:44: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘pysqlite_StatementType’
+
+src/statement.h:46: error: expected declaration specifiers or ‘...’ before ‘PyObject’
+
+src/statement.h:49: error: expected declaration specifiers or ‘...’ before ‘PyObject’
+
+src/statement.h:50: error: expected declaration specifiers or ‘...’ before ‘PyObject’
+
+src/statement.h:52: error: expected declaration specifiers or ‘...’ before ‘PyObject’
+
+In file included from src/module.c:26:
+
+src/cursor.h:34: error: expected specifier-qualifier-list before ‘PyObject_HEAD’
+
+src/cursor.h:60: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘pysqlite_CursorType’
+
+src/cursor.h:62: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+src/cursor.h:63: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+src/cursor.h:64: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+src/cursor.h:65: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+src/cursor.h:66: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+src/cursor.h:67: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+src/cursor.h:68: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+src/cursor.h:69: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+src/cursor.h:70: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+In file included from src/module.c:28:
+
+src/prepare_protocol.h:30: error: expected specifier-qualifier-list before ‘PyObject_HEAD’
+
+src/prepare_protocol.h:33: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘pysqlite_PrepareProtocolType’
+
+src/prepare_protocol.h:35: error: expected declaration specifiers or ‘...’ before ‘PyObject’
+
+src/prepare_protocol.h:35: error: expected declaration specifiers or ‘...’ before ‘PyObject’
+
+In file included from src/module.c:29:
+
+src/microprotocols.h:33: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+src/microprotocols.h:44: error: expected ‘)’ before ‘*’ token
+
+src/microprotocols.h:46: error: expected ‘)’ before ‘*’ token
+
+src/microprotocols.h:47: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+src/microprotocols.h:50: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+In file included from src/module.c:30:
+
+src/row.h:30: error: expected specifier-qualifier-list before ‘PyObject_HEAD’
+
+src/row.h:35: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘pysqlite_RowType’
+
+src/module.c:42: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+src/module.c:46: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+src/module.c:50: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+src/module.c:84: error: expected ‘)’ before string constant
+
+src/module.c:90: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+src/module.c:115: error: expected ‘)’ before string constant
+
+src/module.c:150: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+src/module.c:176: error: expected ‘)’ before string constant
+
+src/module.c:180: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+src/module.c:209: error: expected ‘)’ before string constant
+
+src/module.c:213: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+src/module.c:224: error: expected ‘)’ before string constant
+
+src/module.c:228: error: expected ‘)’ before ‘*’ token
+
+src/module.c:238: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘module_methods’
+
+src/module.c:269: error: ‘SQLITE_OK’ undeclared here (not in a function)
+
+src/module.c:270: error: ‘SQLITE_DENY’ undeclared here (not in a function)
+
+src/module.c:271: error: ‘SQLITE_IGNORE’ undeclared here (not in a function)
+
+src/module.c:272: error: ‘SQLITE_CREATE_INDEX’ undeclared here (not in a function)
+
+src/module.c:273: error: ‘SQLITE_CREATE_TABLE’ undeclared here (not in a function)
+
+src/module.c:274: error: ‘SQLITE_CREATE_TEMP_INDEX’ undeclared here (not in a function)
+
+src/module.c:275: error: ‘SQLITE_CREATE_TEMP_TABLE’ undeclared here (not in a function)
+
+src/module.c:276: error: ‘SQLITE_CREATE_TEMP_TRIGGER’ undeclared here (not in a function)
+
+src/module.c:277: error: ‘SQLITE_CREATE_TEMP_VIEW’ undeclared here (not in a function)
+
+src/module.c:278: error: ‘SQLITE_CREATE_TRIGGER’ undeclared here (not in a function)
+
+src/module.c:279: error: ‘SQLITE_CREATE_VIEW’ undeclared here (not in a function)
+
+src/module.c:280: error: ‘SQLITE_DELETE’ undeclared here (not in a function)
+
+src/module.c:281: error: ‘SQLITE_DROP_INDEX’ undeclared here (not in a function)
+
+src/module.c:282: error: ‘SQLITE_DROP_TABLE’ undeclared here (not in a function)
+
+src/module.c:283: error: ‘SQLITE_DROP_TEMP_INDEX’ undeclared here (not in a function)
+
+src/module.c:284: error: ‘SQLITE_DROP_TEMP_TABLE’ undeclared here (not in a function)
+
+src/module.c:285: error: ‘SQLITE_DROP_TEMP_TRIGGER’ undeclared here (not in a function)
+
+src/module.c:286: error: ‘SQLITE_DROP_TEMP_VIEW’ undeclared here (not in a function)
+
+src/module.c:287: error: ‘SQLITE_DROP_TRIGGER’ undeclared here (not in a function)
+
+src/module.c:288: error: ‘SQLITE_DROP_VIEW’ undeclared here (not in a function)
+
+src/module.c:289: error: ‘SQLITE_INSERT’ undeclared here (not in a function)
+
+src/module.c:290: error: ‘SQLITE_PRAGMA’ undeclared here (not in a function)
+
+src/module.c:291: error: ‘SQLITE_READ’ undeclared here (not in a function)
+
+src/module.c:292: error: ‘SQLITE_SELECT’ undeclared here (not in a function)
+
+src/module.c:293: error: ‘SQLITE_TRANSACTION’ undeclared here (not in a function)
+
+src/module.c:294: error: ‘SQLITE_UPDATE’ undeclared here (not in a function)
+
+src/module.c:295: error: ‘SQLITE_ATTACH’ undeclared here (not in a function)
+
+src/module.c:296: error: ‘SQLITE_DETACH’ undeclared here (not in a function)
+
+src/module.c:304: error: ‘NULL’ undeclared here (not in a function)
+
+src/module.c:307: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘init_sqlite’
+
+error: command 'gcc' failed with exit status 1
+
+----------------------------------------
+Command /usr/bin/python -c "import setuptools; __file__='/data/python/django/eshop/build/pysqlite/setup.py'; execfile('/data/python/django/eshop/build/pysqlite/setup.py')" install --single-version-externally-managed --record /tmp/pip-KTBU9o-record/install-record.txt --install-headers /data/python/django/eshop/lib/include failed with error code 1
+Exception information:
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 252, in main
+    self.run(options, args)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 410, in run
+    requirement_set.install(install_options)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 2017, in install
+    requirement.install(install_options)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 1515, in install
+    cwd=self.source_dir, filter_stdout=self._filter_install, show_stdout=False)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 3543, in call_subprocess
+    % (command_desc, proc.returncode))
+InstallationError: Command /usr/bin/python -c "import setuptools; __file__='/data/python/django/eshop/build/pysqlite/setup.py'; execfile('/data/python/django/eshop/build/pysqlite/setup.py')" install --single-version-externally-managed --record /tmp/pip-KTBU9o-record/install-record.txt --install-headers /data/python/django/eshop/lib/include failed with error code 1
+------------------------------------------------------------
+/usr/bin/pip run on Mon Dec 23 22:23:45 2013
+Downloading/unpacking pysqlite
+  Running setup.py egg_info for package pysqlite
+    running egg_info
+    writing pip-egg-info/pysqlite.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/pysqlite.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/pysqlite.egg-info/dependency_links.txt
+    warning: manifest_maker: standard file '-c' not found
+    reading manifest file 'pip-egg-info/pysqlite.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'pip-egg-info/pysqlite.egg-info/SOURCES.txt'
+  Source in ./build/pysqlite has version 2.6.3, which satisfies requirement pysqlite
+Installing collected packages: pysqlite
+  Running setup.py install for pysqlite
+    Running command /usr/bin/python -c "import setuptools; __file__='/data/python/django/eshop/build/pysqlite/setup.py'; execfile('/data/python/django/eshop/build/pysqlite/setup.py')" install --single-version-externally-managed --record /tmp/pip-oh9yOM-record/install-record.txt --install-headers /data/python/django/eshop/lib/include
+    running install
+    running build
+    running build_py
+    running build_ext
+    building 'pysqlite2._sqlite' extension
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DMODULE_NAME="pysqlite2.dbapi2" -DSQLITE_OMIT_LOAD_EXTENSION=1 -I/usr/include/python2.6 -c src/module.c -o build/temp.linux-i686-2.6/src/module.o
+    In file included from src/module.c:24:
+    src/connection.h:33:21: error: sqlite3.h: No such file or directory
+    In file included from src/module.c:24:
+    src/connection.h:38: error: expected specifier-qualifier-list before ‘sqlite3’
+    In file included from src/module.c:25:
+    src/statement.h:37: error: expected specifier-qualifier-list before ‘sqlite3’
+    src/module.c: In function ‘module_complete’:
+    src/module.c:103: warning: implicit declaration of function ‘sqlite3_complete’
+    src/module.c: At top level:
+    src/module.c:269: error: ‘SQLITE_OK’ undeclared here (not in a function)
+    src/module.c:270: error: ‘SQLITE_DENY’ undeclared here (not in a function)
+    src/module.c:271: error: ‘SQLITE_IGNORE’ undeclared here (not in a function)
+    src/module.c:272: error: ‘SQLITE_CREATE_INDEX’ undeclared here (not in a function)
+    src/module.c:273: error: ‘SQLITE_CREATE_TABLE’ undeclared here (not in a function)
+    src/module.c:274: error: ‘SQLITE_CREATE_TEMP_INDEX’ undeclared here (not in a function)
+    src/module.c:275: error: ‘SQLITE_CREATE_TEMP_TABLE’ undeclared here (not in a function)
+    src/module.c:276: error: ‘SQLITE_CREATE_TEMP_TRIGGER’ undeclared here (not in a function)
+    src/module.c:277: error: ‘SQLITE_CREATE_TEMP_VIEW’ undeclared here (not in a function)
+    src/module.c:278: error: ‘SQLITE_CREATE_TRIGGER’ undeclared here (not in a function)
+    src/module.c:279: error: ‘SQLITE_CREATE_VIEW’ undeclared here (not in a function)
+    src/module.c:280: error: ‘SQLITE_DELETE’ undeclared here (not in a function)
+    src/module.c:281: error: ‘SQLITE_DROP_INDEX’ undeclared here (not in a function)
+    src/module.c:282: error: ‘SQLITE_DROP_TABLE’ undeclared here (not in a function)
+    src/module.c:283: error: ‘SQLITE_DROP_TEMP_INDEX’ undeclared here (not in a function)
+    src/module.c:284: error: ‘SQLITE_DROP_TEMP_TABLE’ undeclared here (not in a function)
+    src/module.c:285: error: ‘SQLITE_DROP_TEMP_TRIGGER’ undeclared here (not in a function)
+    src/module.c:286: error: ‘SQLITE_DROP_TEMP_VIEW’ undeclared here (not in a function)
+    src/module.c:287: error: ‘SQLITE_DROP_TRIGGER’ undeclared here (not in a function)
+    src/module.c:288: error: ‘SQLITE_DROP_VIEW’ undeclared here (not in a function)
+    src/module.c:289: error: ‘SQLITE_INSERT’ undeclared here (not in a function)
+    src/module.c:290: error: ‘SQLITE_PRAGMA’ undeclared here (not in a function)
+    src/module.c:291: error: ‘SQLITE_READ’ undeclared here (not in a function)
+    src/module.c:292: error: ‘SQLITE_SELECT’ undeclared here (not in a function)
+    src/module.c:293: error: ‘SQLITE_TRANSACTION’ undeclared here (not in a function)
+    src/module.c:294: error: ‘SQLITE_UPDATE’ undeclared here (not in a function)
+    src/module.c:295: error: ‘SQLITE_ATTACH’ undeclared here (not in a function)
+    src/module.c:296: error: ‘SQLITE_DETACH’ undeclared here (not in a function)
+    src/module.c: In function ‘init_sqlite’:
+    src/module.c:426: warning: implicit declaration of function ‘sqlite3_libversion’
+    src/module.c:426: warning: passing argument 1 of ‘PyString_FromString’ makes pointer from integer without a cast
+    /usr/include/python2.6/stringobject.h:63: note: expected ‘const char *’ but argument is of type ‘int’
+    error: command 'gcc' failed with exit status 1
+    Complete output from command /usr/bin/python -c "import setuptools; __file__='/data/python/django/eshop/build/pysqlite/setup.py'; execfile('/data/python/django/eshop/build/pysqlite/setup.py')" install --single-version-externally-managed --record /tmp/pip-oh9yOM-record/install-record.txt --install-headers /data/python/django/eshop/lib/include:
+    running install
+
+running build
+
+running build_py
+
+running build_ext
+
+building 'pysqlite2._sqlite' extension
+
+gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DMODULE_NAME="pysqlite2.dbapi2" -DSQLITE_OMIT_LOAD_EXTENSION=1 -I/usr/include/python2.6 -c src/module.c -o build/temp.linux-i686-2.6/src/module.o
+
+In file included from src/module.c:24:
+
+src/connection.h:33:21: error: sqlite3.h: No such file or directory
+
+In file included from src/module.c:24:
+
+src/connection.h:38: error: expected specifier-qualifier-list before ‘sqlite3’
+
+In file included from src/module.c:25:
+
+src/statement.h:37: error: expected specifier-qualifier-list before ‘sqlite3’
+
+src/module.c: In function ‘module_complete’:
+
+src/module.c:103: warning: implicit declaration of function ‘sqlite3_complete’
+
+src/module.c: At top level:
+
+src/module.c:269: error: ‘SQLITE_OK’ undeclared here (not in a function)
+
+src/module.c:270: error: ‘SQLITE_DENY’ undeclared here (not in a function)
+
+src/module.c:271: error: ‘SQLITE_IGNORE’ undeclared here (not in a function)
+
+src/module.c:272: error: ‘SQLITE_CREATE_INDEX’ undeclared here (not in a function)
+
+src/module.c:273: error: ‘SQLITE_CREATE_TABLE’ undeclared here (not in a function)
+
+src/module.c:274: error: ‘SQLITE_CREATE_TEMP_INDEX’ undeclared here (not in a function)
+
+src/module.c:275: error: ‘SQLITE_CREATE_TEMP_TABLE’ undeclared here (not in a function)
+
+src/module.c:276: error: ‘SQLITE_CREATE_TEMP_TRIGGER’ undeclared here (not in a function)
+
+src/module.c:277: error: ‘SQLITE_CREATE_TEMP_VIEW’ undeclared here (not in a function)
+
+src/module.c:278: error: ‘SQLITE_CREATE_TRIGGER’ undeclared here (not in a function)
+
+src/module.c:279: error: ‘SQLITE_CREATE_VIEW’ undeclared here (not in a function)
+
+src/module.c:280: error: ‘SQLITE_DELETE’ undeclared here (not in a function)
+
+src/module.c:281: error: ‘SQLITE_DROP_INDEX’ undeclared here (not in a function)
+
+src/module.c:282: error: ‘SQLITE_DROP_TABLE’ undeclared here (not in a function)
+
+src/module.c:283: error: ‘SQLITE_DROP_TEMP_INDEX’ undeclared here (not in a function)
+
+src/module.c:284: error: ‘SQLITE_DROP_TEMP_TABLE’ undeclared here (not in a function)
+
+src/module.c:285: error: ‘SQLITE_DROP_TEMP_TRIGGER’ undeclared here (not in a function)
+
+src/module.c:286: error: ‘SQLITE_DROP_TEMP_VIEW’ undeclared here (not in a function)
+
+src/module.c:287: error: ‘SQLITE_DROP_TRIGGER’ undeclared here (not in a function)
+
+src/module.c:288: error: ‘SQLITE_DROP_VIEW’ undeclared here (not in a function)
+
+src/module.c:289: error: ‘SQLITE_INSERT’ undeclared here (not in a function)
+
+src/module.c:290: error: ‘SQLITE_PRAGMA’ undeclared here (not in a function)
+
+src/module.c:291: error: ‘SQLITE_READ’ undeclared here (not in a function)
+
+src/module.c:292: error: ‘SQLITE_SELECT’ undeclared here (not in a function)
+
+src/module.c:293: error: ‘SQLITE_TRANSACTION’ undeclared here (not in a function)
+
+src/module.c:294: error: ‘SQLITE_UPDATE’ undeclared here (not in a function)
+
+src/module.c:295: error: ‘SQLITE_ATTACH’ undeclared here (not in a function)
+
+src/module.c:296: error: ‘SQLITE_DETACH’ undeclared here (not in a function)
+
+src/module.c: In function ‘init_sqlite’:
+
+src/module.c:426: warning: implicit declaration of function ‘sqlite3_libversion’
+
+src/module.c:426: warning: passing argument 1 of ‘PyString_FromString’ makes pointer from integer without a cast
+
+/usr/include/python2.6/stringobject.h:63: note: expected ‘const char *’ but argument is of type ‘int’
+
+error: command 'gcc' failed with exit status 1
+
+----------------------------------------
+Command /usr/bin/python -c "import setuptools; __file__='/data/python/django/eshop/build/pysqlite/setup.py'; execfile('/data/python/django/eshop/build/pysqlite/setup.py')" install --single-version-externally-managed --record /tmp/pip-oh9yOM-record/install-record.txt --install-headers /data/python/django/eshop/lib/include failed with error code 1
+Exception information:
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 252, in main
+    self.run(options, args)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 410, in run
+    requirement_set.install(install_options)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 2017, in install
+    requirement.install(install_options)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 1515, in install
+    cwd=self.source_dir, filter_stdout=self._filter_install, show_stdout=False)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 3543, in call_subprocess
+    % (command_desc, proc.returncode))
+InstallationError: Command /usr/bin/python -c "import setuptools; __file__='/data/python/django/eshop/build/pysqlite/setup.py'; execfile('/data/python/django/eshop/build/pysqlite/setup.py')" install --single-version-externally-managed --record /tmp/pip-oh9yOM-record/install-record.txt --install-headers /data/python/django/eshop/lib/include failed with error code 1
