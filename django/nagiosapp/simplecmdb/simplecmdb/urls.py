@@ -4,9 +4,10 @@ from django.conf.urls import patterns, include, url
 from django.contrib import admin
 admin.autodiscover()
 
-urlpatterns = patterns('url(r'^api/gethost\.json$','hostinfo.views.gethosts')',
-    'url(r'^admin/',include(admin.site.urls))',
-    'url(r'^api/collect$','hostinfo.views.collect')'
+urlpatterns = patterns('',
+    url(r'^api/gethost\.json$','hostinfo.views.gethosts'),
+    url(r'^admin/',include(admin.site.urls)),
+    url(r'^api/collect$','hostinfo.views.collect'),
     # Examples:
     # url(r'^$', 'simplecmdb.views.home', name='home'),
     # url(r'^simplecmdb/', include('simplecmdb.foo.urls')),
