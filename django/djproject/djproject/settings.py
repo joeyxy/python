@@ -1,4 +1,4 @@
-# Django settings for simplecmdb project.
+# Django settings for djproject project.
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -12,7 +12,7 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': '/root/code/python/django/nagiosapp/simplecmdb/CMDB.db',                      # Or path to database file if using sqlite3.
+        'NAME': '/root/code/python/django/djproject/database.db',                      # Or path to database file if using sqlite3.
         # The following settings are not used with sqlite3:
     }
 }
@@ -79,7 +79,7 @@ STATICFILES_FINDERS = (
 )
 
 # Make this unique, and don't share it with anybody.
-SECRET_KEY = '&jhl9h=u534vh4kb1+b#)wjt3q*dqlw1(r)f69z=983p4(2y*6'
+SECRET_KEY = 'w4f&+5ni-tk+=s=5#foql_pzs1wu5^c$d=q=jeskfhnbqwivoe'
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
@@ -98,10 +98,10 @@ MIDDLEWARE_CLASSES = (
     # 'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'simplecmdb.urls'
+ROOT_URLCONF = 'djproject.urls'
 
 # Python dotted path to the WSGI application used by Django's runserver.
-WSGI_APPLICATION = 'simplecmdb.wsgi.application'
+WSGI_APPLICATION = 'djproject.wsgi.application'
 
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
@@ -116,9 +116,9 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'hostinfo',
+     'jobs',
      'django.contrib.admin',
-    # Uncomment the next line to enable the admin:
+	# Uncomment the next line to enable the admin:
     # 'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',

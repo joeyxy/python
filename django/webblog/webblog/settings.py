@@ -1,4 +1,4 @@
-# Django settings for simplecmdb project.
+# Django settings for webblog project.
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -12,8 +12,7 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': '/root/code/python/django/nagiosapp/simplecmdb/CMDB.db',                      # Or path to database file if using sqlite3.
-        # The following settings are not used with sqlite3:
+        'NAME': '/root/code/python/django/webblog/webblog.db',                      # Or path to database file if using sqlite3.
     }
 }
 
@@ -79,7 +78,7 @@ STATICFILES_FINDERS = (
 )
 
 # Make this unique, and don't share it with anybody.
-SECRET_KEY = '&jhl9h=u534vh4kb1+b#)wjt3q*dqlw1(r)f69z=983p4(2y*6'
+SECRET_KEY = '_jhkkke&9%03cymx033!22_$0ro#th)+n8t-#*e)+no))#b^eq'
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
@@ -98,15 +97,16 @@ MIDDLEWARE_CLASSES = (
     # 'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'simplecmdb.urls'
+ROOT_URLCONF = 'webblog.urls'
 
 # Python dotted path to the WSGI application used by Django's runserver.
-WSGI_APPLICATION = 'simplecmdb.wsgi.application'
+WSGI_APPLICATION = 'webblog.wsgi.application'
 
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
+    "/root/code/python/django/webblog",
 )
 
 INSTALLED_APPS = (
@@ -116,8 +116,8 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'hostinfo',
-     'django.contrib.admin',
+    'blog',
+    'django.contrib.admin',
     # Uncomment the next line to enable the admin:
     # 'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:

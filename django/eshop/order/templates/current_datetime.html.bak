@@ -1,0 +1,13 @@
+<html lang="en">
+<head>
+ <title>The current time</title>
+</head>
+<body>
+<h1>My timestamp site</h1>
+<p>It is now{{current_date}}.<p>
+<hr>
+
+<p>Thanks for visiting my site.</p>
+</body>
+
+</html>

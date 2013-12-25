@@ -1,0 +1,20 @@
+#!/usr/bin/env python
+from subprocess import PIPE,Popen
+import re
+import sys
+
+def getMemInfo():
+	p = Popen(['dmidecode'],shell=False,stdout=PIPE)
+	stdout,stderr = p.communicate()
+	return stdout.strip()
+
+def parserMemInfo(memdata):
+	line_in = False
+	mem_str = ''
+	
+
+
+if __name__ == '__main__':
+	memdata = getMemInfo()
+	for i in parserMemInfo(memdata):
+		print i
