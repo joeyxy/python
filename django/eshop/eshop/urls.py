@@ -1,5 +1,7 @@
 from django.conf.urls import patterns, include, url
-from order.views import hello,current_datetime,hours_ahead
+#from order.views import hello,current_datetime,hours_ahead,current_url,ua_display,display_meta
+from order.views import *
+
 
 # Uncomment the next two lines to enable the admin:
 from django.contrib import admin
@@ -16,6 +18,11 @@ urlpatterns = patterns('',
     # Uncomment the next line to enable the admin:
      url(r'^admin/', include(admin.site.urls)),
      (r'^hello/$',hello),
+     #(r'^search-form/$',search_form),
+     (r'^search/$',search),
+     (r'^ua_display/$',ua_display),
+     (r'^display_meta/$',display_meta),
+     (r'^current_url/$',current_url),
      (r'^time/$',current_datetime),
      (r'^time/plus/(\d{1,2})/$',hours_ahead),
 )
