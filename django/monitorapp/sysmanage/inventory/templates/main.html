@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block title %}Server Inventory Category View{% endblock %}
+
+{% block content %}
+<div>
+    <h2>Location list</h2>
+    <ul>
+    {% for l in location_list %}
+        <li><a href="/categorized/loc/{{l.id}}/">{{l.location}}</a></li>
+    {% endfor %}
+    </ul>
+</div>
+<div>
+    <h2>Server list</h2>
+        <table border=2>
+        {% for s in servers_list %}
+        <td>{{s.name}}</td>
+        {% endfor %}
+        </table>
+    <h3><a href="server_list">detial server information</a></h3> 
+</div>
+<div>
+    <h2>Operating Systems</h2>
+    <ul>
+    {% for o in os_list %}
+      <li><a href="/categorized/os/{{ o.id }}/" >{{ o.name }}</a></li>
+    {% endfor %}
+    </ul>
+</div>
+<div>
+    <h2>Services</h2>
+    <ul>
+    {% for s in svc_list %}
+      <li><a href="/categorized/svc/{{ s.id }}/" >{{ s.name }}</a></li>
+    {% endfor %}
+    </ul>
+</div>
+<div>
+    <h2>Hardware Components</h2>
+    <ul>
+    {% for h in hardware_list %}
+      <li><a href="/categorized/hw/{{ h.id }}/" >{{ h.manufacturer }}</a></li>
+    {% endfor %}
+    </ul>
+</div>
+{% endblock %}

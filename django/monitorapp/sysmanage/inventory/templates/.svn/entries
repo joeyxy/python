@@ -1,0 +1,44 @@
+8
+
+dir
+0
+https://py4sa.googlecode.com/svn/trunk/code/gui/code/sysmanage/inventory/templates
+https://py4sa.googlecode.com/svn
+add
+
+
+
+
+
+
+
+svn:special svn:externals svn:needs-lock
+
+categorized.html
+file
+
+
+
+add
+
+main.html
+file
+
+
+
+add
+
+server_detail.html
+file
+
+
+
+add
+
+base.html
+file
+
+
+
+add
+

@@ -1,0 +1,27 @@
+1.
+
+root@joey-laptop:/data/python/django/monitorapp/sysmanage# python manage.py sql inventory
+NameError: name 'location' is not defined
+root@joey-laptop:/data/python/django/monitorapp/sysmanage# 
+root@joey-laptop:/data/python/django/monitorapp/sysmanage# python manage.py sql inventory
+SyntaxError: invalid syntax (models.py, line 39)
+
+
+use forginkey must define the table first
+
+
+2.
+root@joey-laptop:/data/python/django/monitorapp/sysmanage# python manage.py syncdb
+Creating tables ...
+Creating table inventory_location
+
+
+old table will not update issue:
+    return Database.Cursor.execute(self, query, params)
+DatabaseError: table inventory_server has no column named location_id
+[27/Dec/2013 10:06:53] "POST /admin/inventory/server/add/ HTTP/1.1" 500 175771
+
+
+3.the differnet location_exact and location__exact
+http://blog.sina.com.cn/s/blog_a73687bc0101cygy.html
+http://www.douban.com/note/301166150/
