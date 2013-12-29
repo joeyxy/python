@@ -18,5 +18,7 @@ urlpatterns = patterns('',
     (r'^categorized/(?P<category>.*?)/(?P<category_id>.*?)/$', 'inventory.views.categorized'),
     (r'^server_detail/(?P<server_id>.*?)/$','inventory.views.server_detail'),
     (r'^server_list/$','inventory.views.server_list'),
+    (r'^health_check/$','inventory.views.check'),
+    (r'^check_list/$','inventory.views.check_list'),
 
 )

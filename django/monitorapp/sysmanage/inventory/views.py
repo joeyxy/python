@@ -1,7 +1,42 @@
 # Create your views here.
 
 from django.shortcuts import render_to_response
+from health_check import scan_port,scan
 import models
+import os
+
+base_dir = '/data/python/django/monitorapp/sysmanage/inventory'
+
+
+def check(request):
+    error = False
+    if 'ip' in request.GET and 'port' in request.GET:
+        q = request.GET['ip']
+        p = request.GET['port']
+        if not q :
+            error = True
+            return render_to_response('check_form.html',{'error':error})
+        else:
+            result = scan_port(q,p)
+            return render_to_response('check_results.html',{'result':result,'ip':q,'port':p})
+
+    else:
+        return render_to_response('check_form.html',{'error':error})
+
+def check_list(request):
+    error = False
+    if 'file' in request.GET:
+            f = request.GET['file']
+            if not f:
+                error =True
+                return render_to_response('list_form.html',{'error':error})
+            else:
+                list = open(os.path.join(base_dir,f),'r')
+                result = [scan(l) for l in list]
+                list.close()
+                return render_to_response('list_results.html',{'result':result,'file':f})
+    else:
+        return render_to_response('list_form.html',{'error':error})
 
 def main(request):
     os_list = models.OperatingSystem.objects.all()

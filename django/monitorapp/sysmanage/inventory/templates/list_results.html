@@ -1,0 +1,18 @@
+<p>You check file is: <strong>{{ file  }}</strong></p>
+
+{% if result %}
+    <p>Found {{ result|length }} host{{ result|pluralize }}.</p>
+    <table border=1>
+    <tr>
+     <th>host</th><th>port</th><th>status</th>
+    </tr>
+        {% for r in result %}
+        <tr>
+        <td>{{ r }}</td>
+        <tr>
+        {% endfor %}
+    <table>
+{% else %}
+    <p>No host need to check.</p>
+{% endif %}
+
