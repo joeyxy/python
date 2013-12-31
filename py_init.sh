@@ -1,4 +1,3 @@
-[root@localhost python]# cat python_init.sh 
 #!/usr/bin/env bash
 #inital the python module install
  
