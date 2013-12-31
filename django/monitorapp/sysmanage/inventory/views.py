@@ -7,7 +7,7 @@ import os
 
 base_dir = '/data/python/django/monitorapp/sysmanage/inventory'
 
-
+            
 def check(request):
     error = False
     if 'ip' in request.GET and 'port' in request.GET:
@@ -18,7 +18,8 @@ def check(request):
             return render_to_response('check_form.html',{'error':error})
         else:
             result = scan_port(q,p)
-            return render_to_response('check_results.html',{'result':result,'ip':q,'port':p})
+            re_ip = request.META['REMOTE_ADDR']
+            return render_to_response('check_results.html',{'result':result,'ip':q,'port':p,'re_ip':re_ip})
 
     else:
         return render_to_response('check_form.html',{'error':error})
