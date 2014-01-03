@@ -1,0 +1,2 @@
+yum install dmidecode -y
+yum install smartmontools -y
