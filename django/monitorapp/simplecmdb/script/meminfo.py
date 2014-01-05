@@ -31,9 +31,9 @@ def parserMemInfo(memdata):
             pd[k.strip()] = v.strip()
 
         if pd['Size'] != 'No Module Installed':
-            mem_info = 'Size:%s ; Part_Number:%s ; Manufacturer:%s' % (pd['Size'],pd['PartNumber'],pd['Manufacturer'])
+            mem_info = 'Size:%s ; Part_Number:%s ; Manufacturer:%s' % (pd['Size'],pd['Part Number'],pd['Manufacturer'])
             for line in mem_info.split('\n'):
-                for work in line.split(';'):
+                for word in line.split(';'):
                     k,v = [i.strip() for i in word.split(':')]
                     fd[k] = v.strip()
                 yield fd

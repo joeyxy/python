@@ -13,11 +13,10 @@ def getDiskInfo():
         #disk = re.match(disk_dev,i)
         if disk:
             dk = re.search(disk_name,disk.group()).group()
-            print "disk:%s" % disk.group()
-            print "the dk:%s" % dk
+            #print "disk:%s" % disk.group()
+            #print "the dk:%s" % dk
     n = Popen('smartctl -i %s' % dk,shell=True,stdout=PIPE)
     stdout,stderr = n.communicate()
-    print stdout.strip()
     return stdout.strip()
 
 
