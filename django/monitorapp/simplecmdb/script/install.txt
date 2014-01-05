@@ -1,2 +1,5 @@
+http://www.jb51.net/article/15717.htm
+http://www.qttc.net/201209206.html
+
 yum install dmidecode -y
 yum install smartmontools -y

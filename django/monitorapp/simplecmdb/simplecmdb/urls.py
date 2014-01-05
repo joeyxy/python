@@ -5,7 +5,7 @@ from django.contrib import admin
 admin.autodiscover()
 
 urlpatterns = patterns('',
-    url(r'^api/gethost\.json$','hostinfo.views.gethosts'),
+    url(r'^api/gethosts\.json$','hostinfo.views.gethosts'),
     url(r'^admin/',include(admin.site.urls)),
     url(r'^api/collect$','hostinfo.views.collect'),
     # Examples:
