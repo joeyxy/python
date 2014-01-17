@@ -123,6 +123,7 @@ INSTALLED_APPS = (
     # Uncomment the next line to enable the admin:
      'django.contrib.admin',
      'inventory',
+     'app',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
 )
