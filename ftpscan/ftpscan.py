@@ -65,8 +65,8 @@ class Scanner(threading.Thread):
                 check = s.connect_ex((str(ip_add), 21))
                 if check == 0:
                     ftpqueue.put(ip_add)
-                else:
-                    print 'No FTP: %s' % (ip_add)
+                #else:
+                    #print 'No FTP: %s' % (ip_add)
                 s.close()
  
             finally:
