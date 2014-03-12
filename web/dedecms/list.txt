@@ -1,0 +1,9 @@
+http://lgjy.sdut.edu.cn/gongyu/admin/login.php
+http://www.jssqdzx.cn/dede/login.php
+http://www.faxinw.com/dede/login.php
+http://www.txtdzx.com/txt/login.php
+http://www.fanshi.gov.cn/fszfwadmin/login.php
+http://www.sj998.com/woshicaishiwangwopashui/login.php%3Fgotopage%3D%252Fwoshicaishiwangwopashui%252Farchives_do.php%253Faid%253D272852%2526dopost%253DviewArchives
+http://allycc.com/dede/login.php%3Fgotopage%3D%252Fdede%252F
+http://dep2.hnust.edu.cn:9080/sports/admin/login.php
+http://www.ibestpower.cn/

