@@ -1,0 +1,2347 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1,requiresActiveX=true">
+    <meta charset="utf-8">
+    <script type="text/javascript">document.domain = 'dell.com';</script>
+    <script type="text/javascript">tealeafTargetUrl = '/support/my-support/tltarget.aspx'; tealeafTargetUrlSecure = '/support/my-support/tltarget.aspx';</script>
+    <script type="text/javascript">var iPerceptions = {}; iPerceptions.surveyJsPath = 'http://dsvr.iperceptions.com/Invitations/Javascripts/ip_Layer_Invitation_NextGen.aspx?c=us&l=en&s=bsd&cs=04'; iPerceptions.invitationRate = 35;</script>
+
+
+<title>Product Support | Dell US</title>
+      <meta name="author" content="Dell us"/>
+      <meta name="channel" content="http://www.dell.com/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=BSD"/>
+      <meta name="customerset" content="04"/>
+      <meta name="description" content=""/>
+      <meta name="documentcountrycode" content="us"/>
+      <meta name="generator" content="Build: 3.3.99.3  Built On: 8/20/2013 10:31:32 PM"/>
+      <meta name="keywords" content=""/>
+      <meta name="language" content="en"/>
+      <meta name="mbox-to" content=""/>
+      <meta name="metricpath" content="04"/>
+      <meta name="profile_id" content=""/>
+      <meta name="s_account" content="dellglobalonline"/>
+      <meta name="segment" content="bsd"/>
+      <meta name="waaction" content="servicetag"/>
+      <meta name="waapplicationname" content="esupport-mysupport"/>
+      <meta name="wacontroller" content="ProductSupport"/>
+      <meta name="supportservicetag" content="JSNL002"/>
+      <meta name="supportproductselected" content="poweredge-r420"/>
+      <meta name="supportproductcode" content="poweredge-r420"/>
+      <meta name="premier_accessgroupid" content=""/>
+      <meta name="premier_accessgroups" content=""/>
+      <meta name="premier_roleid" content=""/>
+      <meta name="premier_rolename" content=""/>
+      <meta name="servicetag" content="JSNL002"/>
+
+
+
+
+<script type="text/javascript">
+  if (typeof Dell == 'undefined') var Dell = {};
+  if (!Dell.Global)
+      Dell.Global = {
+          Settings: {
+              mceLink: "http://cmscontent.dell.com/sites/content/_layouts/dell/viewmicrocontent.aspx ",
+              toolsPanelLinks: {
+                  toolsPanel: '/support/my-support/us/en/04/UIFramework/toolspanel ',
+                  combineCssJs: '/support/my-support/us/en/04/UIFramework/configurationmanagement/ToggleCombineSettings ',
+                  compressCssJs: '/support/my-support/us/en/04/UIFramework/configurationmanagement/ToggleCompressSettings ',
+                  configurationmgmt: '/support/my-support/us/en/04/UIFramework/configurationmanagement/SectionListing '
+              },
+              legacyLogout: 'https://www.dell.com/sts/passive/commercial/v1/compatibility/logout?ru=http%3A%2F%2Fwww.dell.com%2Fsupport%2Fmy-support%2Fen%2Fzh%2Fcnbsd1%2Fproduct-support%2Fservicetag%2FJSNL002%3Fs%3DBSD'
+          },
+          lwp: {
+              c: "us",
+              l: "en",
+              s: "bsd",
+              cs: "04"
+          },
+          isPremier: "false" == "true",
+          isMigrated: "false" == "true"
+      };
+</script>
+
+<link rel="stylesheet" href="http://fcs.dell.com/fcs/us/en/_/UIFramework/3.3.99.3/res/CssSet?id=core&type=framework&ver=622859708620000000&compress=False" type="text/css" media="all" /><link rel="stylesheet" href="http://afcs.dell.com/support/my-support/us/en/_/UIFramework/3.3.99.3/res/Css?path=ProductSupport%2FmseProductStyles&type=application&ver=622859708620000000&compress=False" type="text/css" media="all" /><link rel="stylesheet" href="http://afcs.dell.com/support/my-support/us/en/_/UIFramework/3.3.99.3/res/CssSet?id=MseCoreSets&type=application&ver=622859708620000000&compress=False" type="text/css" media="all" /><link rel="stylesheet" href="http://afcs.dell.com/support/my-support/us/en/_/UIFramework/3.3.99.3/res/CssSet?id=DndCoreCSSSets&type=application&ver=622859708620000000&compress=False" type="text/css" media="all" /><script type="text/javascript" src="//nexus.ensighten.com/dell/Bootstrap.js"></script><script type="text/javascript" src="http://fcs.dell.com/fcs/us/en/_/UIFramework/res/JsSet?id=top&type=framework&ver=622859708620000000&compress=False&fwv=3.3.99.3"></script><script type="text/javascript" src="http://afcs.dell.com/support/my-support/us/en/_/UIFramework/res/JsSet?id=eulaScanHelperSet&type=application&ver=622859708620000000&compress=False&fwv=3.3.99.3"></script><script type="text/javascript" src="http://afcs.dell.com/support/my-support/us/en/_/UIFramework/res/JsSet?id=WindowsOSHelperSet&type=application&ver=622859708620000000&compress=False&fwv=3.3.99.3"></script><script type="text/javascript" src="http://afcs.dell.com/support/my-support/us/en/_/UIFramework/res/JsSet?id=CommonCaptchaHelperSet&type=application&ver=622859708620000000&compress=False&fwv=3.3.99.3"></script><script type="text/javascript" src="http://afcs.dell.com/support/my-support/us/en/_/UIFramework/res/JsSet?id=productSelectionHelperSet&type=application&ver=622859708620000000&compress=False&fwv=3.3.99.3"></script><script type="text/javascript" src="http://afcs.dell.com/support/my-support/us/en/_/UIFramework/res/JsSet?id=TagHelperSet&type=application&ver=622859708620000000&compress=False&fwv=3.3.99.3"></script><script type="text/javascript" src="http://afcs.dell.com/support/my-support/us/en/_/UIFramework/res/js?path=ProductSelector%2FmySupportOmniture&type=application&ver=622859708620000000&compress=False&fwv=3.3.99.3"></script><script type="text/javascript" src="http://afcs.dell.com/support/my-support/us/en/_/UIFramework/res/js?path=jquery.history&type=application&ver=622859708620000000&compress=False&fwv=3.3.99.3"></script>    
+        <link rel="canonical" href="http://www.dell.com/support/my-support/en/zh/cnbsd1/product-support/product/poweredge-r420" />
+
+    <style type="text/css">
+        .uif_bodyWrap
+        {
+            background: none;
+        }
+        .container-fluid
+        {
+            width: 100%;
+        }
+        .uif_shadowBorderBottom
+        {
+            background: none;
+        }
+        .uif_mhPageTitle
+        {
+            display: none;
+        }
+        .uif_bodySubWrap
+        {
+            padding-top: 20px;
+            width: 964px;
+        }
+        .uif_mastheadSubWrap
+        {
+            width: 964px;
+        }
+        .uif_footerWrap
+        {
+            width: 964px;
+        }
+        .gsd_bodyCopyMedium
+        {
+            font-size: 14px;
+        }
+        .uif_footerColWrap
+        {
+            margin-left: 0px;
+        }
+    </style>
+</head>
+<body class="ctry_us lang_en set_04 ltr uif_bodyContent uif_mhbodyDefault razor gsd_bodyCopyMedium">
+    <div id="getDSDTokenBeforeScan" class="hide">
+
+
+<script type="text/javascript" language="javascript">
+    tokenExpires = '1401160566';
+    isAliveToken = 'd%2BgAxc1R8tuMBQMlFmImjbo0KGZ9w2eUYDqTPBgrptk';
+    getServiceTagToken = 'T%2BNpC3eM4GIcXRMlccEmx5dS1MDww%2BbqSAGuIIpVfy0';    
+</script>
+    </div>
+
+
+<script type="text/javascript">
+
+    var InfoItems = '[{"Name":"author","Content":"Dell us","HttpEquiv":null},{"Name":"channel","Content":"http://www.dell.com/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=BSD","HttpEquiv":null},{"Name":null,"Content":"text/html; charset=utf-8","HttpEquiv":"content-type"},{"Name":"customerset","Content":"04","HttpEquiv":null},{"Name":"description","Content":"","HttpEquiv":null},{"Name":"documentcountrycode","Content":"us","HttpEquiv":null},{"Name":"generator","Content":"Build: 3.3.99.3  Built On: 8/20/2013 10:31:32 PM","HttpEquiv":null},{"Name":"keywords","Content":"","HttpEquiv":null},{"Name":"language","Content":"en","HttpEquiv":null},{"Name":"mbox-to","Content":"","HttpEquiv":null},{"Name":"metricpath","Content":"04","HttpEquiv":null},{"Name":"persistence_id","Content":"a62019ab-43de-4fbb-a596-e2519620acd0","HttpEquiv":null},{"Name":"premier_accessgroupid","Content":null,"HttpEquiv":null},{"Name":"premier_accessgroups","Content":null,"HttpEquiv":null},{"Name":"premier_roleid","Content":null,"HttpEquiv":null},{"Name":"premier_rolename","Content":null,"HttpEquiv":null},{"Name":"profile_id","Content":null,"HttpEquiv":null},{"Name":"s_account","Content":"dellglobalonline","HttpEquiv":null},{"Name":"segment","Content":"bsd","HttpEquiv":null},{"Name":"server","Content":"P61ESUPP13","HttpEquiv":null},{"Name":"session_id","Content":"4lkpdp3ajfp45tlfznbrbak0","HttpEquiv":null},{"Name":"waaction","Content":"servicetag","HttpEquiv":null},{"Name":"waapplicationname","Content":"esupport-mysupport","HttpEquiv":null},{"Name":"wacontroller","Content":"ProductSupport","HttpEquiv":null},{"Name":"supportservicetag","Content":"JSNL002","HttpEquiv":null},{"Name":"supportproductselected","Content":"poweredge-r420","HttpEquiv":null},{"Name":"supportproductcode","Content":"poweredge-r420","HttpEquiv":null},{"Name":"premier_accessgroupid","Content":null,"HttpEquiv":null},{"Name":"premier_accessgroups","Content":null,"HttpEquiv":null},{"Name":"premier_roleid","Content":null,"HttpEquiv":null},{"Name":"premier_rolename","Content":null,"HttpEquiv":null},{"Name":"servicetag","Content":"JSNL002","HttpEquiv":null},{"Name":null,"Content":null,"HttpEquiv":"servicetag"},{"Name":"frv","Content":"http://frr","HttpEquiv":null},{"Name":"waview","Content":"~/Areas/MSE/Views/ProdSuppNavigation/ShowTabDetails.cshtml","HttpEquiv":null},{"Name":"pagename","Content":"us|en|bsd|04|esupport-mysupport|productsupport|servicetag|~/areas/mse/views/prodsuppnavigation/showtabdetails.cshtml","HttpEquiv":null}]';
+
+    Dell.Metrics.PageMetadata.PageMetaInfoItems = JSON.parse(InfoItems); 
+   
+
+    </script>
+
+
+
+
+
+    <div id="mbox_default">
+    </div>
+    <script type="text/javascript">
+        mboxCreate(Dell.Global.lwp.l + Dell.Global.lwp.c + '_olr', // language+ country +'_olr'
+                      'r=' + Dell.Global.lwp.c, //country
+                      'c=' + Dell.Global.lwp.c, //country
+                      'l=' + Dell.Global.lwp.l, //language
+                      's=' + Dell.Global.lwp.s, //segment
+                      'cs=' + Dell.Global.lwp.cs, //customerset
+                      'pn=' + Dell.Metrics.PageMetadata.find("pagename").Content);  //pagename
+    </script>
+
+
+
+
+
+
+<noscript>
+    <style>
+        .uif_mhT2L1_li
+        {
+            opacity: 100;
+        }
+        #uif_navCover
+        {
+            display: none;
+        }
+    </style>
+</noscript>
+<div id="legacyCountryWrap" class="displayNone">
+</div>
+<header class="uif_mastheadWrap clearfix uif_mastHead_standard" id="uif_mastheadWrap">
+    
+        <div class="uif_mhTopperWrap clearfix">
+            <div class="uif_mhTopperSubWrap gsd_bodyCopySmall">
+                <div class="uif_mhCountryWrap clearfix">
+                    
+    <img class="floatLeft uif_flagIcon" src="http://i.dell.com/images/global/masthead/smlflags/us.gif"
+        alt="" border="0"/>
+
+<div id="localeselectorlinkdiv" class="localeselectorlinkdiv floatLeft">
+        <div id="localeselectorlink" class="localeselectorlink gsd_accentColor1">
+            United States
+        </div>
+</div>
+
+
+    <div id="localeselectordiv">
+        <select id="sellocaleselector" size="5" class="gsd_bodyCopySmall gsd_accentColor1">
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=al&amp;l=en">
+                                Albania</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=dz&amp;l=fr">
+                                Algeria</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=ao&amp;l=pt">
+                                Angola</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=ai&amp;l=en">
+                                Anguilla</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=ag&amp;l=en">
+                                Antigua &amp; Barbuda</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=ar&amp;l=es">
+                                Argentina</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=am&amp;l=en">
+                                Armenia</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=aw&amp;l=en">
+                                Aruba</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=au&amp;l=en">
+                                Australia</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=at&amp;l=de">
+                                Austria</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=az&amp;l=en">
+                                Azerbaijan</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=bs&amp;l=en">
+                                Bahamas</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=bh&amp;l=en">
+                                Bahrain</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=bb&amp;l=en">
+                                Barbados</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=by&amp;l=en">
+                                Belarus</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=be&amp;l=fr">
+                                Belgium</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=bz&amp;l=en">
+                                Belize</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=bj&amp;l=en">
+                                Benin</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=bm&amp;l=en">
+                                Bermuda</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=bo&amp;l=es">
+                                Bolivia</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=ba&amp;l=en">
+                                Bosnia-Herzegovina</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=bw&amp;l=en">
+                                Botswana</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=br&amp;l=pt">
+                                Brazil</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=vg&amp;l=en">
+                                British Virgin Islands</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=bg&amp;l=en">
+                                Bulgaria</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=bf&amp;l=en">
+                                Burkina Faso</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=bi&amp;l=en">
+                                Burundi</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=cm&amp;l=en">
+                                Cameroon</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=ca&amp;l=en">
+                                Canada</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=cv&amp;l=en">
+                                Cape Verde</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=ky&amp;l=en">
+                                Cayman Islands</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=cf&amp;l=en">
+                                Central African Republic</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=td&amp;l=en">
+                                Chad</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=cl&amp;l=es">
+                                Chile</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=cn&amp;l=zh">
+                                China</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=rs&amp;l=ru">
+                                CIS</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=co&amp;l=es">
+                                Colombia</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=km&amp;l=en">
+                                Comoros</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=cg&amp;l=fr">
+                                Congo</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=cr&amp;l=es">
+                                Costa Rica</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=hr&amp;l=en">
+                                Croatia</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=cy&amp;l=en">
+                                Cyprus</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=cz&amp;l=cs">
+                                Czech Republic</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=cd&amp;l=fr">
+                                Democratic Republic of the Congo</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=dk&amp;l=da">
+                                Denmark</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=dj&amp;l=en">
+                                Djibouti</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=dm&amp;l=en">
+                                Dominica</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=do&amp;l=es">
+                                Dominican Republic</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=ec&amp;l=es">
+                                Ecuador</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=eg&amp;l=en">
+                                Egypt</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=sv&amp;l=es">
+                                El Salvador</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=ed&amp;l=en">
+                                Emerging Countries &#8211; EMEA</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=gq&amp;l=en">
+                                Equatorial Guinea</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=ee&amp;l=en">
+                                Estonia</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=et&amp;l=en">
+                                Ethiopia</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=fi&amp;l=fi">
+                                Finland</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=fr&amp;l=fr">
+                                France</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=gf&amp;l=en">
+                                French Guiana</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=fo&amp;l=en">
+                                French Overseas Territories</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=pf&amp;l=en">
+                                French Polynesia</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=ga&amp;l=fr">
+                                Gabon</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=gm&amp;l=en">
+                                Gambia</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=ge&amp;l=ru">
+                                Georgia</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=de&amp;l=de">
+                                Germany</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=gh&amp;l=en">
+                                Ghana</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=gr&amp;l=el">
+                                Greece</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=gd&amp;l=en">
+                                Grenada</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=gt&amp;l=es">
+                                Guatemala</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=gn&amp;l=en">
+                                Guinea</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=gy&amp;l=en">
+                                Guyana</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=ht&amp;l=en">
+                                Haiti</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=hn&amp;l=es">
+                                Honduras</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=hk&amp;l=zh">
+                                Hong Kong</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=hu&amp;l=hu">
+                                Hungary</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=is&amp;l=en">
+                                Iceland</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=in&amp;l=en">
+                                India</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=id&amp;l=en">
+                                Indonesia</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=iq&amp;l=en">
+                                Iraq</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=ie&amp;l=en">
+                                Ireland</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=il&amp;l=he">
+                                Israel</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=it&amp;l=it">
+                                Italy</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=ci&amp;l=en">
+                                Ivory Coast</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=jm&amp;l=en">
+                                Jamaica</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=jp&amp;l=ja">
+                                Japan</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=jo&amp;l=en">
+                                Jordan</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=kz&amp;l=ru">
+                                Kazakhstan</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=ke&amp;l=en">
+                                Kenya</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=kr&amp;l=ko">
+                                Korea</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=kw&amp;l=en">
+                                Kuwait</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=kg&amp;l=ru">
+                                Kyrgyzstan</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=la&amp;l=en">
+                                Latin America &amp; Caribbean</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=lv&amp;l=en">
+                                Latvia</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=lb&amp;l=en">
+                                Lebanon</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=ls&amp;l=en">
+                                Lesotho</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=lr&amp;l=en">
+                                Liberia</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=ly&amp;l=en">
+                                Libya</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=lt&amp;l=en">
+                                Lithuania</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=lu&amp;l=fr">
+                                Luxembourg</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=mk&amp;l=en">
+                                Macedonia</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=mg&amp;l=en">
+                                Madagascar</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=mw&amp;l=en">
+                                Malawi</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=my&amp;l=en">
+                                Malaysia</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=ml&amp;l=en">
+                                Mali</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=mt&amp;l=en">
+                                Malta</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=mq&amp;l=en">
+                                Martinique</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=mr&amp;l=en">
+                                Mauritania</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=mu&amp;l=en">
+                                Mauritius</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=yt&amp;l=en">
+                                Mayotte</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=mx&amp;l=es">
+                                Mexico</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=ae&amp;l=en">
+                                Middle East</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=md&amp;l=ro">
+                                Moldova</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=cs&amp;l=en">
+                                Montenegro</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=ms&amp;l=en">
+                                Montserrat</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=ma&amp;l=ar">
+                                Morocco</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=mz&amp;l=en">
+                                Mozambique</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=na&amp;l=en">
+                                Namibia</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=nl&amp;l=nl">
+                                Netherlands</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=an&amp;l=en">
+                                Netherlands Antilles/Curaçao</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=nc&amp;l=en">
+                                New Caledonia</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=nz&amp;l=en">
+                                New Zealand</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=ni&amp;l=es">
+                                Nicaragua</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=ne&amp;l=en">
+                                Niger</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=ng&amp;l=en">
+                                Nigeria</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=no&amp;l=no">
+                                Norway</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=om&amp;l=en">
+                                Oman</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=pk&amp;l=en">
+                                Pakistan</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=pa&amp;l=es">
+                                Panama</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=py&amp;l=es">
+                                Paraguay</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=pe&amp;l=es">
+                                Peru</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=ph&amp;l=en">
+                                Philippines</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=pl&amp;l=pl">
+                                Poland</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=pt&amp;l=pt">
+                                Portugal</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=pr&amp;l=en">
+                                Puerto Rico</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=qa&amp;l=en">
+                                Qatar</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=re&amp;l=en">
+                                Reunion</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=ro&amp;l=ro">
+                                Romania</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=ru&amp;l=ru">
+                                Russia</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=rw&amp;l=en">
+                                Rwanda</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=sa&amp;l=en">
+                                Saudi Arabia</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=sn&amp;l=fr">
+                                Senegal</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=yu&amp;l=en">
+                                Serbia</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=sc&amp;l=en">
+                                Seychelles</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=sl&amp;l=en">
+                                Sierra Leone</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=sg&amp;l=en">
+                                Singapore</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=sk&amp;l=sk">
+                                Slovakia</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=si&amp;l=en">
+                                Slovenia</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=so&amp;l=en">
+                                Somalia</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=za&amp;l=en">
+                                South Africa</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=es&amp;l=es">
+                                Spain</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=kn&amp;l=en">
+                                St. Kitts &amp; Nevis</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=lc&amp;l=en">
+                                St. Lucia</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=vc&amp;l=en">
+                                St. Vincent &amp; Grenadines</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=sr&amp;l=en">
+                                Suriname</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=sz&amp;l=en">
+                                Swaziland</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=se&amp;l=sv">
+                                Sweden</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=ch&amp;l=de">
+                                Switzerland</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=tw&amp;l=zh">
+                                Taiwan</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=tj&amp;l=ru">
+                                Tajikistan</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=tz&amp;l=en">
+                                Tanzania</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=th&amp;l=en">
+                                Thailand</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=tg&amp;l=en">
+                                Togo</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=tt&amp;l=en">
+                                Trinidad &amp; Tobago</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=tn&amp;l=fr">
+                                Tunisia</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=tr&amp;l=tr">
+                                Turkey</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=tm&amp;l=ru">
+                                Turkmenistan</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=tc&amp;l=en">
+                                Turks &amp; Caicos Islands</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=ug&amp;l=en">
+                                Uganda</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=ua&amp;l=ru">
+                                Ukraine</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=me&amp;l=en">
+                                United Arab Emirates</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=uk&amp;l=en">
+                                United Kingdom</option>
+                        <option selected="selected" value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=us&amp;l=en">
+                            United States</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=uy&amp;l=es">
+                                Uruguay</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=vi&amp;l=en">
+                                US Virgin Islands</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=uz&amp;l=en">
+                                Uzbekistan</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=ve&amp;l=es">
+                                Venezuela</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=vn&amp;l=en">
+                                Vietnam</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=ye&amp;l=en">
+                                Yemen</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=zm&amp;l=en">
+                                Zambia</option>
+                            <option value="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002?s=bsd&amp;c=zw&amp;l=en">
+                                Zimbabwe</option>
+        </select>
+    </div>
+
+                </div>
+                    <div class="uif_mhContactWrap gsd_accentColor1"> <a href="http://www.dell.com/support/Contents/us/en/04/category/Contact-Information?~ck=mn">Contact Us</a></div>
+                <div class="uif_mhUserStatusWrap">
+                
+
+
+
+<a class="uif_link gsd_links3" id="loginLinkPremier" href="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002/afh.ashx?type=login&afhp=%3fs%3dBSD" title="" target="" >Premier Login</a>
+
+
+
+<a class="uif_link gsd_links3" id="loginLink" href="/support/my-support/en/zh/cnbsd1/product-support/servicetag/JSNL002/afh.ashx?type=login&afhp=%3fs%3dBSD" title="" target="" >Sign In</a>
+
+                    
+                    <span class="privacysettingslinkcontainer"><a class="privacysettingslink" href="#"></a></span>
+                    
+            <a class="uif_link gsd_primaryLinks   legacy " id="uif_mastheadCartLink" href="http://ecomm.dell.com/dellstore/basket.aspx">
+           
+   
+    <span class="uif_icon uif_icon_cart"></span>
+        Cart
+    <span class="uif_cart_count_outer" style="display: none;"><span id="uif_mastheadCartCount"
+        class="uif_cart_count">100</span> <span class="uif_cart_count_right"></span>
+    </span>
+    </a>
+
+                </div>
+            
+            </div>
+        </div>
+    
+    <div class="uif_mastheadSubWrap">
+        <nav class="uif_mhMainWrap">
+            <div class="skip-link">
+                <a class="assistive-text" title="Skip to primary content" href="#content">Skip to primary content</a>
+            </div>
+            <div class="clearfix">
+                
+                        <a href="http://www.dell.com/p/?c=us&l=en&s=bsd&cs=04" title="Dell Logo" class="uif_mhTier0Nav">
+                                <img width="64" alt="Dell Logo" height="64" src="http://fcs.dell.com/fcs/us/en/_/UIFramework/3.3.99.3/res/Image?path=common%2Flogo80.png&amp;type=framework" />
+
+                        </a>
+                <div class="uif_mhNavWrap clearfix">
+                        <ul class="uif_mhTeir1Nav gsd_bodyTitleLargeAlt1">
+                                    <li><a class="uif_linkSecondary" href="http://www.dell.com/p?~ck=mn&c=us&l=en&s=bsd&cs=04">Shop</a></li> 
+                                    <li><a class="gsd_accentColor11" href="http://www.dell.com/support/my-support?~ck=mn">
+                                            Support</a></li>
+                                    <li><a class="uif_linkSecondary" href="http://en.community.dell.com?~ck=mn">Community</a></li> 
+                        </ul>
+
+                    
+
+<form action="http://www.dell.com/search/us/en/04/results" method="get">
+    
+    
+    <div class="uif_mhSearchWrap">
+        <input class="uif_searchInput gsd_bodyCopyMedium" type="text" name="q"/>
+        <button id="" type="submit" href="" class="uif5_button uif5_btnSecondary"  >
+    <span class="uif5_btnTxt gsd_bodyTitleMediumAlt1 gsd_accentColor7">Search</span>
+</button>
+    </div>
+</form>                         <div class="uif_mhTeir2NavWrap " id="uif_mhTeir2NavWrap">
+                            <div id="uif_navCover"></div>
+                            <ul class="uif_mhTeir2Nav" id="uif_mhTeir2Nav">
+                                
+                               
+                                    <li class="uif_mhT2L1_li uif_noChildren uif_T2L1_first">
+                                        <div class="uif_T2L1_outer gsd_bodyTitleSmall">
+                                           
+
+<a class="uif_link uif_mhT2L1_a gsd_links3 menucrSelection" id="" href="http://www.dell.com/support/my-support/product-support?~ck=mn" title="" target=""  data-menudef="{&quot;id&quot;:&quot;support&quot;,&quot;subnav&quot;:&quot;ProductSupport&quot;}">Support by Product<span class="uif_downArrow"></span></a>
+
+
+                                              <script type='text/javascript'>                                                  $(function () { if ("http://www.dell.com/support/my-support/product-support?~ck=mn" != "") { $(".menucrSelection").css("cursor", "pointer"); } }); </script> 
+                                            
+                                                <div class="uif_mhLeft uif_roundedCorners"></div>
+                                            
+                                            
+                                            <div class="uif_divider"></div>
+                                            <div class="uif_leftShadow"></div>
+
+                                            
+                                            <div class="uif_slide clearfix">
+                                                <!--[if IE 6]>  <iframe class="uif_menuShim" frameborder="0" src=""></iframe><![endif]-->
+                                                <div class="uif_dropDownWrap clearfix">
+                                                    <div class="uif_menuTopper">
+                                                        <div class="uif_menuTopperSub"></div>
+                                                    </div>
+                                                    <div class="uif_menuBodyWrap gsd_bodyCopyMedium clearfix">
+                                                        <div class="uif_menuBodyWrapSub">
+                                                            <div class="uif_menuItemWrap" id="uif_ProductSupport"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="uif_menuFooter">
+                                                        <div class="uif_mfLeft"></div>
+                                                        <div class="uif_mfRight"></div>
+                                                        <div class="uif_mfCenter"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                         </div>
+                                    </li>
+                                    <li class="uif_mhT2L1_li uif_noChildren">
+                                        <div class="uif_T2L1_outer gsd_bodyTitleSmall">
+                                           
+
+<a class="uif_link uif_mhT2L1_a gsd_links3 menucrSelection" id="" href="http://www.dell.com/support/Contents/us/en/04/category/Product-Support/Self-support-Knowledgebase" title="" target=""  data-menudef="{&quot;id&quot;:&quot;support&quot;,&quot;subnav&quot;:&quot;SupportByTopic&quot;}">Support by Topic<span class="uif_downArrow"></span></a>
+
+
+                                              <script type='text/javascript'>                                                  $(function () { if ("http://www.dell.com/support/Contents/us/en/04/category/Product-Support/Self-support-Knowledgebase" != "") { $(".menucrSelection").css("cursor", "pointer"); } }); </script> 
+                                            
+                                            
+                                            
+                                            <div class="uif_divider"></div>
+                                            <div class="uif_leftShadow"></div>
+
+                                            
+                                            <div class="uif_slide clearfix">
+                                                <!--[if IE 6]>  <iframe class="uif_menuShim" frameborder="0" src=""></iframe><![endif]-->
+                                                <div class="uif_dropDownWrap clearfix">
+                                                    <div class="uif_menuTopper">
+                                                        <div class="uif_menuTopperSub"></div>
+                                                    </div>
+                                                    <div class="uif_menuBodyWrap gsd_bodyCopyMedium clearfix">
+                                                        <div class="uif_menuBodyWrapSub">
+                                                            <div class="uif_menuItemWrap" id="uif_SupportByTopic"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="uif_menuFooter">
+                                                        <div class="uif_mfLeft"></div>
+                                                        <div class="uif_mfRight"></div>
+                                                        <div class="uif_mfCenter"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                         </div>
+                                    </li>
+                                    <li class="uif_mhT2L1_li uif_noChildren">
+                                        <div class="uif_T2L1_outer gsd_bodyTitleSmall">
+                                           
+
+<a class="uif_link uif_mhT2L1_a gsd_links3 menucrSelection" id="" href="http://www.dell.com/support/Contents/us/en/04/category/eSupport-Order-support?~ck=mn" title="" target=""  data-menudef="{&quot;id&quot;:&quot;support&quot;,&quot;subnav&quot;:&quot;OrderSupport&quot;}">Order Support<span class="uif_downArrow"></span></a>
+
+
+                                              <script type='text/javascript'>                                                  $(function () { if ("http://www.dell.com/support/Contents/us/en/04/category/eSupport-Order-support?~ck=mn" != "") { $(".menucrSelection").css("cursor", "pointer"); } }); </script> 
+                                            
+                                            
+                                            
+                                            <div class="uif_divider"></div>
+                                            <div class="uif_leftShadow"></div>
+
+                                            
+                                            <div class="uif_slide clearfix">
+                                                <!--[if IE 6]>  <iframe class="uif_menuShim" frameborder="0" src=""></iframe><![endif]-->
+                                                <div class="uif_dropDownWrap clearfix">
+                                                    <div class="uif_menuTopper">
+                                                        <div class="uif_menuTopperSub"></div>
+                                                    </div>
+                                                    <div class="uif_menuBodyWrap gsd_bodyCopyMedium clearfix">
+                                                        <div class="uif_menuBodyWrapSub">
+                                                            <div class="uif_menuItemWrap" id="uif_OrderSupport"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="uif_menuFooter">
+                                                        <div class="uif_mfLeft"></div>
+                                                        <div class="uif_mfRight"></div>
+                                                        <div class="uif_mfCenter"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                         </div>
+                                    </li>
+                                    <li class="uif_mhT2L1_li uif_noChildren">
+                                        <div class="uif_T2L1_outer gsd_bodyTitleSmall">
+                                           
+
+<a class="uif_link uif_mhT2L1_a gsd_links3 menucrSelection" id="" href="http://www.dell.com/support/my-support/product-support/servicetag?show_warranty_modal=true?~ck=mn" title="" target=""  data-menudef="{&quot;id&quot;:&quot;support&quot;,&quot;subnav&quot;:&quot;Warranty&quot;}">Warranty<span class="uif_downArrow"></span></a>
+
+
+                                              <script type='text/javascript'>                                                  $(function () { if ("http://www.dell.com/support/my-support/product-support/servicetag?show_warranty_modal=true?~ck=mn" != "") { $(".menucrSelection").css("cursor", "pointer"); } }); </script> 
+                                            
+                                            
+                                            
+                                            <div class="uif_divider"></div>
+                                            <div class="uif_leftShadow"></div>
+
+                                            
+                                            <div class="uif_slide clearfix">
+                                                <!--[if IE 6]>  <iframe class="uif_menuShim" frameborder="0" src=""></iframe><![endif]-->
+                                                <div class="uif_dropDownWrap clearfix">
+                                                    <div class="uif_menuTopper">
+                                                        <div class="uif_menuTopperSub"></div>
+                                                    </div>
+                                                    <div class="uif_menuBodyWrap gsd_bodyCopyMedium clearfix">
+                                                        <div class="uif_menuBodyWrapSub">
+                                                            <div class="uif_menuItemWrap" id="uif_Warranty"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="uif_menuFooter">
+                                                        <div class="uif_mfLeft"></div>
+                                                        <div class="uif_mfRight"></div>
+                                                        <div class="uif_mfCenter"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                         </div>
+                                    </li>
+                                    <li class="uif_mhT2L1_li uif_noChildren">
+                                        <div class="uif_T2L1_outer gsd_bodyTitleSmall">
+                                           
+
+<a class="uif_link uif_mhT2L1_a gsd_links3 menucrSelection" id="" href="http://accessories.us.dell.com/sna/DellPartsFamily.aspx?~ck=mn" title="" target=""  data-menudef="{&quot;id&quot;:&quot;support&quot;,&quot;subnav&quot;:&quot;Parts&quot;}">Parts<span class="uif_downArrow"></span></a>
+
+
+                                              <script type='text/javascript'>                                                  $(function () { if ("http://accessories.us.dell.com/sna/DellPartsFamily.aspx?~ck=mn" != "") { $(".menucrSelection").css("cursor", "pointer"); } }); </script> 
+                                            
+                                            
+                                            
+                                            <div class="uif_divider"></div>
+                                            <div class="uif_leftShadow"></div>
+
+                                            
+                                            <div class="uif_slide clearfix">
+                                                <!--[if IE 6]>  <iframe class="uif_menuShim" frameborder="0" src=""></iframe><![endif]-->
+                                                <div class="uif_dropDownWrap clearfix">
+                                                    <div class="uif_menuTopper">
+                                                        <div class="uif_menuTopperSub"></div>
+                                                    </div>
+                                                    <div class="uif_menuBodyWrap gsd_bodyCopyMedium clearfix">
+                                                        <div class="uif_menuBodyWrapSub">
+                                                            <div class="uif_menuItemWrap" id="uif_Parts"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="uif_menuFooter">
+                                                        <div class="uif_mfLeft"></div>
+                                                        <div class="uif_mfRight"></div>
+                                                        <div class="uif_mfCenter"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                         </div>
+                                    </li>
+                                    <li class="uif_mhT2L1_li uif_noChildren">
+                                        <div class="uif_T2L1_outer gsd_bodyTitleSmall">
+                                           
+
+<a class="uif_link uif_mhT2L1_a gsd_links3 menucrSelection" id="" href="http://www.dell.com/content/topics/topic.aspx/global/shared/consumerservice/dell-consumer-service?~ck=mn&c=us&l=en&s=bsd&cs=04" title="" target=""  data-menudef="{&quot;id&quot;:&quot;support&quot;,&quot;subnav&quot;:&quot;SupportServices&quot;}">Support Services<span class="uif_downArrow"></span></a>
+
+
+                                              <script type='text/javascript'>                                                  $(function () { if ("http://www.dell.com/content/topics/topic.aspx/global/shared/consumerservice/dell-consumer-service?~ck=mn&amp;c=us&amp;l=en&amp;s=bsd&amp;cs=04" != "") { $(".menucrSelection").css("cursor", "pointer"); } }); </script> 
+                                            
+                                            
+                                            
+                                            <div class="uif_divider"></div>
+                                            <div class="uif_leftShadow"></div>
+
+                                            
+                                            <div class="uif_slide clearfix">
+                                                <!--[if IE 6]>  <iframe class="uif_menuShim" frameborder="0" src=""></iframe><![endif]-->
+                                                <div class="uif_dropDownWrap clearfix">
+                                                    <div class="uif_menuTopper">
+                                                        <div class="uif_menuTopperSub"></div>
+                                                    </div>
+                                                    <div class="uif_menuBodyWrap gsd_bodyCopyMedium clearfix">
+                                                        <div class="uif_menuBodyWrapSub">
+                                                            <div class="uif_menuItemWrap" id="uif_SupportServices"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="uif_menuFooter">
+                                                        <div class="uif_mfLeft"></div>
+                                                        <div class="uif_mfRight"></div>
+                                                        <div class="uif_mfCenter"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                         </div>
+                                    </li>
+                                    <li class="uif_mhT2L1_li uif_noChildren uif_T2L1_last">
+                                        <div class="uif_T2L1_outer gsd_bodyTitleSmall">
+                                           
+
+<a class="uif_link uif_mhT2L1_a gsd_links3 menucrSelection" id="" href="http://www.dell.com/support/Contents/us/en/04/category/Contact-Information?~ck=mn" title="" target=""  data-menudef="{&quot;id&quot;:&quot;support&quot;,&quot;subnav&quot;:&quot;ContactInformation&quot;}">Contact Us<span class="uif_downArrow"></span></a>
+
+
+                                              <script type='text/javascript'>                                                  $(function () { if ("http://www.dell.com/support/Contents/us/en/04/category/Contact-Information?~ck=mn" != "") { $(".menucrSelection").css("cursor", "pointer"); } }); </script> 
+                                            
+                                            
+                                                <div class="uif_mhRight uif_roundedCorners"></div>
+                                            
+                                            <div class="uif_divider"></div>
+                                            <div class="uif_leftShadow"></div>
+
+                                            
+                                            <div class="uif_slide clearfix">
+                                                <!--[if IE 6]>  <iframe class="uif_menuShim" frameborder="0" src=""></iframe><![endif]-->
+                                                <div class="uif_dropDownWrap clearfix">
+                                                    <div class="uif_menuTopper">
+                                                        <div class="uif_menuTopperSub"></div>
+                                                    </div>
+                                                    <div class="uif_menuBodyWrap gsd_bodyCopyMedium clearfix">
+                                                        <div class="uif_menuBodyWrapSub">
+                                                            <div class="uif_menuItemWrap" id="uif_ContactInformation"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="uif_menuFooter">
+                                                        <div class="uif_mfLeft"></div>
+                                                        <div class="uif_mfRight"></div>
+                                                        <div class="uif_mfCenter"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                         </div>
+                                    </li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </nav>
+   
+        <div class="uif_mhMainFoot clearfix clearBoth">
+            
+<div class="uif_mhBreadcrumbWrap gsd_bodyCopySmall">
+            <a href="http://www.dell.com/content/default.aspx" class=" gsd_links3">Dell</a>
+                <span class='uif_arrowRight'></span>
+            <a href="http://www.dell.com/support/my-support?~ck=mn" class=" gsd_links3">Support</a>
+                <span class='uif_arrowRight'></span>
+            <span class="uif_currentPage">Product Support</span>
+</div>            
+            
+        </div>
+
+        <div class="uif_mhFooterWrap clearfix">
+                <div class="uif_mhToolsWrap gsd_bodyCopyMedium">
+                    <ul>
+                        
+                            <li>
+
+<a class="uif_link myaccount myaccount" id="" href="http://ecomm.dell.com/myaccount/main.aspx?c=us&l=en&s=bsd&cs=04" title="" target="" >    <span class="uif_myaccountIcon uif_icon"></span>
+    <span class="uif_toolCaption">My Account</span>    
+</a>
+
+</li>
+                            <li>
+
+<a class="uif_link orderstatus orderstatus" id="" href="http://www.dell.com/support/orderstatus/us/en/04/" title="" target="" >    <span class="uif_orderstatusIcon uif_icon"></span>
+    <span class="uif_toolCaption">Order Status</span>    
+</a>
+
+</li>
+                            <li>
+
+<a class="uif_link feedback feedback" id="" href="http://www.dell.com/feedback" title="" target="" >    <span class="uif_feedbackIcon uif_icon"></span>
+    <span class="uif_toolCaption">Feedback</span>    
+</a>
+
+</li>
+
+                    </ul>
+                </div>
+                <script type="text/javascript">                    checkBreadCrumbCollision();</script>
+            
+            
+
+                <h1 class="gsd_pageTitle uif_mhPageTitle">
+Product Support                </h1>        
+        </div>
+    </div>
+    <div class="uif_shadowBorderBottom">
+    </div>
+</header>
+
+
+<a class="uif_link " id="lnkStandard0" href="javascript:Dell.SharedControls.Dialog.openDialog('lnkStandard0_dialog');" title="Link Test" target="" >Link</a>
+
+    <script type="text/javascript">
+            $(document).ready(function() {
+                
+                Dell.SharedControls.Dialog.createDialog('lnkStandard0_dialog', {"AnalyticsContent":null,"CacheContent":true,"Height":0,"Id":"lnkStandard0_dialog","IsIframe":false,"IsModal":true,"LinkMode":null,"LoadingText":"Loading...","ShouldPreloadContent":false,"Size":1,"Src":"#uif_selectAnotherAccountWrap","Template":null,"Width":0});
+            });
+            
+            
+        </script>
+
+<div id="uif_selectAnotherAccountWrap" style="display: none;">
+    <h1 class="gsd_sectionHeading">
+        </h1>
+    <select id="selectAnotherAccount">
+        <option value="loading"></option>
+    </select>
+    <div class="uif_buttonWrap">
+        <script>
+            //Temp
+            function tempClose() {
+                $("#lnkStandard0_dialog").hide();
+                $(".uif_modal_background").hide();
+            }
+        </script>
+        <a id="btnPrimary" href="javascript:;" class="uif5_button uif5_btnPrimary"  >
+    <span class="uif5_btnTxt gsd_bodyTitleMediumAlt1 gsd_accentColor5"></span>
+</a>
+        <a id="btnSecondar" href="javascript:tempClose();" class="uif5_button uif5_btnSecondary"  >
+    <span class="uif5_btnTxt gsd_bodyTitleMediumAlt1 gsd_accentColor7"></span>
+</a></div>
+</div>
+<script type="text/javascript">
+    $('#uif_selectAnotherAccountWrap #btnPrimary').click(function () { accessGroupRoute(''); });
+    var showChangeAgDialog = function()
+    {
+        Dell.SharedControls.Dialog.openDialog('lnkStandard0_dialog');
+        selectAnotherAccountInit("");
+    };
+</script>
+ 
+<script type="text/javascript">
+    loadT3Menus('/support/my-support/us/en/04/GlobalNavigation/Tier2Menu', '{"ActiveMenu":"support","MasheadTemplateName":"transactional_business"}');
+
+    Dell.UIF.Masthead.paintTeir2();
+
+    //  Resize premier logo to not exceed 150 W x 50 H, yet maintain its aspect ratio
+    $('.uif_mhCustomerLogo').one('load', function () {
+        if (($('.uif_mhCustomerLogo').width() / $('.uif_mhCustomerLogo').height() > 3) && ($('.uif_mhCustomerLogo').width() > 150)) {
+            $('.uif_mhCustomerLogo').height("auto").width(150);
+        } else if ($('.uif_mhCustomerLogo').height() > 50) {
+            $('.uif_mhCustomerLogo').height(50).width("auto");
+        }
+    }).each(function () {
+        if (this.complete) $(this).load();
+    });
+</script>
+    <div class="uif_bodyWrap" >
+        <div class="uif_bodySubWrap">
+                <div class="uif_layoutBodyWrap clearfix">
+                        <div class="uif_layoutSubBodyWrap">
+                            <head>
+    <meta content="no-cache" http-equiv="Pragma" />
+    <meta content="-1" http-equiv="Expires" />
+</head>
+<style type="text/css">
+    .uif_bodySubWrap
+    {
+        padding-top: 20px;
+        width: 100%;
+    }
+    .bodyContent
+    {
+        width: 964px;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+    .NavbodyContent
+    {
+        width: 964px;
+        margin: 0 auto;
+    }
+    .headerContent
+    {
+        min-height: 230px;
+        margin-right: 0;
+        margin-left: 0;
+        background: rgb(238,238,238);
+        -webkit-box-shadow: inset 2px 0 2px 2px #ccc;
+        box-shadow: inset 2px 0 2px 2px #ccc;
+    }
+    .iconHover
+    {
+        cursor: pointer;
+        width: 20px;
+    }
+</style>
+
+<div class="bodyContent">
+    
+    <div class="row-fluid">
+        <div class="span12">
+            <div class="title">
+                <h1>
+                    Product Support</h1>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="headerContent">
+    
+    <div id="support_main" class="psSupport_header">
+        <div style="padding-left: 80px; padding-right: 80px; padding-bottom: 0px; min-height: 200px;">
+            
+
+<div id="NotificationModal" style="width: 500px; position: fixed; top: 50%; left: 50%;margin-top: -50px;" class="modal hide fade" >
+    <div class="modal-header"> 
+     <button type="button" id="btnClose" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3>System analysis complete</h3>
+  </div>
+    <div class="modal-body" id="modalBody">We have analyzed your system and have results for a {0} ({1}). Do you want to view these results or return to support for PowerEdge R420 (JSNL002)?</div>
+    <div class="modal-footer">
+        
+        <button id="btnOld"  class="btn">
+            Return to Product Support</button>
+        <button id="btnNew"  class="btn btn-secondary">
+           View Results</button>
+    </div>
+</div>
+<style type="text/css">
+.CircleClose  {
+        height: 35px;
+        width: 35px;
+        border-radius: 35px;
+        border: 3px solid #aaaaaa;
+        margin-top : -32px;
+        margin-right: -32px;
+        float: right;   
+        background-color : #ffffff; 
+    }
+    .DriverBox 
+    {
+        border-radius:10px ;
+        background-color: White;
+        border-width: 3px; 
+        border-style: solid; 
+        border-color: #aaaaaa; 
+        width : inherit;
+        float: left;
+        height:200px;
+       
+    }
+</style>
+<script>
+    var currentPage = 'PS';
+    $(document).ready(function () {
+        $('#btnClose').bind('click', function () {
+            if (eulaDisplayed == true) {
+                eulaHelper.handleOldUserSelection();
+            }
+            $('#NotificationModal').modal('hide');
+            return false;
+        });
+
+        $('#btnOld').bind('click', function () {
+            if (eulaDisplayed == true || currentPage == 'MSEHome') {
+                eulaHelper.handleOldUserSelection();
+            }
+            $('#NotificationModal').modal('hide');
+            return false;
+        });
+
+        $('#btnNew').bind('click', function () {
+            eulaHelper.handleNewUserSelection();
+
+            $("#NotificationModal").hide();
+            $('#NotificationModal').modal('hide');
+        });
+    }); 
+</script>
+
+
+<div id="ErrorContainer" style="display: none;" class="MainContainer_ParentSectionTSHome">
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="span12">
+                <div class="title">
+                    <h1>Product Support</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div>
+                <h4>Please wait. This may take a few minutes.</h4>
+            </div>
+            <div class="alert error">
+                <table>
+                    <tr>
+                        <td>
+                            <img alt="attention" src="http://i.dell.com/sites/metacontent/eSupport/MSE/eSupport_MSE_Images/english/_values/attention-alert_100x100.png" width="35px" height="35px" style="height:35px; width:35px;" />
+                        </td>
+                        <td>
+                            &nbsp;
+                        </td>
+                        <td>
+                            <span class="alert-message" style="color: black">
+                                We’re sorry, we encountered a problem and were unable to complete the service tag detection. You can either Try Again or Cancel to select another option.
+                            </span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <span style="float: left;">
+                    <button class="btn btn-secondary btnSubmit " id="acceptError" style="margin-bottom: 10px;"
+                        onclick="eulaHelper.scanEulaClickHandler();">Try Again</button>
+                </span><span class="buttontext" style="float: left; padding-left: 30px;">
+                    <button class="btn btn-secondary btnSubmit " id="cancelError" style="margin-bottom: 10px;"
+                        onclick="eulaHelper.GetRedirectToPreviousPage();">Cancel</button>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="downloadProgressDiv" style="display: none;" class="MainContainer_ParentSectionTSHome">
+    <div>
+        <div id="timeElapsed" style="display: none">
+            0</div>
+        <div runat="server" id="scanresult" style="display: none">
+            0</div>
+        <div id="ScanContainer" class="scanprogresspadding">
+            <div class="container-fluid">
+                <div class="row-fluid">
+                    <div>
+                        <h4>Scan is in progress</h4>
+                    </div>
+                    <table>
+                        <tr>
+                            <td>
+                                <span class="scanmessage" style="padding-right: 10px"><span class="scanprogressimage">
+                                    <img id="scanInProcessing" alt="processing" class="" src="http://i.dell.com/sites/metacontent/eSupport/MSE/eSupport_MSE_Images/english/_values/processing.gif"/>
+                                </span></span>
+                            </td>
+                            <td>
+                                After the Dell System Detect software download is complete (this may take a few minutes), follow your browser’s instructions to proceed with installation.<br /><br />Dell System Detect installer Download:<br /><a href="http://downloads.dell.com/tools/dellsystemdetect/DellSystemDetect.application">Click here</a> if Dell System Detect installer download does not start in few seconds<br /><br />Follow below steps if installation does not begin automatically after downloaded:<br />1. IE and Chrome - Check the downloaded file in the bottom left corner of the browser window or press <em>Ctrl + J</em> to open <em>downloader window</em>.<br />2. Firefox – Click <em>Downloads</em> under <em>Tools</em> menu or press <em>Ctrl + J</em> to open <em>downloader window</em>.<br />3. Opera – Click the <em>Downloads</em> toolbar button(down arrow) right of the URL box or press <em>Ctrl + J</em> to open <em>downloader window</em>.<br />4. Safari – Click <em>Downloads</em> under <em>Settings</em> button or press <em>Ctrl + Alt + L</em> to open <em>downloader window</em>.<br />5. Find the <em>DellSystemDetect</em> file from the <em>downloader window </em>or <em>downloaded location</em>.<br />6. Double Click the downloaded file to initiate installation. Please note the installer requires administrative rights to install.<br />7. Click the <em>Install</em> button in the wizard to complete installation and launch the Dell System Detect application.<div style="position: relative;  padding-bottom: 10px; background-color: rgb(255,255,201); padding-left: 45px; padding-right: 20px; display: block; margin-bottom: 20px; visibility: hidden; color: rgb(68,68,68);   padding-top: 10px; text-shadow: none;border: rgb(238,238,238) 1px solid;" id="dsdIntallationAlert">DSD has been downloaded to your system. Please install the downloaded application to continue with the Scan process...</div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="scanprogDivNormal" style="display: none;" class="MainContainer_ParentSectionTSHome">
+    <div>
+        <div id="timeElapsed" style="display: none">
+            0</div>
+        <div runat="server" id="scanresult" style="display: none">
+            0</div>
+        <div id="ScanContainer" class="scanprogresspadding">
+            <div class="container-fluid">
+                <div class="row-fluid">
+                    <div>
+                        <h4>Scan is in progress</h4>
+                    </div>
+                    <table>
+                        <tr>
+                            <td>
+                                <span class="scanmessage" style="padding-right: 10px"><span class="scanprogressimage">
+                                    <img id="scanProcessing" alt="processing" src="http://i.dell.com/sites/metacontent/eSupport/MSE/eSupport_MSE_Images/english/_values/processing.gif"/>
+                                </span></span>
+                            </td>
+                            <td>
+                                Please wait. This may take a few minutes.
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" language="javascript">
+
+    tokenExpires = '1401160026';
+    isAliveToken = '7PQDqXzT5Mr7PyWqmjxaM2W%2BOqgxVfW2W4YlAHSPVSs';
+    getServiceTagToken = 'Nca1eZcaOfQhB0wFQ7MOs98BTqsOo%2FNtrQ%2FlxIhOlOw';
+
+    var dashboardUrl = '/support/my-support/us/en/04/product-support';
+    var productUrl = '/support/my-support/us/en/04/product-support/product';
+    var serviceTagURL = '/support/my-support/us/en/04/product-support/servicetag';
+    var insertDsdDbUrl = '/support/my-support/us/en/04/ProdSuppDashboard/storedsdinfoindb';
+    var scanType = '';
+    var loadSection = ''; // window.location.search.substring(3).split('=')[3];
+    var urlType = '';
+    var showRetry = 'N';
+    var healthScanEnabled = 'False';
+    var ShowConfigLink = 'True';
+    var userSelection = 'ServiceTag';
+    var currentTag = 'JSNL002';
+    var currentModel = 'PowerEdge R420';
+    var productCode = 'poweredge-r420';
+    var indexUrl = '/support/my-support/us/en/04/Products/';
+    var eulaURL = '/support/my-support/us/en/04/product-support/scan';
+    var getDSDTokenBeforeScanUrl = '/support/my-support/us/en/04/product-support/getDSDTokenBeforeScan';
+   
+</script>
+<style type="text/css">
+    .EulaDiv
+    {
+        vertical-align:middle; 
+        height: 300px; 
+        width: 600px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        display: none;       
+        margin-top:-100px;
+    }
+</style><div class="container-fluid">
+    <div style="width: inherit; height: 37px; margin-top: 0; margin-right: 50px;">
+        <div style="float: right; margin-top: 7px;">
+            <div id="idUpdatedDiv" style="visibility: hidden;">
+                <span id="idUpdatedText">Updated</span> <span id="idUpdated">5/26/2014</span>
+                <img class="iconHover" onclick="eulaHelper.SetScanProperties('S','M','N');eulaHelper.scanEulaClickHandler();" alt="Refresh" src="http://i.dell.com/sites/metacontent/eSupport/MSE/eSupport_MSE_Images/english/_values/refresh_DellBlue_20.png" />
+                <button class="btn-link" style="margin-right: 50px;" onclick="eulaHelper.SetScanProperties('S','M','N');eulaHelper.scanEulaClickHandler();">Refresh</button>
+                <img id="scanPSH1Processing" alt="processing" style="display:none;" src="http://i.dell.com/sites/metacontent/eSupport/MSE/eSupport_MSE_Images/english/_values/processing.gif"/>
+            </div>
+        </div>
+    </div>
+    <div class="row-fluid" style="padding-bottom: 10px">
+            <div class="span4">
+                <div style="width: 213px; padding-bottom: 10px; float: left;">
+                    <img src="http://i.dell.com/das/dih.ashx/500x500/das/xa_____/global-site-design%20WEB/8c24df19-8a80-7263-d512-77ea33c6f272/1/OriginalJPG?id=Dell/Product_Images/Dell_Enterprise_Products/Enterprise_Systems/PowerEdge/Poweredge_R420/relativesized/server-poweredge-r420-relativesized-new-500.jpg" alt='PowerEdge R420' title='PowerEdge R420' style="height:inherit; width: 213px;" />
+                </div>
+            </div>                
+        <div class="span8" style="width: 520px; margin-left: 10px">
+            <div id="productDashboardContainer" class="collapse in">
+                <div>
+    <div>
+        <h4>PowerEdge R420</h4>
+    </div>
+    <div style="padding-bottom: 10px;">
+        <a class="dell_blue_text" href="http://www.dell.com/support/incidents">View support history</a>
+    </div>
+    <div style="padding-bottom: 10px;">
+        <a class="dell_blue_text" href="/support/my-support/us/en/04/">Change product</a>
+    </div>
+</div>
+<div class="row-fluid">
+    <div style="margin-top: 5px">
+        <div style="float: left; display: block" class="span5">
+            <div>
+                Model: PowerEdge R420</div>
+            <div>
+                Service Tag: JSNL002</div>
+        </div>
+        <div style="float: right; display: block; padding-left: 25px" class="span7">
+            <div>
+Ship date: 12/19/2013</div>
+            <div>
+                    <input type="hidden" id="Enddatetoshow" value="12/20/2016" />                    
+Warranty end date:                        <a id="wed" href="#warrantyModal" data-toggle="modal" class="dell_blue_text"> Verification required</a>                    
+            </div>
+        </div>
+    </div>
+</div>
+    <div id="warrantyModal" class="modal hide fade span8" tabindex="-1" role="dialog"
+        aria-labelledby="myModalLabel" aria-hidden="true" style="left: 15%">
+        <div class="modal-body" style="max-height: 530px">
+            <style type="text/css">
+    .Grey
+    {
+        background-color: #eee;
+    }
+    .White
+    {
+        background-color: White;
+    }
+    .dateStyle
+    {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        }
+</style>
+
+
+<style type="text/css">
+   .LBD_CaptchaIconsDiv
+    {
+        position: relative;
+        top: -50px;
+        left: 280px;
+    }
+    
+    .LBD_SoundIcon
+    {
+        padding-top:5px;
+    }
+    
+    .ie8 #inputServiceTag, .ie9 #inputServiceTag
+    {
+        line-height: 34px;
+        display: inline;
+    }
+</style>
+<div class="modal-header">
+    <h2>
+        Verification check is required to view warranty.
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+            ×</button><br /></h2>
+</div>
+  <br />
+    <div class="container-fluid">        
+    <div>           
+        <div  id="capthaimage"  class="row-fluid">
+            
+
+
+  <div class="LBD_CaptchaDiv" id="RegistrationCaptcha_CaptchaDiv" style="width: 280px !important; height: 50px !important;"><!--
+ --><div class="LBD_CaptchaImageDiv" id="RegistrationCaptcha_CaptchaImageDiv" style="width: 250px !important; height: 50px !important;"><!--
+   --><img class="LBD_CaptchaImage" id="RegistrationCaptcha_CaptchaImage" src="/support/my-support/BotDetectCaptcha.ashx?get=image&amp;c=RegistrationCaptcha&amp;t=47d7354602ab42ddb01eea31ffc9f872" alt="CAPTCHA" /><!-- --></div><!--
+ --><div class="LBD_CaptchaIconsDiv" id="RegistrationCaptcha_CaptchaIconsDiv" style="width: 24px !important;"><!--
+   --><a class="LBD_ReloadLink" id="RegistrationCaptcha_ReloadLink" href="#" onclick="RegistrationCaptcha.ReloadImage(); this.blur(); return false;" title="Change the CAPTCHA code"><img class="LBD_ReloadIcon" id="RegistrationCaptcha_ReloadIcon" src="/support/my-support/BotDetectCaptcha.ashx?get=ReloadIcon" alt="Change the CAPTCHA code" /></a><!--
+   --><a class="LBD_SoundLink" id="RegistrationCaptcha_SoundLink" href="/support/my-support/BotDetectCaptcha.ashx?get=sound&amp;c=RegistrationCaptcha&amp;t=47d7354602ab42ddb01eea31ffc9f872" onclick="RegistrationCaptcha.PlaySound(); this.blur(); return false;" title="Speak the CAPTCHA code"><img class="LBD_SoundIcon" id="RegistrationCaptcha_SoundIcon" src="/support/my-support/BotDetectCaptcha.ashx?get=SoundIcon" alt="Speak the CAPTCHA code" /></a><!--
+   --><div class="LBD_Placeholder" id="RegistrationCaptcha_AudioPlaceholder">&nbsp;</div><!--
+ --></div>
+    <script src="/support/my-support/BotDetectCaptcha.ashx?get=clientScriptInclude" type="text/javascript"></script>
+    <script type="text/javascript">
+    //<![CDATA[
+      BotDetect.Init('RegistrationCaptcha', '47d7354602ab42ddb01eea31ffc9f872', 'CaptchaCode', true, true, true, false, 1400, 36000, 0);
+    //]]>
+    </script>
+    <input type="hidden" name="LBD_VCID_RegistrationCaptcha" id="LBD_VCID_RegistrationCaptcha" value="47d7354602ab42ddb01eea31ffc9f872" />
+  </div>
+
+
+        </div>
+        <div id="CaptchaErrorMsgBlock" class="hidden"   style="padding-top: 20px;">
+        <div class="container-fluid alert error" style="width: 97%; margin-left:-2px;">
+            <div style="margin-left:10px;">
+            <div class="span1">
+                   <img alt="attention" src="http://i.dell.com/sites/metacontent/eSupport/MSE/eSupport_MSE_Images/english/_values/attention-alert_100x100.png" />                 
+                </div>
+            <div class="span10">                    
+                    <span class="alert-message" id="spnCaptchaErrorMsg" style="color: black"></span>
+                </div>
+            </div>
+            </div>
+        </div>                           
+        <div id="enterCaptchaTextLbl" style="padding-top:10px;">
+            <div class="span11">
+            <text style="font-size: 14px; font-family: Trebuchet MS;"> To help us protect your information, please type the verification code in the box below. You can also sign in to your My Account to bypass verification checks for all your Dell systems.</text>
+        </div>
+        </div>
+        <div class="editor-field">
+            <span><input type="text" id="CaptchaCode" /></span>
+            <span>
+                <button class="btn btn-secondary" id="btnSubmitCaptcha" onclick="commonCaptchaValidationHelper.CaptchaCodeValidation('/support/my-support/us/en/04/product-support/WarrantyDetails/JSNL002?serviceTag=JSNL002')"
+                    style="margin-left: 5px; margin-top: -10px;">Submit</button>
+            </span>
+        </div>
+    </div>
+    </div> 
+<script type="text/javascript">
+    $("#warrantyModal").keydown(function (event) {
+        var code = (event.keyCode ? event.keyCode : event.which);
+        if (code == 13) { //Enter keycode        
+            $('#btnSubmitCaptcha').trigger("click");
+            return false;
+        }
+    });
+</script><script type="text/javascript">
+    function RedirectToUrl(url) {
+        window.location.href = url;
+    }
+</script>
+
+        </div>
+    </div>
+
+<script type="text/javascript" language="javascript">
+
+    var showConfigUrl = '/support/my-support/us/en/04/product-support/AsyncConfiguration';
+    var showManualUrl = '/support/my-support/us/en/04/product-support/AsyncProductManuals';
+    var getConfigScanUrl = '/support/my-support/us/en/04/ProdSuppDashboard/AsyncCurrentConfiguration';
+    var getConfigscandata = '/support/my-support/us/en/04/product-support/GetConfigScanData';
+
+    $(document).ready(function () {
+        pSupInteractionHelper.ManageSection('JSNL002');
+    });
+
+</script>
+
+
+            </div>
+            
+            <div id="flyout">
+<div class="row-fluid">
+
+<div class="span6 flyoutHeading">
+        <div id="manuals">
+        <a><span id="manualsLink" aria-hidden="true" class="blue-text icon-ui-expand" onclick="pSupInteractionHelper.manualsClickHandler('poweredge-r420', 'PowerEdge R420');">
+        </span></a><span><a class="dell_blue_text" onclick="pSupInteractionHelper.manualsClickHandler('poweredge-r420', 'PowerEdge R420');">
+            Manuals</a></span>
+       </div>
+    </div>
+    <div class="span6 flyoutHeading">
+            <div id="config">
+            <a><span id="configLink" aria-hidden="true" class="blue-text icon-ui-expand" onclick="pSupInteractionHelper.configurationClickHandler('JSNL002','M');">
+            </span></a>
+            <span><a class="dell_blue_text" onclick="pSupInteractionHelper.configurationClickHandler('JSNL002','M');">
+                System configuration</a></span>
+            </div>
+    </div>
+    </div>
+    <script type="text/javascript">
+        var flyOuts = new Object();
+        flyOuts[0] = "/manuals";
+        flyOuts[1] = "/config";
+
+        // //variables created to handle the special characters returned to the URL after Eula/DSD scan
+        var hashC = '#C';
+        var hashTMC = '#TMC';
+        var hashM = '#M';
+        var browserlevelUrlUpdate = 'True';
+
+        $(function () {
+
+            if (navigator.appName == 'Microsoft Internet Explorer') {
+                browserlevelUrlUpdate = 'False';
+            }
+
+            pSupInteractionHelper.ManageSection('JSNL002');
+
+            // //Registering the click events on the flyouts.
+            $("#manuals").bind('click', function (e) {
+
+                if ($('#manualsLink').hasClass('icon-ui-collapse') && browserlevelUrlUpdate == 'True') {
+                    UpdateUrl('/manuals', e);
+                }
+                else if(browserlevelUrlUpdate == 'True') {
+                    UpdateUrl('', e);
+                }
+            });
+            $("#config").bind('click', function (e) {
+
+                if ($('#configLink').hasClass('icon-ui-collapse') && browserlevelUrlUpdate == 'True') {
+
+                    UpdateUrl('/config', e);
+                }
+                else if(browserlevelUrlUpdate == 'True'){
+
+                    UpdateUrl('', e);
+                }
+            });
+
+            OpenFlyOut();
+            function UpdateUrl(FlyOutText, e) {
+
+                var $href = $(location).attr('href');
+                $href = $href.replace(hashC, '')
+                    .replace(hashTMC, '')
+                    .replace(hashM, '');
+
+                var urlEnd = $href.length;
+                var sBiz = '';
+                var sBizLen = $href.indexOf('?');
+
+
+                // // Remove double slash if it's there
+
+                if (urlEnd > 0) {
+                    if ($href[urlEnd - 1] == "/") {
+                        $href = $href.substr(0, urlEnd - 1);
+                    }
+                    if (sBizLen > 0) {
+                        sBiz = $href.substr(sBizLen, urlEnd - sBizLen);
+                        $href = $href.substr(0, sBizLen);
+                    }
+                }
+
+
+
+                if ($href.indexOf('manuals') > 0) {
+                    $href = $href.replace(flyOuts[0], '');
+
+                }
+                else if ($href.indexOf('config') > 0) {
+                    $href = $href.replace(flyOuts[1], '');
+                    $href = $href.replace(flyOuts[3], '');
+                }
+
+                if (sBiz != null) {
+                    $href += FlyOutText + sBiz;
+                }
+                else {
+                    $href += FlyOutText;
+                }
+                // // HTML5 Url push using History.js
+                History.pushState({ url: $href }, document.title, $href);
+
+                e.preventDefault();
+
+            }
+            // // Function to Open the flyout on Page Load
+            function OpenFlyOut() {
+
+                if ('' == 'manuals') {
+                    pSupInteractionHelper.manualsClickHandler('poweredge-r420', 'PowerEdge R420');
+
+                }
+                else if ('' == 'config') {
+                    pSupInteractionHelper.configurationClickHandler('JSNL002', 'M');
+
+                }
+            }
+        }); 
+</script> 
+
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" language="javascript">
+    var dashboardUrl = '/support/my-support/us/en/04/product-support';
+    var validateTagUri = '/support/my-support/us/en/04/MSECaptcha/ValidateCaptcaWithServiceTag';
+    var insertDsdDbUrl = '/support/my-support/us/en/04/ProdSuppDashboard/StoreDsdInfoInDb';
+    var showConfigUrl = '/support/my-support/us/en/04/product-support/AsyncConfiguration';
+    var showManualUrl = '/support/my-support/us/en/04/product-support/AsyncProductManuals';
+    var getConfigScanUrl = '/support/my-support/us/en/04/ProdSuppDashboard/AsyncCurrentConfiguration';
+    var getConfigscandata = '/support/my-support/us/en/04/product-support/GetConfigScanData';
+</script>
+
+
+        </div>
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="container-fluid">
+                    <div id="TMCaptcha" class="span12" style="min-height: 0;">
+                        <div id="configurationContainer" class="collapse">
+                        </div>
+                        <div id="manualsContainer" class="collapse">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="NavbodyContent">
+    <div class="row-fluid">
+        <div class="span4">
+            <style type="text/css">
+    .leftArrow
+    {
+        width: 0;
+        height: 0;
+        border-top: 15px solid transparent;
+        border-right: 20px solid white;
+        border-bottom: 15px solid transparent;
+        float: right;
+        margin-top: 35px;
+        margin-bottom: 0px;
+    }
+    .TitleFont
+    {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+</style>
+<div class="row-fluid">
+    <div class="tabbable new dark" id="support">
+        <div>
+            <div id="support_nav">
+                <ul id="tabs" class="nav nav-tabs nav-stacked support_nav">
+                        <li id="tab-maintain" class="active" data-tab-name="maintain" data-tab-url="/support/my-support/us/en/04/MSE/ProdSuppMaintenance" style=" min-height: 95px;">
+                            <div id="arw-maintain" class="leftArrow" >
+                            </div>
+                            <a href="/support/my-support/us/en/04/product-support/servicetag/JSNL002/maintain">
+                                <h2 class="TitleFont">Maintain</h2>
+                                <p class="TitleFont">&#65279; Optimize your system.</p>
+                            </a></li>
+                        <li id="tab-diagnose" class="" data-tab-name="diagnose" data-tab-url="/support/my-support/us/en/04/MSE/ProdSuppDiagnostics" style=" min-height: 95px;">
+                            <div id="arw-diagnose" class="" >
+                            </div>
+                            <a href="/support/my-support/us/en/04/product-support/servicetag/JSNL002/diagnose">
+                                <h2 class="TitleFont">Diagnose an issue</h2>
+                                <p class="TitleFont">&#65279; Identify and repair performance problems.</p>
+                            </a></li>
+                        <li id="tab-research" class="" data-tab-name="research" data-tab-url="/support/my-support/us/en/04/MSE/ProdSuppResearch" style=" min-height: 95px;">
+                            <div id="arw-research" class="" >
+                            </div>
+                            <a href="/support/my-support/us/en/04/product-support/servicetag/JSNL002/research">
+                                <h2 class="TitleFont">Research a topic</h2>
+                                <p class="TitleFont">&#65279; Find do-it-yourself tools, articles and trending topics.</p>
+                            </a></li>
+                        <li id="tab-drivers" class="" data-tab-name="drivers" data-tab-url="/support/my-support/us/en/04/MSE/ProdSuppDrivers" style=" min-height: 95px;">
+                            <div id="arw-drivers" class="" >
+                            </div>
+                            <a href="/support/my-support/us/en/04/product-support/servicetag/JSNL002/drivers">
+                                <h2 class="TitleFont">Get drivers and downloads</h2>
+                                <p class="TitleFont">&#65279; Download and install the latest drivers, firmware, and software.</p>
+                            </a></li>
+                        <li id="tab-upgrade" class="" data-tab-name="upgrade" data-tab-url="/support/my-support/us/en/04/MSE/ProdSuppParts" style=" min-height: 95px;">
+                            <div id="arw-upgrade" class="" >
+                            </div>
+                            <a href="/support/my-support/us/en/04/product-support/servicetag/JSNL002/upgrade">
+                                <h2 class="TitleFont">Upgrade</h2>
+                                <p class="TitleFont">&#65279; Find parts and upgrades for your Dell products.</p>
+                            </a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" language="javascript">
+    (function () {
+        var onTabClick = function (e) {
+
+            var $this = $(this),
+                url = $this.data("tab-url"),
+                tabName = $this.data("tab-name");
+
+            // Middle click, cmd click, and ctrl click should open
+            // links in a new tab as normal.
+            if (e.which > 1 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey)
+                return;
+            e.preventDefault();
+            //Update url
+
+            History.pushState({ url: url, tabName: tabName, tabSelector: $this.attr("id") }, document.title, $this.find("a").attr("href"));
+        },
+            onStateChange = function (data, cleanUrl) {
+
+                var tabName = data.tabName,
+                    $tabDetails = $("#" + tabName),
+                    $this = $("#" + data.tabSelector),
+                    url = data.url;
+                if (tabName == 'drivers') {
+                    url = '/support/my-support/us/en/04/drivers/drivershome';
+                }
+                if (tabName == 'maintain') {
+                    url = url + '/index/' + 'JSNL002';
+                }
+               
+                if (tabName) {
+                    $tabDetails.siblings(":not(#PageLoading)").hide();
+
+                    if ($tabDetails.children().length === 0) {
+
+//                        $("#PageLoading").removeClass("hideProgressTab");
+//                        $("#PageLoading").addClass("showProgressTab");
+
+                      $('#PageLoading').show().css('margin-top','50px');
+
+                        $.ajax({
+                            type: "GET",
+                            url: url,
+                            cache: false,
+                            success: function (response) {
+                                $tabDetails.html(response);
+
+//                                $("#PageLoading").addClass("hideProgressTab");
+//                                $("#PageLoading").removeClass("showProgressTab");
+
+                                $('#PageLoading').hide().css('margin-top', '0px'); ;
+                            },
+                            error: function (response) {
+//                                $("#PageLoading").addClass("hideProgressTab");
+//                                $("#PageLoading").removeClass("showProgressTab");
+
+                                $('#PageLoading').hide().css('margin-top', '0px'); ;
+
+                                var json = jQuery.parseJSON(response.responseText);
+                                $tabDetails.html(json.message);
+                            }
+                        });
+                    }
+                    updateOmiture(tabName, cleanUrl);
+                    $tabDetails.show();
+
+                    //setActiveArrow
+                    $this.parent().find(".leftArrow").removeClass("leftArrow");
+                    $this.children("div[id^='arw-']").addClass("leftArrow");
+
+                    //SetActiveTab
+                    $this.siblings(".active").removeClass("active");
+                    $this.addClass('active');
+                }
+            },
+        loadedUrl = History.getLocationHref(),
+
+        tabOnLoad = 'maintain';
+
+        seoTab = '';
+
+        function updateOmiture(tabOn, cleanUrl) {
+            /*Omniture code for the requirement-292502*/
+            var prop13 = "esupport-mysupport|my-support|_index|tabs|";
+            switch (tabOn) {
+                case "get-started":
+                    prop13 += "get_started";
+                    break;
+                case "maintain":
+                    prop13 += "maintain";
+                    break;
+                case "diagnose":
+                    prop13 += "diagnose_an_issue";
+                    break;
+                case "research":
+                    prop13 += "research_a_topic";
+                    break;
+                case "drivers":
+                    prop13 += "get_drivers";
+                    break;
+                case "upgrade":
+                    prop13 += "upgrade";
+                    break;
+                default:
+                    break;
+            }
+
+            myOmnitureScript(prop13, tabOn, cleanUrl);
+
+        }
+
+        History.Adapter.bind(window, 'statechange', function () { // Note: We are using statechange instead of popstate
+            var state = History.getState(); // Note: We are using History.getState() instead of event.state
+
+            if (state.data && state.data.url) {
+                onStateChange(state.data, state.cleanUrl);
+            } else {
+                if (state.cleanUrl !== loadedUrl) {
+                    window.location.href = state.cleanUrl;
+                }
+                onStateChange({ tabName: tabOnLoad, tabSelector: "tab-" + tabOnLoad, url: $("#tab-" + tabOnLoad).data("tab-url") }, state.cleanUrl);
+            }
+        });
+        $(document).ready(function () {
+
+            $("#tabs > li").click(onTabClick);
+
+            // HF - Fixed 'Refresh' not working on HTML 4 browsers
+            if (!(History.emulated.pushState && History.getHash())) {
+                //Initalize the selected tab (we have to do this because the server can't do child webparts)
+                //Ajax load is not required in case of direct url. seoTab will be empty for regular user workflow.
+                if (seoTab == '') {
+                    onStateChange({ tabName: tabOnLoad, tabSelector: "tab-" + tabOnLoad, url: $("#tab-" + tabOnLoad).data("tab-url") });
+                }
+                $("#" + tabOnLoad).show();
+            }
+
+            // show warranty details popup if parameter is passed through query string.
+
+            var $warrantyModal = $('#warrantyModal');
+            if ($warrantyModal.length > 0) {
+                var query_string = location.search.replace(/\?|\//g, '');
+                query_string = query_string.replace(/\?/gi, /\&/);
+                var parms = query_string.split('&');
+
+                for (var i = 0; i < parms.length; i++) {
+                    var pos = parms[i].indexOf('=');
+                    if (pos > 0) {
+                        var key = parms[i].substring(0, pos);
+                        var val = parms[i].substring(pos + 1);
+                        if (key == 'show_warranty_modal' && val == 'true') {
+                        if($('#warrantyModal') != null)
+                            $('#warrantyModal').modal('show');
+                        }
+                    }
+                }
+                $('#warrantyModal').bind('shown', function () {
+                    history.pushState({}, '', "?show_warranty_modal=true");
+                    myOmnitureScript("us|en|bsd|04|esupport-mysupport|my-support|modal-warranty", "Warranty", state.cleanUrl);
+                });
+            }
+
+        });
+
+
+    })();
+
+</script>
+
+        </div>
+        <div class="span8">
+            <div class="tab-content" style="overflow: hidden">
+                
+<style type="text/css">
+   
+</style>
+
+
+<div>
+    <!--Async Page Loading -->
+    <div id="PageLoading" class="hideProgressTab" style="display:none;">
+        <div class="row-fluid">
+            <div class="span1">
+            </div>
+             <div class="span9">
+             <div class="span1">
+                <img id="scanProcessingTabs" alt="processing" src="http://i.dell.com/sites/metacontent/eSupport/MSE/eSupport_MSE_Images/english/_values/processing.gif" />
+            </div>
+            <div class="span8" style="margin-left: 10px;">
+                <h5>Loading, Please wait.</h5>
+            </div>
+            </div>
+            
+        </div>
+         
+    </div>
+    <!-- div for GetSTarted -->
+    <div id="get-started">
+    </div>
+    <!-- div for Maintain -->
+    <div id="maintain">
+    </div>
+    <!-- div for Diagnostics -->
+    <div id="diagnose">
+    </div>
+    <!-- div for ResearchTopic -->
+    <div id="research">
+    </div>
+    <!-- div for Drivers -->
+    <div id="drivers">
+    </div>
+    <!-- div for PartsAndUpgrade -->
+    <div id="upgrade">
+    </div>
+</div>
+
+<script type="text/javascript">
+    var ShowCurrentConfigLink = ('True' != null) ? 'True' : 'False';
+
+    // HF - Enabling Detect My Prodcut button for Windows OS
+    $(document).ready(function () {
+        if (windowsOSValidationHelper != null) {
+            var enableAnalyzeNow = windowsOSValidationHelper.enableDetectMyProduct();
+
+            if (enableAnalyzeNow && (ShowCurrentConfigLink == 'True'))
+                $('#secondTab').css("visibility", "visible");
+        }
+    });
+</script>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- This wil paint the Left Navigation tabs. -->
+<!-- Running on P61VMESUPPUI13 -->
+<script type="text/javascript">
+   
+   function rewriteLoginLink() {
+        var loginLink = $("#loginLink");
+       
+        if ($(loginLink).length > 0) {
+            $(loginLink).attr("href", "#");
+            $(loginLink).click(function (e) {
+                window.location = "https://www.dell.com/identity/v2/discovery?wa=wsignin1.0&wtrealm=http%3A%2F%2Fwww.dell.com&wreply=http%3A%2F%2Fwww.dell.com%2Fsupport%2Fmy-support%2Fen%2Fzh%2Fcnbsd1%2Fproduct-support%2Fservicetag%2FJSNL002%3Fs%3DBSD&whr=urn:transaction";
+                e.preventDefault();
+                
+            });
+        }
+    }
+    try {
+        Dell.SupportMasthead.CountrySelector.keypress = function () { };
+    }
+    catch (ex) { }
+
+       $(document).ready(function () {
+        rewriteLoginLink();
+    });
+</script>
+<head>
+    <meta content="no-cache" http-equiv="Pragma" />
+</head>
+
+</div>
+            </div>
+            <div class="tbtsBottomWrap">
+                <div class="tbtsLL">
+                </div>
+                <div class="tbtsLM">
+                    <div class="tbtsLMTriangle"></div>
+                </div>
+                <div class="tbtsLR">
+                </div>
+            </div>
+        </div>
+
+    <!-- ie6 & 7 fix for gradient box -->
+    <!--[if IE 6]>
+    <script>
+    if ($(".uif_gradBox").length > 0) {
+    var cc = 0;
+        $(function(){
+            if( cc== 0) {
+                $(".uif_gradBox .tbtsCenterWrap").each(function(){  
+                     var thisWidth = $(this).width() - 2;
+                    $(this).css("margin-left", 0).width(thisWidth);
+                })
+            }
+            cc=1;
+         })
+   }
+    </script>
+    <![endif]-->
+    </div>
+
+                        </div>
+                </div>
+        </div>
+    </div>
+    
+
+
+<footer class="uif_footer">
+    <div class="uif_footerWrap">
+        <div class="uif_footerTop">
+            
+<div class="uif_mhBreadcrumbWrap gsd_bodyCopySmall">
+            <a href="http://www.dell.com/content/default.aspx" class=" gsd_links3">Dell</a>
+                <span class='uif_arrowRight'></span>
+            <a href="http://www.dell.com/support/my-support?~ck=mn" class=" gsd_links3">Support</a>
+                <span class='uif_arrowRight'></span>
+            <span class="uif_currentPage">Product Support</span>
+</div>
+<form action="http://www.dell.com/search/us/en/04/results" method="get">
+    
+    
+    <div class="uif_mhSearchWrap">
+        <input class="uif_searchInput gsd_bodyCopyMedium" type="text" name="q"/>
+        <button id="" type="submit" href="" class="uif5_button uif5_btnSecondary"  >
+    <span class="uif5_btnTxt gsd_bodyTitleMediumAlt1 gsd_accentColor7">Search</span>
+</button>
+    </div>
+</form>         </div>
+            <div class="uif_footerContentWrap clearfix">
+                
+           
+               
+                
+                    <ul class="uif_footerColWrap">
+                                           <li class="uif_footerColLI                         uif_first
+">
+                            <h2 class="uif_footerColTitle">Do more with Dell</h2>
+                            <ul class="uif_footerContextLinkWrap">
+                                    <li>
+                                        <span class="uif_arrowRight"></span>
+                                        
+
+<a class="uif_link " id="" href="http://www.dell.com/content/segmenter.aspx?c=us&cs=6099&l=en&s=eep" title="" target="" >Employee and Student Discounts</a>
+
+
+                                    </li>
+                                    <li>
+                                        <span class="uif_arrowRight"></span>
+                                        
+
+<a class="uif_link " id="" href="http://www.dell.com/content/public/xdbredirect.aspx?link=global:nav:partners" title="" target="" >PartnerDirect</a>
+
+
+                                    </li>
+                                    <li>
+                                        <span class="uif_arrowRight"></span>
+                                        
+
+<a class="uif_link " id="" href="http://thepowertodomore.dell.com/" title="" target="" >The power to do more</a>
+
+
+                                    </li>
+                                    <li>
+                                        <span class="uif_arrowRight"></span>
+                                        
+
+<a class="uif_link " id="" href="http://www.dell.com/learn/us/en/22/campaigns/outlet" title="" target="" >Dell Outlet</a>
+
+
+                                    </li>
+                                    <li>
+                                        <span class="uif_arrowRight"></span>
+                                        
+
+<a class="uif_link " id="" href="http://en.community.dell.com/techcenter/default.aspx" title="" target="" >TechCenter</a>
+
+
+                                    </li>
+                                    <li>
+                                        <span class="uif_arrowRight"></span>
+                                        
+
+<a class="uif_link " id="" href="https://dfs.dell.com/Pages/DFSHomePage.aspx" title="" target="" >Make a Payment</a>
+
+
+                                    </li>
+                            </ul>
+                        </li>
+                       <li class="uif_footerColLI ">
+                            <h2 class="uif_footerColTitle">Company</h2>
+                            <ul class="uif_footerContextLinkWrap">
+                                    <li>
+                                        <span class="uif_arrowRight"></span>
+                                        
+
+<a class="uif_link " id="" href="http://www.dell.com/learn/about-dell-investor?s=corp" title="" target="" >Investors</a>
+
+
+                                    </li>
+                                    <li>
+                                        <span class="uif_arrowRight"></span>
+                                        
+
+<a class="uif_link " id="" href="http://www.dell.com/learn/about-dell?s=corp" title="" target="" >About Dell</a>
+
+
+                                    </li>
+                                    <li>
+                                        <span class="uif_arrowRight"></span>
+                                        
+
+<a class="uif_link " id="" href="http://www.dell.com/learn/cr?s=corp" title="" target="" >Corporate Responsibility</a>
+
+
+                                    </li>
+                                    <li>
+                                        <span class="uif_arrowRight"></span>
+                                        
+
+<a class="uif_link " id="" href="http://www.dell.com/learn/customer-engagement?s=corp" title="" target="" >Customer Engagement</a>
+
+
+                                    </li>
+                                    <li>
+                                        <span class="uif_arrowRight"></span>
+                                        
+
+<a class="uif_link " id="" href="http://www.dell.com/learn/careers?s=corp" title="" target="" >Careers</a>
+
+
+                                    </li>
+                                    <li>
+                                        <span class="uif_arrowRight"></span>
+                                        
+
+<a class="uif_link " id="" href="http://www.dell.com/learn/about-dell-newsroom?s=corp" title="" target="" >Dell Newsroom</a>
+
+
+                                    </li>
+                            </ul>
+                        </li>
+                       <li class="uif_footerColLI ">
+                            <h2 class="uif_footerColTitle">Legal</h2>
+                            <ul class="uif_footerContextLinkWrap">
+                                    <li>
+                                        <span class="uif_arrowRight"></span>
+                                        
+
+<a class="uif_link " id="" href="http://www.dell.com/learn/policies-ads-and-emails?s=corp" title="" target="" >Ads & Emails</a>
+
+
+                                    </li>
+                                    <li>
+                                        <span class="uif_arrowRight"></span>
+                                        
+
+<a class="uif_link " id="" href="http://www.dell.com/learn/policies-privacy?s=corp" title="" target="" >Privacy Statement</a>
+
+
+                                    </li>
+                                    <li>
+                                        <span class="uif_arrowRight"></span>
+                                        
+
+<a class="uif_link " id="" href="http://www.dell.com/learn/terms?s=corp" title="" target="" >Legal & Regulatory</a>
+
+
+                                    </li>
+                                    <li>
+                                        <span class="uif_arrowRight"></span>
+                                        
+
+<a class="uif_link " id="" href="http://www.dell.com/learn/terms-of-sale?s=corp" title="" target="" >Terms & Conditions</a>
+
+
+                                    </li>
+                                    <li>
+                                        <span class="uif_arrowRight"></span>
+                                        
+
+<a class="uif_link " id="" href="http://www.dell.com/learn/trademarks?s=corp" title="" target="" >Trademarks</a>
+
+
+                                    </li>
+                            </ul>
+                        </li>
+                       <li class="uif_footerColLI ">
+                            <h2 class="uif_footerColTitle">Community</h2>
+                            <ul class="uif_footerContextLinkWrap">
+                                    <li>
+                                        <span class="uif_arrowRight"></span>
+                                        
+
+<a class="uif_link " id="" href="http://en.community.dell.com/" title="" target="" >The Dell Community</a>
+
+
+                                    </li>
+                                    <li>
+                                        <span class="uif_arrowRight"></span>
+                                        
+
+<a class="uif_link " id="" href="http://en.community.dell.com/dell-blogs/direct2dell/b/direct2dell/default.aspx" title="" target="" >Read our Blog</a>
+
+
+                                    </li>
+                                    <li>
+                                        <span class="uif_arrowRight"></span>
+                                        
+
+<a class="uif_link " id="" href="http://en.community.dell.com/support-forums/default.aspx" title="" target="" >Discussion Forums</a>
+
+
+                                    </li>
+                            </ul>
+                        </li>
+ 
+                    </ul>  
+            </div> 
+        
+            <div class="uif_footerNavWrap gsd_bodyCopySmall gsd_accentColor1 clearfix">
+                <div class="uif_copyright">
+                    &#160;
+                </div>
+               
+                      <ul class="universalFooterLinks">
+                              <li>
+                                  <span class="uif_lineDelim"></span>
+                                  
+
+<a class="uif_link " id="" href="http://www.dell.com/learn/site-terms-of-use-copyright?s=corp" title="" target="" >© 2014 Dell</a>
+
+
+                              </li>
+                              <li>
+                                  <span class="uif_lineDelim"></span>
+                                  
+
+<a class="uif_link " id="" href="http://www.dell.com/learn/terms-of-sale?s=corp" title="" target="" >Terms & Conditions</a>
+
+
+                              </li>
+                              <li>
+                                  <span class="uif_lineDelim"></span>
+                                  
+
+<a class="uif_link " id="" href="http://www.dell.com/content/public/xdbredirect.aspx?link=support:dellcare:outstanding_issues" title="" target="" >Unresolved Issues</a>
+
+
+                              </li>
+                              <li>
+                                  <span class="uif_lineDelim"></span>
+                                  
+
+<a class="uif_link " id="" href="http://www.dell.com/learn/policies-privacy?s=corp" title="" target="" >Privacy Statement</a>
+
+
+                              </li>
+                              <li>
+                                  <span class="uif_lineDelim"></span>
+                                  
+
+<a class="uif_link " id="" href="http://www.dell.com/learn/policies-ads-and-emails?s=corp" title="" target="" >Ads & Emails</a>
+
+
+                              </li>
+                              <li>
+                                  <span class="uif_lineDelim"></span>
+                                  
+
+<a class="uif_link " id="" href="http://www.dell.com/learn/terms?s=corp" title="" target="" >Legal & Regulatory</a>
+
+
+                              </li>
+                              <li>
+                                  <span class="uif_lineDelim"></span>
+                                  
+
+<a class="uif_link " id="" href="http://www.dell.com/support/Contents/us/en/04/category/Contact-Information?~ck=mn" title="" target="" >Contact Us</a>
+
+
+                              </li>
+                              <li>
+                                  <span class="uif_lineDelim"></span>
+                                  
+
+<a class="uif_link " id="" href="http://www.dell.com/learn/dell-environment-recycling?s=corp" title="" target="" >Dell Recycling</a>
+
+
+                              </li>
+                              <li>
+                                  <span class="uif_lineDelim"></span>
+                                  
+
+<a class="uif_link " id="" href="http://www.dell.com/sitemap" title="" target="" >Site Map</a>
+
+
+                              </li>
+                              <li>
+                                  <span class="uif_lineDelim"></span>
+                                  
+
+<a class="uif_link toolbar_feedback" id="" href="http://www.dell.com/feedback" title="" target="" >Feedback</a>
+
+
+                              </li>
+                      </ul>
+            </div>
+
+       <script type="text/javascript">checkFooterBreadCrumbCollision();</script>
+
+        <div class="uif_legalWrap">
+         
+<script type="text/javascript">    
+
+    $(function () { $(".uif_legalWrap").append('<p><br/> Offers subject to change, not combinable with all other offers. Taxes, shipping, handling and other fees apply. U.S. Dell Home and Home Office new purchases only. Dell reserves the right to cancel orders arising from pricing or other errors.</p>'); });
+</script>
+
+        </div>
+    </div>
+</footer>
+<script>
+     $(function () {
+        $(".universalFooterLinks").UniversalLinkAdjuster();
+    })
+</script>
+    
+<script type="text/javascript" src="http://fcs.dell.com/fcs/us/en/_/UIFramework/res/JsSet?id=bottom&type=framework&ver=622859708620000000&compress=False&fwv=3.3.99.3"></script><script type="text/javascript" src="http://afcs.dell.com/support/my-support/us/en/_/UIFramework/res/JsSet?id=pSupInteractionHelperSet&type=application&ver=622859708620000000&compress=False&fwv=3.3.99.3"></script><script type="text/javascript" src="http://afcs.dell.com/support/my-support/us/en/_/UIFramework/res/js?path=sherpa%2Fbootstrap&type=application&ver=622859708620000000&compress=False&fwv=3.3.99.3"></script><script type="text/javascript" src="http://afcs.dell.com/support/my-support/us/en/_/UIFramework/res/js?path=sherpa%2Fgoogle-code-prettify%2Fprettify&type=application&ver=622859708620000000&compress=False&fwv=3.3.99.3"></script><script type="text/javascript" src="http://afcs.dell.com/support/my-support/us/en/_/UIFramework/res/js?path=knockout-2.2.1&type=application&ver=622859708620000000&compress=False&fwv=3.3.99.3"></script><script type="text/javascript" src="http://afcs.dell.com/support/my-support/us/en/_/UIFramework/res/JsSet?id=DndCoreJsSets&type=application&ver=622859708620000000&compress=False&fwv=3.3.99.3"></script>    <script type="text/javascript">
+        var dell_trackingLinks=[];
+
+        if (typeof (s_code) != 'undefined') {
+            s_dell.pageName = "";
+            mapToSchema();
+                
+                  var s_code = s_dell.t(); if (s_code) document.write(s_code);
+                
+            
+        }
+    </script>
+    
+  <div class="uif_stdCornerBox gsd_bodyCopySmall gsd_accentColor1 uif_validationTooltip uif_ContainerWithX " 
+         id="uifValidationMessageDefault" 
+         style="width:200px" 
+      >
+          <div class="dbtsBodyWrap">
+            <div class="tbtsTopWrap">
+                <div class="tbtsUL">
+                </div>
+                <div class="tbtsUM">
+                    <div class="tbtsUMTriangle"></div>
+                </div>
+                <div class="tbtsUR">
+                </div>
+            </div>
+          <div class="tbtsCenterWrap">
+            <div class="tbtsClose"></div>
+                <div class="tbtsBodyTriangle"></div>
+  
+                <div class="tbtsBody clearfix ">
+                                              
+               
+</div>
+            </div>
+            <div class="tbtsBottomWrap">
+                <div class="tbtsLL">
+                </div>
+                <div class="tbtsLM">
+                    <div class="tbtsLMTriangle"></div>
+                </div>
+                <div class="tbtsLR">
+                </div>
+            </div>
+        </div>
+
+    <!-- ie6 & 7 fix for gradient box -->
+    <!--[if IE 6]>
+    <script>
+    if ($(".uif_gradBox").length > 0) {
+    var cc = 0;
+        $(function(){
+            if( cc== 0) {
+                $(".uif_gradBox .tbtsCenterWrap").each(function(){  
+                     var thisWidth = $(this).width() - 2;
+                    $(this).css("margin-left", 0).width(thisWidth);
+                })
+            }
+            cc=1;
+         })
+   }
+    </script>
+    <![endif]-->
+    </div>
+
+    <script type="text/javascript" src="http://www.dell.com/support/client/api/esupportclientapi.js"></script>
+    <script type="text/javascript">
+        var isDsdInstalled = false;
+        var eulaDisplayed = false;
+        /*var tokenExpires = '';
+        var isAliveToken = '';
+        var getServiceTagToken = '';*/
+
+        var dsd = new $.eSupportClientApi();
+
+        $(document).ready(function () {
+            dsd.tokenExpires.setValue(tokenExpires);
+            dsd.isAliveToken.setValue(isAliveToken);
+            dsd.getClientSystemInfoToken.setValue(getServiceTagToken);
+            dsd.findService(function () {
+                isDsdInstalled = true;
+            }, function (tagResponse) {
+                isDsdInstalled = false;
+            });
+
+        });
+    </script>
+</body>
+</html>
