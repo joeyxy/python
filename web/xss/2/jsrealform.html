@@ -1,0 +1,37 @@
+<html>
+<head> 
+<title>
+test for the js read the form data
+</title>
+
+<script>
+function readClipboard(){
+  alert(window.clipboardData.getData('text'));
+}
+
+function setClipboard(){
+ var t=document.getElementById("someData").innerText;
+ window.clipboarddata.setData('text',t);
+}
+
+</script>
+
+</head>
+
+
+<body>
+<form id="text" action="test.php" method="post">
+<div id="someData">
+ <textarea rows="4" cols="40" name="text">
+ </textarea>
+</div>
+<input type="button" value="copy msg" onclick="setClipboard()">
+<input type="button" value="view msg" onclick="readClipboard()">
+<input type="button" value="clear msg" onclic="window.clipboardData.clearData('text');">
+
+
+</form>
+
+</body>
+
+</html>

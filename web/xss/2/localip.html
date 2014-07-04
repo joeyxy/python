@@ -1,0 +1,28 @@
+<html>
+<head>
+ <title>js get the local ip  </title>
+</head>
+
+<body>
+<script>
+function GetLocalIPAddress()
+{
+ var obj = null;
+ var rslt = "";
+ try 
+ {
+  obj = new ActiveXObject("rcbdyctl.Setting");
+  rslt = obj.GetIPAddress;
+  obj = null;
+ }
+ catch(e)
+ {
+  document.write("read error");
+ }
+ return rslt;
+}
+document.write("your ip is:" + GetLocalIPAddress());
+</script>
+</body>
+
+</html>
