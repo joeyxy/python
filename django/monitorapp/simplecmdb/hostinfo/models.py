@@ -21,6 +21,14 @@ class Host(models.Model):
     def __unicode__(self):
         return self.hostname
 
+class Monitor(models.Model):
+    ip = models.IPAddressField(max_length=15)
+    time = models.DateTimeField(max_length=15)
+    game = models.CharField(max_length=30)
+    app =  models.CharField(max_length=30)
+    pid = models.IntegerField(max_length=20)
+    useage = models.IntegerField(max_length=20)
+
 
 class HostGroup(models.Model):
 	name = models.CharField(max_length=30)

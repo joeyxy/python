@@ -22,28 +22,7 @@ def getHostInfo():
 
 
 def getHostTotal():
-    ld = []
-    cpuinfo = parserCpuInfo(getCpuInfo())
-    diskinfo = parserDiskInfo(getDiskInfo())
-    for i in parserMemInfo(getMemInfo()):
-        meminfo = i
-    productinfo = parserDMI(getDMI())
-    hostinfo = getHostInfo()
-    ipaddr = parserIpaddr(getIpaddr())
-    for i in ipaddr:
-        ip = i
-    for k in cpuinfo.iteritems():
-        ld.append(k)
-    for i in diskinfo.iteritems():
-        ld.append(i)
-    for j in meminfo.iteritems():
-        ld.append(j)
-    for v in productinfo.iteritems():
-        ld.append(v)
-    for x in hostinfo.iteritems():
-        ld.append(x)
-    for y in ip.iteritems():
-        ld.append(y)
+    ld = {'ip':'192.168.2.11','time':'2014-07-09 12:30','game':'mhtq','app':'jdk','pid':'1234','useage':'105'}
     return ld
 
 def parserHostTotal(hostdata):
@@ -56,14 +35,14 @@ def urlPost(postdata):
     try:
         data = urllib.urlencode(postdata)
         headers = {'User-Agent':'Mozilla/5.0(Windows;U;Windows NT 6.1;en-US;rv:1.9.1.6)Gecko/20091201 Firefox/3.5.6'}
-        req = urllib2.Request('http://192.168.1.4:8080/api/collect',headers=headers,data=data)
-        url = 'http://192.168.1.4:8080/api/collect'
+        req = urllib2.Request('http://192.168.2.38:8090/api/monitor_collect',headers=headers,data=data)
+        url = 'http://192.168.2.38:8090/api/monitor_collect'
         response = urllib2.urlopen(req)
         return response.read()
     except urllib2.HTTPError,e:
         print e
 if __name__=='__main__':
-    hostdata = getHostTotal()
-    postdata = parserHostTotal(hostdata)
+    postdata = getHostTotal()
+    #postdata = parserHostTotal(hostdata)
     print postdata
     print urlPost(postdata)

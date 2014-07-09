@@ -1,6 +1,6 @@
 from django.shortcuts import render_to_response
 from django.http import HttpResponse
-from models import Host,HostGroup
+from models import Host,HostGroup,Monitor
 
 try:
 	import json
@@ -66,3 +66,31 @@ def gethosts(req):
         d.append(ret_hg)
     ret = {'status':0,'data':d,'mesage':'ok'}
     return HttpResponse(json.dumps(ret))
+
+
+def monitor_list(request):
+    monitors = Monitor.objects.all()
+    return render_to_response('monitor_list.html',{'monitors':monitors})
+
+
+
+def monitor_collect(request):
+    req = request
+    if req.POST:
+        ip = req.POST.get('ip')
+        time = req.POST.get('time')
+        game = req.POST.get('game')
+        app = req.POST.get('app')
+        pid = req.POST.get('pid')
+        useage = req.POST.get('useage')
+        monitor = Monitor()
+        monitor.ip = ip
+        monitor.time = time
+        monitor.game = game
+        monitor.app = app
+        monitor.pid = pid
+        monitor.useage = useage
+        monitor.save()
+        return HttpResponse('OK')
+    else:
+        return HttpResponse('no post data')

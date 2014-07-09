@@ -8,6 +8,8 @@ urlpatterns = patterns('',
     url(r'^api/gethosts\.json$','hostinfo.views.gethosts'),
     url(r'^admin/',include(admin.site.urls)),
     url(r'^api/collect$','hostinfo.views.collect'),
+    url(r'^api/monitor_collect$','hostinfo.views.monitor_collect'),
+    url(r'^monitor_list/$','hostinfo.views.monitor_list'),
     # Examples:
     # url(r'^$', 'simplecmdb.views.home', name='home'),
     # url(r'^simplecmdb/', include('simplecmdb.foo.urls')),

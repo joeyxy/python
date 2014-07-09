@@ -1,4 +1,4 @@
-from models import Host,HostGroup
+from models import Host,HostGroup,Monitor
 from django.contrib import admin
 
 class HostAdmin(admin.ModelAdmin):
@@ -7,5 +7,9 @@ class HostAdmin(admin.ModelAdmin):
 class HostGroupAdmin(admin.ModelAdmin):
 	list_display = ['name',]
 
+class MonitorAdmin(admin.ModelAdmin):
+    list_display=['ip','time','game','app','pid','useage']
+
 admin.site.register(HostGroup,HostGroupAdmin)
 admin.site.register(Host,HostAdmin)
+admin.site.register(Monitor,MonitorAdmin)

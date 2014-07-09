@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block title %}Monitor Detail{% endblock %}
+
+{% block content %}
+<table border=1>
+<tr>
+<th>ip</th>
+<th>time</th>
+<th>game</th>
+<th>app</th>
+<th>pid</th>
+<th>useage</th>
+</tr>
+{% for server in monitors.all %}
+<tr>
+    <td>{{ server.ip }}</td>
+    <td>{{ server.time }}</td>
+    <td>{{server.game}}</td>
+    <td>
+        {{ server.app }}
+    </td>
+     <td> {{server.pid}}
+    </td>
+    <td>{{ server.useage }}</td>
+</div>
+</tr>
+{% endfor %}
+</table>
+{% endblock %}
