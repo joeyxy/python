@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% load bootstrap_toolkit %}
+
+{% block extra_head %}
+    {{ form.media }}
+{% endblock %}
+
+{% block content %}
+
+    <h1>This is a <em>{{ layout }}</em> Django form, bootstrapped</h1>
+    
+    <p>&nbsp;</p>
+        
+    <form class="form-{{ layout }}" action="" method="post">
+        {% csrf_token %}
+        {{ form|as_bootstrap:layout }}
+        {% if layout == "horizontal" %}
+            <p class="form-actions">
+                <input type="submit" value="Submit" class="btn btn-primary">
+            </p>
+        {% else %}
+            <input type="submit" value="Submit" class="btn btn-primary">
+        {% endif %}
+    </form>
+
+    <p>Submit the form to see error messages styled into it.</p>
+
+{% endblock %}

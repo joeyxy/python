@@ -1,6 +1,6 @@
 from django.shortcuts import render_to_response
 from django.http import HttpResponse
-from models import Host,HostGroup,Monitor
+from models import Host,HostGroup,Monitor,tq_admin
 
 try:
 	import json
@@ -72,8 +72,33 @@ def monitor_list(request):
     monitors = Monitor.objects.all()
     return render_to_response('monitor_list.html',{'monitors':monitors})
 
+def tq_list(requst):
+    tqstatus = tq_admin.objects.all()
+    return render_to_response('tq_list.html',{'tqstatus':tqstatus})
 
 
+def tq_collect(request):
+    req = request
+    if req.POST:
+        ip  = req.POST.get('ip')
+        time = req.POST.get('time')
+        zone = req.POST.get('zone')
+        app = req.POST.get('app')
+        ops = req.POST.get('ops')
+        status = req.POST.get('status')
+        runtime = req.POST.get('runtime')
+        tq_list = tq_admin()
+        tq_list.ip = ip
+        tq_list.time = time
+        tq_list.zone=zone
+        tq_list.app = app
+        tq_list.ops = ops
+        tq_list.status = status
+        tq_list.runtime = runtime
+        tq_list.save()
+        return HttpResponse('OK')
+    else:
+        return HttpResponse('no post data')
 def monitor_collect(request):
     req = request
     if req.POST:

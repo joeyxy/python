@@ -22,7 +22,8 @@ def getHostInfo():
 
 
 def getHostTotal():
-    ld = {'ip':'192.168.2.11','time':'2014-07-09 12:30','game':'mhtq','app':'jdk','pid':'1234','useage':'105'}
+    ld = {'ip':'192.168.2.11','time':'20140716','game':'mhtq','app':'jdk','pid':'1234','useage':'105'}
+    #ld = {'ip':'192.168.2.11','time':'2014-07-09 12:30','game':'mhtq','app':'jdk','pid':'1234','useage':'105'}
     return ld
 
 def parserHostTotal(hostdata):
@@ -42,7 +43,17 @@ def urlPost(postdata):
     except urllib2.HTTPError,e:
         print e
 if __name__=='__main__':
-    postdata = getHostTotal()
+    if len(sys.argv) != 7:
+        sys.stderr.write("Usage:./api.py ip time game application pid useage\n")
+        raise SystemExit(1)
+    ip = sys.argv[1]
+    time = sys.argv[2]
+    game = sys.argv[3]
+    app = sys.argv[4]
+    pid = sys.argv[5]
+    useage = sys.argv[6]
+    postdata = {'ip':ip,'time':time,'game':game,'app':app,'pid':pid,'useage':useage}
+    #postdata = getHostTotal()
     #postdata = parserHostTotal(hostdata)
     print postdata
     print urlPost(postdata)

@@ -23,11 +23,22 @@ class Host(models.Model):
 
 class Monitor(models.Model):
     ip = models.IPAddressField(max_length=15)
-    time = models.DateTimeField(max_length=15)
+    time = models.CharField(max_length=20)
+    #time = models.DateTimeField(max_length=15)
     game = models.CharField(max_length=30)
     app =  models.CharField(max_length=30)
     pid = models.IntegerField(max_length=20)
     useage = models.IntegerField(max_length=20)
+
+
+class tq_admin(models.Model):
+    ip = models.IPAddressField(max_length=15)
+    time = models.CharField(max_length=20)
+    zone = models.CharField(max_length=20)
+    app = models.CharField(max_length=30)
+    ops = models.CharField(max_length=10)
+    status = models.CharField(max_length=10)
+    runtime = models.CharField(max_length=20)
 
 
 class HostGroup(models.Model):

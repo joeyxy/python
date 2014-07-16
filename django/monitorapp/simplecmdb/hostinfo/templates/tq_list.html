@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}TQ list Detail{% endblock %}
+
+{% block content %}
+<table align="center" border=1>
+<tr>
+<th>ip</th>
+<th>time</th>
+<th>zone</th>
+<th>app</th>
+<th>ops</th>
+<th>status</th>
+<th>runtime</th>
+</tr>
+{% for server in tqstatus.all %}
+<tr>
+    <td>{{ server.ip }}</td>
+    <td>{{ server.time }}</td>
+    <td>{{server.zone}}</td>
+    <td> {{ server.app }} </td>
+     <td> {{server.ops}}</td>
+    <td ><font color=#ea5e01>{{ server.status }}</td>
+    <td >{{ server.runtime }}</td>
+</div>
+</tr>
+{% endfor %}
+</table>
+{% endblock %}

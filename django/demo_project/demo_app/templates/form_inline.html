@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% load bootstrap_toolkit %}
+
+{% block content %}
+
+<h1>This is form layout is {{ layout }}</h1>
+
+<p>&nbsp;</p>
+
+<form class="form-{{ layout }}" action="" method="post">
+
+    {% csrf_token %}
+
+    {{ form|as_bootstrap:layout }}
+
+    <input type="submit" class="text btn btn-primary">
+
+</form>
+
+<p>Submit the form to see error messages styled into it.</p>
+
+{% endblock %}
+

@@ -1,4 +1,4 @@
-from models import Host,HostGroup,Monitor
+from models import Host,HostGroup,Monitor,tq_admin
 from django.contrib import admin
 
 class HostAdmin(admin.ModelAdmin):
@@ -10,6 +10,11 @@ class HostGroupAdmin(admin.ModelAdmin):
 class MonitorAdmin(admin.ModelAdmin):
     list_display=['ip','time','game','app','pid','useage']
 
+
+class tq_adminAdmin(admin.ModelAdmin):
+    list_display=['ip','time','zone','app','ops','status','runtime']
+
 admin.site.register(HostGroup,HostGroupAdmin)
 admin.site.register(Host,HostAdmin)
 admin.site.register(Monitor,MonitorAdmin)
+admin.site.register(tq_admin,tq_adminAdmin)
