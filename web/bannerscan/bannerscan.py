@@ -1,5 +1,7 @@
+#!/usr/bin/env python
+
 #coding=utf-8
-__author__ = 'DM_'
+#__author__ = 'DM_'
 #Modifed by le4f
 
 import threading
