@@ -1,0 +1,99 @@
+﻿/* Sticky footer styles
+-------------------------------------------------- */
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+
+
+.sc_tjrep_abs [class*="tj_report_icon"] {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  background-image: url("/css/tjl_report_80_80.68c6b0df14c5.png");
+  background-repeat: no-repeat;
+  /*background-color: #aaa;*/
+  top: 5px;
+  left: 25px
+}
+
+.tj_80x80_level_unknown {
+  background-position: -386px 0;
+}
+.tj_80x80_level_high {
+  background-position: -290px 0;
+}
+.tj_80x80_level_safe {
+  background-position: 0 0;
+}
+.tj_80x80_level_medium {
+  background-position: -193px 0;
+}
+.tj_80x80_level_low {
+  background-position: -96px 0;
+}
+.sc-safe {
+  color: #54b200;
+}
+
+.check-tips {
+    font-size: 16px;
+    color: #444;
+    line-height: 25px;
+    padding-top: 15px;
+}
+#search_box {
+    margin: 0px auto;
+    border-right: 1px solid #DBDBDB;
+    border-width: medium 1px 1px;
+    border-style: none solid solid;
+    border-color: -moz-use-text-color #DBDBDB #DBDBDB;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    width: 996px;
+    height: 288px;
+}
+.warp2 {
+    background: none repeat scroll 0 0 #FBFBFB;
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+    margin: 10px auto 0;
+    padding: 20px;
+    width: 960px;
+}
+/*report style v_2*/
+.tac {
+  font-size: 25px;
+  font-weight: bold;
+  height: 30px;
+  line-height: 30px;
+}
+.popover.static {
+  display: block;
+  position: relative;
+}
+
+/*INDEX首页查询*/

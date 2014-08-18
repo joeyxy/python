@@ -1,0 +1,37 @@
+Weevely is a stealth PHP web shell that simulate an SSH-like connection. It is an essential tool for web application post exploitation, and can be used as stealth backdoor or as a web shell to manage legit web accounts, even free hosted ones.
+
+Official website:
+
+http://epinna.github.com/Weevely/
+
+Getting started with a quick Tutorial:
+
+https://github.com/epinna/Weevely/wiki/Tutorial
+
+Or show list of available Modules and backdoor Generators:
+
+https://github.com/epinna/Weevely/wiki/Modules-list
+https://github.com/epinna/Weevely/wiki/Generators-list
+
+Main features:
+
+* More than 30 modules to automate administration and post exploitation tasks:
+
+  o Execute commands and browse remote filesystem, even with PHP security restriction
+  o Audit common server misconfigurations
+  o Run SQL console pivoting on target machine
+  o Proxy your HTTP traffic through target
+  o Mount target filesystem to local mount point
+  o File transfer from and to target
+  o Spawn reverse and direct TCP shells
+  o Bruteforce SQL accounts through target system users
+  o Run port scans from target machine
+  o And so on..
+
+* Backdoor communications are hidden in HTTP Cookies
+* Communications are obfuscated to bypass NIDS signature detection
+* Backdoor polymorphic PHP code is obfuscated to avoid HIDS AV detection
+
+Weevely author keep Dissecting, a security related blog:
+
+http://disse.cting.org/
