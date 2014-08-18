@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% load bootstrap_toolkit %}
+
+{% block content %}
+
+    <h1>Pagination</h1>
+
+    <table class="table">
+        {% for line in lines %}
+            <tr>
+                <td>{{ line }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+
+    {{ lines|pagination }}
+
+    <hr>
+
+    {% bootstrap_pagination lines url="/pagination?page=1&flop=flip" extra="q=foo" size="mini" align="right" %}
+
+    {% bootstrap_pagination lines url="/pagination?page=1" align="center" size="large" %}
+
+{% endblock %}
