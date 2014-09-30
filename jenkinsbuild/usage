@@ -1,0 +1,5 @@
+[root@slave ~]# ./buidltest.py deploy_dh_android_scripts_basetable_resource_to_prod 
+<jenkinsapi.invocation.Invocation object at 0x2ada350>
+[root@slave ~]# ./buidltest.py deploy_prod_dh_android_resource
+<jenkinsapi.invocation.Invocation object at 0x1f38350>
+[root@slave ~]# ./buidltest.py deploy_xy_scripts_and_resource_to_test_environment
