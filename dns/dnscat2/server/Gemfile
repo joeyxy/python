@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+
+gem 'rubydns'  # dns
+gem 'trollop'  # commandline parsing
+gem 'rainbow'
