@@ -1,0 +1,2 @@
+#LWP-Cookies-2.0
+Set-Cookie3: SESS41072b33730d75583216007e81bc6912="vPE_I_gQxyK6Ru8qxJhH8TXZoDp-cDIhDuY3htnk_Qo"; path="/"; domain="127.0.0.1"; path_spec; expires="2014-11-10 11:49:06Z"; HttpOnly=None; version=0
