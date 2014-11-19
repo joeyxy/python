@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Dashboard - pyspider</title>
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <meta name="description" content="pyspider dashboard">
+    <meta name="author" content="binux">
+    <link href="{{ url_for('cdn', path='twitter-bootstrap/3.1.1/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ url_for('cdn', path='x-editable/1.5.0/bootstrap3-editable/css/bootstrap-editable.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='index.css') }}" rel="stylesheet">
+
+    <script src="{{ url_for('cdn', path='jquery/1.11.0/jquery.min.js') }}"></script>
+    <script src="{{ url_for('cdn', path='twitter-bootstrap/3.1.1/js/bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('cdn', path='x-editable/1.5.0/bootstrap3-editable/js/bootstrap-editable.min.js') }}"></script>
+  </head>
+
+  <body>
+    <section>
+      <table class="table projects">
+        <thead>
+          <th>group</th>
+          <th>project name</th>
+          <th>status</th>
+          <th>rate/burst</th>
+          <th colspan=4>progress</th>
+          <th>actions</th>
+        </thead>
+        <tbody>
+          {% for project in projects %}
+          <tr data-name="{{ project['name'] }}">
+            <td class="project-group"><span>{{ project['group'] or '' }}</span></td>
+            <td class="project-name"><a href="/debug/{{ project['name'] }}">{{ project['name'] }}</a></td>
+            <td class="project-status">
+              <span class="status-{{ project['status'] }}" data-value="{{ project['status'] }}">{{ project['status'] }}</span>
+            </td>
+            <td class="project-rate"><span>{{ project['rate'] }}/{{ project['burst'] }}</span></td>
+            <td class="project-progress progress-5m">
+              <div class="progress">
+                <div class="progress-text">5m</div>
+                <div class="progress-bar progress-pending"></div>
+                <div class="progress-bar progress-bar-success progress-success"></div>
+                <div class="progress-bar progress-bar-danger progress-failed"></div>
+              </div>
+            </td>
+            <td class="project-progress progress-1h">
+              <div class="progress">
+                <div class="progress-text">1h</div>
+                <div class="progress-bar progress-pending"></div>
+                <div class="progress-bar progress-bar-success progress-success"></div>
+                <div class="progress-bar progress-bar-danger progress-failed"></div>
+              </div>
+            </td>
+            <td class="project-progress progress-1d">
+              <div class="progress">
+                <div class="progress-text">1d</div>
+                <div class="progress-bar progress-pending"></div>
+                <div class="progress-bar progress-bar-success progress-success"></div>
+                <div class="progress-bar progress-bar-danger progress-failed"></div>
+              </div>
+            </td>
+            <td class="project-progress progress-all">
+              <div class="progress">
+                <div class="progress-text">all</div>
+                <div class="progress-bar progress-pending"></div>
+                <div class="progress-bar progress-bar-success progress-success"></div>
+                <div class="progress-bar progress-bar-danger progress-failed"></div>
+              </div>
+            </td>
+            <td class="project-actions">
+              # if config.scheduler_rpc is not none:
+              <button class="project-run btn btn-default btn-xs">Run</button>
+              <a class="btn btn-default btn-xs" href="/tasks?project={{ project.name }}" target=_blank>Active Tasks</a>
+              # endif
+              # if config.resultdb:
+              <a class="btn btn-default btn-xs" href="/results?project={{ project.name }}" target=_blank>Results</a>
+              # endif
+            </td>
+          </tr>
+          {% endfor %}
+          <tr>
+            <td colspan=8>
+              {% if config.scheduler_rpc is not none %}
+              <a class="btn btn-default btn-info" href='/tasks' target=_blank>Recent Active Tasks</a>
+              {% endif %}
+            </td>
+            <td>
+              <button class="project-create btn btn-default btn-primary">Create</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <script src="{{ url_for('static', filename='index.js') }}"></script>
+  </body>
+</html>
+<!-- vim: set et sw=2 ts=2 sts=2 ff=unix fenc=utf8 syntax=htmldjango: -->
+

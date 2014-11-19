@@ -1,0 +1,15 @@
+Flask>=0.10
+Jinja2>=2.7
+chardet>=2.2
+cssselect>=0.9
+lxml>=3.3.2
+pycurl>=7.19
+pyquery>=1.2
+requests>=2.2
+tornado>=3.2
+mysql-connector-python>=1.2.2
+pika>=0.9.14
+pymongo>=2.7.2
+unittest2>=0.5.1
+Flask-Login>=0.2.11
+u-msgpack-python>=1.6
