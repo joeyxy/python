@@ -5,7 +5,7 @@ class MyClient:
         print 'Prepare for connecting...'     
     def connect(self):  
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  
-        sock.connect(('54.169.1.224', 8890))  
+        sock.connect(('127.0.0.1', 5000))  
         #connect to the server
         sock.sendall('Hi, server')  
         self.response = sock.recv(8192)  

@@ -88,5 +88,5 @@ class MyServer(SocketServer.BaseRequestHandler):
  
 if __name__ == '__main__':  
     print 'Server is started\nwaiting for connection...\n'  
-    srv = SocketServer.ThreadingTCPServer(('192.168.10.13', 50000), MyServer)  
+    srv = SocketServer.ThreadingTCPServer(('127.0.0.1', 5000), MyServer)  
     srv.serve_forever()  
