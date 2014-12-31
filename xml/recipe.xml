@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<recipe>
+	<title>
+		Famous Guacamole
+	</title>
+	<description>
+		a southwest favorite!
+	</description>
+	<ingredients>
+		<item num="4">Large avocados</item>
+		<item num="12" units="bottles">Ice-cold beer</item>
+		<item num="3" units="tsp">Salt</item>
+	</ingredients>
+	<directions>
+		combine all ingredients and hand whisk to desired consistency.
+	</directions>
+</recipe>
