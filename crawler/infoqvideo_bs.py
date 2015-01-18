@@ -8,6 +8,9 @@ from threading import Thread
 from time import strftime
 from BeautifulSoup import BeautifulSoup 
 
+reload(sys) 
+sys.setdefaultencoding('utf8')   
+
 baseUrl='http://www.infoq.com/cn/presentations/'
 outPut='bsvideolist.html'
 pageNum=822
@@ -34,7 +37,7 @@ def spiderIndex(url):
             url = "http://www.infoq.com"
             time = resp[i].contents[1].text
             desc = resp[i].contents[7].text
-            print title,desc
+            #print title,desc
             urlNum+=1
             urlList.append("<a href=\""+url+"\">"+title+":"+time+"desc:"+desc+"</a>")
             sys.stdout.write('\r[*] [%s] [Working] [%s]'%(str(strftime('%X')),str(urlNum)))
@@ -58,7 +61,7 @@ class WorkThread(Thread):
 
 def main():
     q=Queue(maxsize=0)
-    for i in xrange(1,pageNum,1):
+    for i in xrange(800,pageNum,1):
         q.put(i)
 
     print '[+] [%s] [Start]'%strftime('%X')
@@ -75,12 +78,13 @@ def main():
     for i in threadList:
         i.join()
 
-    f=open(outPut,'ab')
+    f=open(outPut,'a')
     f.write('<html> <meta http-equiv="Content-Type" content="text/html";charset=utf-8 />\n')
     f.write('<title>infoq video List</title>\n')
     f.write('<body>\n')
     f.write('<center><h1><b>infoq video List</b></h1>\n'+'Time:'+str(strftime("%Y-%b-%d %X"))+'Count:'+str(len(urlList))+'</center><hr/>\n<h5>\n')
     for line in urlList:
+        print line
         f.write(line+'</br>\n')
     f.write('</body></html>\n')
     f.close()
