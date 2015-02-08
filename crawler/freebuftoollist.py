@@ -68,9 +68,9 @@ def main():
         i.join()
 
     f=open(outPut,'ab')
-    f.write('<meta http-equiv="Content-Type" content="text/html";charset=utf-8 />\n')
+    f.write('<head><meta http-equiv="Content-Type" content="text/html";charset=utf-8 />\n')
     
-    f.write('<title>Freebuf Tools List</title>\n')
+    f.write('<title>Freebuf Tools List</title></head>\n')
     f.write('<center><h1><b>Freebuf Tools List</b></h1>\n'+'Time:'+str(strftime("%Y-%b-%d %X"))+'Count:'+str(len(urlList))+'</center><hr/>\n<h5>\n')
     
     for line in urlList:

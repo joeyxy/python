@@ -77,8 +77,8 @@ def main():
         i.join()
 
     f=open(outPut,'ab')
-    f.write('<html> <meta http-equiv="Content-Type" content="text/html";charset=utf-8 />\n')
-    f.write('<title>infoq video List</title>\n')
+    f.write('<html> <head> <meta http-equiv="Content-Type" content="text/html" charset=utf-8> \n')
+    f.write('<title>infoq video List</title></head>\n')
     f.write('<body>\n')
     f.write('<center><h1><b>infoq video List</b></h1>\n'+'Time:'+str(strftime("%Y-%b-%d %X"))+'Count:'+str(len(urlList))+'</center><hr/>\n<h5>\n')
     for line in urlList:
