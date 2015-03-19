@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-#create at:201350225 joey joeyxy83@gmail.com
+#create at:20150225 joey joeyxy83@gmail.com
 #for check the port status,and create the check list :ip.list
 #input format ip : 192.168.10.0/32 
 #port : 27017
@@ -10,6 +10,7 @@ from threading import Thread
 from Queue import Queue
 from termcolor import colored
 from IPy import IP
+import time 
 
 timeout = 5
 ip_queue = Queue()
@@ -75,6 +76,7 @@ print "Main Thread waiting"
 ip_queue.join()
 
 print "Done"
-f = open('ip.list','w')
+file = time.strftime("%y-%m-%d-%H-%M.") + 'ip.list'
+f = open(file,'w')
 print_result(out_queue,f)
 f.close()
