@@ -27,7 +27,7 @@ def AES_File(fs):
     return b2a_hex(msg)
 
 #Create a Test Src File and Get FileSteam
-fc_msg1 = AES_File('9698658532')
+fc_msg1 = AES_File('9698111111')
 print fc_msg1
 
 

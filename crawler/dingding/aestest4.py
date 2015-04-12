@@ -40,6 +40,6 @@ if __name__== "__main__":
     key = "ee648bdb7d0b9698"
     ciphertext = "8d24f6708eeccda90827d0c2f47a1fe4";
     decryptor = AESCipher(key)
-    print decryptor.encrypt('9698658532')
+    print decryptor.encrypt('9698111111')
     plaintext = decryptor.decrypt(ciphertext)
     print "%s" % plaintext

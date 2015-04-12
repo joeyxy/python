@@ -33,7 +33,7 @@ class MyCrypt():
  
 if __name__ == '__main__':
     key = 'ee648bdb7d0b9698'
-    data = '9698658532'
+    data = '9698111111'
     ec = MyCrypt(key)
     encrpt_data = ec.encrypt(data)
     decrpt_data = ec.decrypt(encrpt_data)

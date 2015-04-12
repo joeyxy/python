@@ -1,0 +1,347 @@
+正确：
+
+joeydeMacBook-Pro:dingding joey$ ./poc_web_manual.py 155528283816
+get cookie:elco1h74keafvrl4o6o4669g57
+formhash:8d296027d236232a
+phone:15552828 sms code send
+input the receive code:^CTraceback (most recent call last):
+  File "./poc_web_manual.py", line 119, in <module>
+    code = raw_input("input the receive code:")
+KeyboardInterrupt
+joeydeMacBook-Pro:dingding joey$ ./poc_web_manual.py 15528283816
+get cookie:6i66924th3mif8nv10j32fsbf3
+formhash:8d296027d236232a
+phone:15528283 sms code send
+input the receive code:5218
+move the step3
+status code:200
+{'content-encoding': 'gzip', 'x-powered-by': 'PHP/5.5.0-1ubuntu2~raring2~precise1', 'transfer-encoding': 'chunked', 'expires': 'Thu, 19 Nov 1981 08:52:00 GMT', 'vary': 'Accept-Encoding', 'server': 'nginx/1.1.19', 'connection': 'keep-alive', 'pragma': 'no-cache', 'cache-control': 'no-store, no-cache, must-revalidate, post-check=0, pre-check=0', 'date': 'Tue, 24 Mar 2015 03:15:44 GMT', 'content-type': 'text/html; charset=UTF-8'}
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <meta name="ROBOTS" content="NOODP">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>丁盯商城</title>
+        <link href="http://mall.dding.net//static/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="http://mall.dding.net//static/css/account.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="http://mall.dding.net//static/css/main.css">
+                <link href="/static/css/swiper.css" rel="stylesheet" type="text/css" />
+                <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+                <script src="/static/js/swiper.min.js"></script>
+        
+    </head>
+    <body>
+        <div class="container">
+            
+            <!-- block website_notice
+            <div class="alert alert-warning" role="alert">
+            </div>
+            block website_notice end -->
+
+            <!-- block flashed_messages 
+            module Template("flashed_message.php") 
+             block flashed_messages end -->
+
+            <!--  block content -->
+            <style type="text/css">
+.JShop-tab-goods .JShop-m-two-column {
+    font-size: 14px;
+    width: 100%;
+    min-width: 320px;
+    padding: 1px 0;
+}
+.JShop-tab-goods .JShop-m-two-column .JShop-m-two-column-t {
+    width: 100%;
+    padding: 0 1px;
+}
+.JShop-tab-goods .JShop-m-two-column ul {
+    overflow: hidden;
+}
+.JShop-tab-goods .JShop-m-two-column .JShop-m-two-column-t li {
+    float: left;
+    width: 49%;
+    margin: 0 auto;
+    margin-top: 1%;
+    list-style:none;
+}
+
+.JShop-tab-goods .JShop-m-two-column .JShop-m-two-column-t .module {
+    margin-right: 2%;
+    float: left;
+    background-color: #FFF;
+    padding: .7em .5em;
+    box-shadow: 0 1px 1px 0px rgba(0, 0, 0, .2);
+    width: 100%;
+    text-align: center;
+}
+.JShop-tab-goods .JShop-m-two-column a {
+    display: block;
+}
+.JShop-tab-goods .JShop-m-two-column .JShop-m-two-column-t .module .img {
+    height: 8.5em;
+    line-height: 8.5em;
+    vertical-align: middle;
+    text-align: center;
+    overflow: hidden;
+    padding: 2px;
+}
+.JShop-tab-goods .JShop-m-two-column .JShop-m-two-column-t .module .img img{
+    height: 8.5em;
+}
+
+.JShop-tab-goods .JShop-m-two-column .JShop-m-two-column-t .module .g-title {
+    font-size: .857em;
+    height: 2.6em;
+    line-height: 1.4em;
+    overflow: hidden;
+    color: #333333;
+    width: 100%;
+    margin-top: 6px;
+    word-break: break-all;
+}
+.JShop-tab-goods .JShop-m-two-column .JShop-m-two-column-t .module .g-price {
+    font-size: 1.07em;
+    color: #ff0000;
+}
+</style>
+<div class="header">
+    <a class="navbar-brand" href="/"><i class="fa fa-angle-left"></i></a>
+    <h1 class="title" id="page-title">丁盯商城</h1>
+</div>
+<div class="content ">
+    <div class="content-body">
+        <!-- banner -->
+        <div class="custom-richtext-fullscreen">
+            <p style="margin:0 0 10px 0;"><span>
+            <img src="http://mall.dding.net/static/images/Fsr1JaUw01QPFG9XK25_7nZ3G2pQ.jpg!730x0.jpg" style="width:100%"></span></p>
+        </div>
+        <!-- from jd -->
+        <div class=" JShop-tab-goods" style="margin-bottom: 0;">
+            <div class="mc" style=";min-height:0px;">
+                <div class="j-module" module-function="tab" module-param="{tabWidthAutoEqual: true, tabMaxSize: 4, firstMenuSelector: '.tab-navigator > span', firstMenuCurrentClass: 'tab-main-cur', secondMenuSelector:'.tab-content .JShop-m-two-column-t', secondMenuCurrentClass: 'current'}">
+
+                    <div class="tab-content">
+                        <div class="JShop-m-two-column">
+                            <ul class="JShop-m-two-column-t">
+                                                                <li>
+                                    <div class="module">
+                                        <a href="/product/info?pid=2" class="J_ping" report-eventid="Jshop_ProductID_Category" >
+                                        <p class="img">
+                                        <img class="J_imgLazyload" src="http://mall.dding.net/img/month_141231/201412310921318651.jpg">
+                                        </p>
+                                        <p class="g-title">看门神器——丁盯智能门磁</p>
+                                        <p class="g-price">
+                                        ￥ <span class="jdNum" jshop="price">199.00</span>
+                                        </p>
+                                        </a>
+                                    </div>
+                                </li>
+                                                                <li>
+                                    <div class="module">
+                                        <a href="/product/info?pid=3" class="J_ping" report-eventid="Jshop_ProductID_Category" >
+                                        <p class="img">
+                                        <img class="J_imgLazyload" src="http://mall.dding.net/img/month_150302/201503020959162482.jpg">
+                                        </p>
+                                        <p class="g-title">丁盯智能门磁-礼盒限量版</p>
+                                        <p class="g-price">
+                                        ￥ <span class="jdNum" jshop="price">268.00</span>
+                                        </p>
+                                        </a>
+                                    </div>
+                                </li>
+                                                                <li>
+                                    <div class="module">
+                                        <a href="/product/info?pid=4" class="J_ping" report-eventid="Jshop_ProductID_Category" >
+                                        <p class="img">
+                                        <img class="J_imgLazyload" src="http://mall.dding.net/img/month_150130/201501300400505612.jpg">
+                                        </p>
+                                        <p class="g-title">小度i耳目摄像头</p>
+                                        <p class="g-price">
+                                        ￥ <span class="jdNum" jshop="price">388.00</span>
+                                        </p>
+                                        </a>
+                                    </div>
+                                </li>
+                                                                <li>
+                                    <div class="module">
+                                        <a href="/product/info?pid=6" class="J_ping" report-eventid="Jshop_ProductID_Category" >
+                                        <p class="img">
+                                        <img class="J_imgLazyload" src="http://mall.dding.net/img/month_150228/201502280729362445.jpg">
+                                        </p>
+                                        <p class="g-title">丁盯门磁经典版+小度i耳目套装</p>
+                                        <p class="g-price">
+                                        ￥ <span class="jdNum" jshop="price">499.00</span>
+                                        </p>
+                                        </a>
+                                    </div>
+                                </li>
+                                                                <li>
+                                    <div class="module">
+                                        <a href="/product/info?pid=10" class="J_ping" report-eventid="Jshop_ProductID_Category" >
+                                        <p class="img">
+                                        <img class="J_imgLazyload" src="http://mall.dding.net/img/month_150228/201502280821498183.jpg">
+                                        </p>
+                                        <p class="g-title">邮费差价专拍</p>
+                                        <p class="g-price">
+                                        ￥ <span class="jdNum" jshop="price">1.00</span>
+                                        </p>
+                                        </a>
+                                    </div>
+                                </li>
+                                                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- from end -->
+        <!-- 商品广告 -->
+        <!-- 
+        <ul class="custom-nav-4 clearfix">
+                        <li>
+                <a href="/product/info?pid=2">
+                <img data-src="" class="js-lazy" style="" src="http://mall.dding.net/img/month_141231/201412310921318651.jpg">
+                看门神器——丁盯智能门磁                </a>
+            </li>
+                        <li>
+                <a href="/product/info?pid=3">
+                <img data-src="" class="js-lazy" style="" src="http://mall.dding.net/img/month_150302/201503020959162482.jpg">
+                丁盯智能门磁-礼盒限量版                </a>
+            </li>
+                        <li>
+                <a href="/product/info?pid=4">
+                <img data-src="" class="js-lazy" style="" src="http://mall.dding.net/img/month_150130/201501300400505612.jpg">
+                小度i耳目摄像头                </a>
+            </li>
+                        <li>
+                <a href="/product/info?pid=6">
+                <img data-src="" class="js-lazy" style="" src="http://mall.dding.net/img/month_150228/201502280729362445.jpg">
+                丁盯门磁经典版+小度i耳目套装                </a>
+            </li>
+                        <li>
+                <a href="/product/info?pid=10">
+                <img data-src="" class="js-lazy" style="" src="http://mall.dding.net/img/month_150228/201502280821498183.jpg">
+                邮费差价专拍                </a>
+            </li>
+                    </ul> -->
+    </div>
+    <p class="clear">&nbsp;</p>
+    <div class="shopnav js-navmenu nav-on-bottom style-1">
+    <div class="nav-menu has-menu-3">
+        <a class="home" href="/">主页</a>
+        <div class="divide">&nbsp;</div>
+        <div class="one">
+            <a href="/product/list/last" class="mainmenu js-mainmenu">
+            <span class="mainmenu-txt">最新商品</span>
+            </a>
+        </div>
+        <div class="divide">&nbsp;</div>
+        <div class="one">
+            <a href="/product/list/hot" class="mainmenu js-mainmenu">
+            <span class="mainmenu-txt">最热商品</span>
+            </a>
+        </div>
+        <div class="divide">&nbsp;</div>
+        <div class="one">
+            <a href="/ucenter/order" class="mainmenu js-mainmenu">
+            <span class="mainmenu-txt">我的商城</span>
+            </a>
+        </div>
+    </div>
+</div></div>
+<a href="/ucenter/cart" class="" id="global-cart">
+<img width="50" height="50" src="/static/images/cart.png">
+</a>
+            <div class="">
+
+            </div>
+        </div><!-- /.container -->
+        <script src="/static/js/bootstrap.min.js"></script>
+    </body>
+</html>
+
+错误：
+joeydeMacBook-Pro:dingding joey$ ./poc_web_manual.py 15528283816
+get cookie:j0s8p1ivmg0q0bf6e8prrdigv4
+formhash:8d296027d236232a
+phone:15528283 sms code send
+input the receive code:1234
+move the step3
+status code:200
+{'content-encoding': 'gzip', 'x-powered-by': 'PHP/5.5.0-1ubuntu2~raring2~precise1', 'transfer-encoding': 'chunked', 'expires': 'Thu, 19 Nov 1981 08:52:00 GMT', 'vary': 'Accept-Encoding', 'server': 'nginx/1.1.19', 'connection': 'keep-alive', 'pragma': 'no-cache', 'cache-control': 'no-store, no-cache, must-revalidate, post-check=0, pre-check=0', 'date': 'Tue, 24 Mar 2015 03:16:27 GMT', 'content-type': 'text/html; charset=UTF-8'}
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <meta name="ROBOTS" content="NOODP">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>丁盯商城</title>
+        <link href="http://mall.dding.net//static/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="http://mall.dding.net//static/css/account.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="http://mall.dding.net//static/css/main.css">
+                <link href="/static/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+                <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+        
+    </head>
+    <body>
+        <div class="container">
+            
+            <!-- block website_notice
+            <div class="alert alert-warning" role="alert">
+            </div>
+            block website_notice end -->
+
+            <!-- block flashed_messages 
+            module Template("flashed_message.php") 
+             block flashed_messages end -->
+
+            <!--  block content -->
+             
+
+<div class="header">
+    <a class="navbar-brand" href="/"><i class="fa fa-angle-left"></i></a>
+    <h1 class="title" id="page-title">找回密码</h1>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+    <div class="account-title"></div>
+    </div>
+    <!-- flashed_message -->
+    <div class="col-md-12">
+        <form method="post" action="/ucenter/forget/step3" role="form" class="form">
+            
+                        <div class="alert alert-danger">failed for this action</div>
+            
+            <div class="form-group">
+                <!-- <label for="cellphone">手机号</label> -->
+                <input class="form-control" id="password" name="password" type="password" value="" placeholder="请输入新密码">
+
+            </div>
+
+            <div class="form-group">
+                <!-- <label for="cellphone">手机号</label> -->
+                <input class="form-control" id="repassword" name="repassword" type="password" value="" placeholder="请再次输入新密码">
+
+            </div>
+
+
+            <div class="form-group">
+                <input type="hidden" name="formhash" value="8d296027d236232a">
+                <button type="submit" class="btn btn-submit btn-block btn-lg">下一步</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+            <div class="">
+
+            </div>
+        </div><!-- /.container -->
+        <script src="/static/js/bootstrap.min.js"></script>
+    </body>
+</html>
+joeydeMacBook-Pro:dingding joey$ 
