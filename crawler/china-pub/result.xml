@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Results>
+  <ResultList>
+    <Item>
+      <SrcFile Width="40" Height="10">http://file2.ocrking.com/small/20150401/wpdpw4hpfcOPwoPDk8KWwottwpnChMK8e2LCvsKca8KhwprClGJ2/0fb9864a-2caa-4367-93f2-694844534a53.bmp?NmvWC7g2470LQbH5npEUA7XMKbyA/xqL9chymOTLs4HD8odr0e8g5RbwjJ/v69ew</SrcFile>
+      <DesFile Width="40" Height="10">http://file2.ocrking.com/small/20150401/wpdpw4hpfcOPwoPDk8KWwottwpnChMK8e2LCvsKca8KhwprClGJ2/0fb9864a-2caa-4367-93f2-694844534a53_debug.png?NmvWC7g2470LQbH5npEUA7XMKbyA/xqL9chymOTLs4HD8odr0e8g5RbwjJ/v69ew</DesFile>
+      <Result>5371</Result>
+      <Status>true</Status>
+      <Note />
+    </Item>
+  </ResultList>
+  <Timestamp>1427867618</Timestamp>
+  <Version>3.3.2.1158</Version>
+  <CopyRights>Aven's Lab 2014</CopyRights>
+  <WebSite>http://www.ocrking.com</WebSite>
+</Results>
