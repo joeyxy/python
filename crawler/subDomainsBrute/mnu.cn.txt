@@ -1,0 +1,17 @@
+www.mnu.cn                    	61.139.94.158
+my.mnu.cn                     	61.139.94.202
+news.mnu.cn                   	61.139.94.206
+music.mnu.cn                  	61.139.94.150
+office.mnu.cn                 	61.139.94.206
+hq.mnu.cn                     	61.139.94.206
+zp.mnu.cn                     	61.139.94.150
+ftp.mnu.cn                    	61.139.94.203
+newss.mnu.cn                  	61.139.94.148
+vpn2.mnu.cn                   	61.139.94.199
+sw.mnu.cn                     	61.139.94.206
+tx.mnu.cn                     	61.139.94.206
+vpn.mnu.cn                    	61.139.94.195
+dm.mnu.cn                     	61.139.94.202
+gh.mnu.cn                     	61.139.94.206
+studio.mnu.cn                 	61.139.94.197
+pop3.mnu.cn                   	61.139.94.149

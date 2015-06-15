@@ -1,0 +1,36 @@
+Downloading/unpacking diesel
+  Running setup.py (path:/private/tmp/pip_build_root/diesel/setup.py) egg_info for package diesel
+    
+Downloading/unpacking greenlet (from diesel)
+  Running setup.py (path:/private/tmp/pip_build_root/greenlet/setup.py) egg_info for package greenlet
+    
+Downloading/unpacking twiggy (from diesel)
+  Running setup.py (path:/private/tmp/pip_build_root/twiggy/setup.py) egg_info for package twiggy
+    
+Requirement already satisfied (use --upgrade to upgrade): pyopenssl in /Library/Python/2.7/site-packages (from diesel)
+Downloading/unpacking flask (from diesel)
+  Running setup.py (path:/private/tmp/pip_build_root/flask/setup.py) egg_info for package flask
+    
+    warning: no files found matching '*' under directory 'tests'
+    warning: no previously-included files matching '*.pyc' found under directory 'docs'
+    warning: no previously-included files matching '*.pyo' found under directory 'docs'
+    warning: no previously-included files matching '*.pyc' found under directory 'tests'
+    warning: no previously-included files matching '*.pyo' found under directory 'tests'
+    warning: no previously-included files matching '*.pyc' found under directory 'examples'
+    warning: no previously-included files matching '*.pyo' found under directory 'examples'
+    no previously-included directories found matching 'docs/_build'
+    no previously-included directories found matching 'docs/_themes/.git'
+Downloading/unpacking http-parser>=0.7.12 (from diesel)
+  Running setup.py (path:/private/tmp/pip_build_root/http-parser/setup.py) egg_info for package http-parser
+    
+Requirement already satisfied (use --upgrade to upgrade): dnspython in /Library/Python/2.7/site-packages (from diesel)
+Downloading/unpacking pyev (from diesel)
+  Running setup.py (path:/private/tmp/pip_build_root/pyev/setup.py) egg_info for package pyev
+    Aborted: pyev-0.9.0 requires libev >= 4.15
+    Complete output from command python setup.py egg_info:
+    Aborted: pyev-0.9.0 requires libev >= 4.15
+
+----------------------------------------
+Cleaning up...
+Command python setup.py egg_info failed with error code 1 in /private/tmp/pip_build_root/pyev
+Storing debug log for failure in /Users/joey/.pip/pip.log

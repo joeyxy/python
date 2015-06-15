@@ -1,0 +1,1 @@
+nmap -v -sn -PE -n --min-hostgroup 1024 --min-parallelism 1024 -oX nmap_output.xml www.lijiejie.com/16
