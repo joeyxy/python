@@ -19,7 +19,8 @@ __version__ = '0.1'
 # version for Python OcrKing Client #
 
 # OcrKing Api Url #
-__api_url__ = 'http://lab.ocrking.com/ok.html'
+#get api url:http://api.ocrking.com/server.html
+__api_url__ = 'http://39.65.100.4:6080/ok.html'
 
 #httplib.HTTPConnection._http_vsn = 10
 #httplib.HTTPConnection._http_vsn_str = 'HTTP/1.0'
