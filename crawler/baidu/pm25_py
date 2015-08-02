@@ -1,0 +1,17 @@
+#!/usr/bin/env python
+
+import os
+import requests
+from bs4 import BeautifulSoup
+
+url = 'http://www.pm25.in/chengdu'
+
+
+html = requests.get(url,timeout=3)
+soup = BeautifulSoup(html.text)
+
+result = soup.find_all("table",class_="table table-striped table-bordered table-condensed")
+
+a = result[0]
+
+print a

