@@ -57,7 +57,7 @@ def check(args):
 
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser(description="test for id")
-	parser.add_argument('--startid',action="store",dest="startid",type=int,default='21376700')
+	parser.add_argument('--startid',action="store",dest="startid",type=int,default='21375700')
 	parser.add_argument('--endid',action="store",dest="endid",type=int,default='21376920')
 	given_args = parser.parse_args()
 	startid = given_args.startid

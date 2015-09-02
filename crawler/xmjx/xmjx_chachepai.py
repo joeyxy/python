@@ -39,16 +39,20 @@ class check_chepai(object):
 
 	def check(self):
 		if (self.login() == 0):
-			api_url = 'http://www.xmxing.net/wap/car_details.php?hpzl=02&hphm=%s' % self.cp
-			cookies = {'PHPSESSID':self.cookie}
-			try:
-				req = requests.get(api_url,headers=self.headers,cookies = cookies,timeout=3)
-				#print req.content
-				pattern = re.compile('<div style="float:left;text-align:left;width:65%">(.*?)</div>',re.S)
-				items = re.findall(pattern, req.content)
-				print "chepai:%s,car type:%s,color:%s,user:%s,tel:%s " % (items[1],items[3],items[4],items[14],items[15])
-			except requests.RequestException as e:
-				print "request error:%s" % e
+			while 1:
+				cp = raw_input("input chepai or quit: ")
+				if cp == 'quit':
+					sys.exit(1)
+				api_url = 'http://www.xmxing.net/wap/car_details.php?hpzl=02&hphm=%s' % cp
+				cookies = {'PHPSESSID':self.cookie}
+				try:
+					req = requests.get(api_url,headers=self.headers,cookies = cookies,timeout=3)
+					#print req.content
+					pattern = re.compile('<div style="float:left;text-align:left;width:65%">(.*?)</div>',re.S)
+					items = re.findall(pattern, req.content)
+					print "chepai:%s,car type:%s,color:%s,user:%s,tel:%s " % (items[1],items[3],items[4],items[14],items[15])
+				except requests.RequestException as e:
+					print "request error:%s" % e
 
 
 
