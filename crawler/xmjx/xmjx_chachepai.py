@@ -26,6 +26,7 @@ class check_chepai(object):
 			req = requests.get(api_url,headers=self.headers,timeout=3)
 			#print req.content
 			self.cookie = req.cookies['PHPSESSID']
+			print self.cookie
 			return 0
 		except requests.RequestException as e:
 			print "request error:%s" % e
