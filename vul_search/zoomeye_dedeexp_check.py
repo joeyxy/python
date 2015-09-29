@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 #search the dedecms version at the zoomeye,get the host url and test the exp.
 #joey:joeyxy83@gmail.com create at 20131125
+#update: fix the re parser url error and using the Dynamic browser parse url
 
 from threading import Thread
 from Queue import Queue
@@ -11,28 +12,41 @@ import sys
 import httplib
 from termcolor import colored
 import urllib2
+from splinter import Browser
+import time
 
 url_queue = Queue()
+global debug
+debug = 0
 
 
 def showinfo():
 	print "#########################################################"
 	print "###                 search result                     ###"
 	print "###  usage: python geturl.py keyword pagenumber       ###"
-	print "###        ex: python geturl.py dedecms:5.1 5         ###"
+	print "### ex: python zoomeye_dedeexp_check.py dedecms:5.1 5 ###"
 	print "#########################################################"
 
 def test():
 	print "<h4><a href=\"(.*)\" target=\"_blank\""
 
 def gethtml(url):
-	page=urllib.urlopen(url)
-	html=page.read()
+	if debug:print url
+	#page=urllib.urlopen(url) --- static way old
+	#html=page.read()  ---staic way old
+	browser = Browser('phantomjs')
+	browser.visit(url)
+	time.sleep(15)
+	html = browser.html
+	if debug:print html
 	return html
 
 def geturl(html):
-	a="<h4><a href=\"(.*)\" target=\"_blank\""
-	resp=re.findall(a,html)
+	#a="<h4><a href=\"(.*)\" target=\"_blank\""
+	#resp=re.findall(a,html)
+	pattern=re.compile('<div class="ip">.*?</i>(.*?)</a>.*?</div>',re.S)
+	resp = re.findall(pattern,html)
+	if debug:print resp
 	return resp
 
 
@@ -92,12 +106,13 @@ def check_url(i,url_q):
 def main(keywords,pagenum):
 	num=0
 	for x in range(1,int(pagenum)+1):
-		html=gethtml('http://www.zoomeye.org//search?q=' + keywords + '&p=' + pagenum)
+		html=gethtml('http://www.zoomeye.org/search?q=' + keywords + '&p=' + str(x) +"&t=web")
+		#print html
 		url=geturl(html)
 		num+=len(url)
 		for y in url:
-			#print y
-			url_queue.put(y)
+			if debug:print y
+			url_queue.put(y.strip(" "))
 	print "total"+str(num)+"urls!"
 
 	url_threads = 50

@@ -159,8 +159,8 @@ class Spider(object):
 
 
 if __name__ == "__main__": 
-    mynode = DataNode("http://www.bjut.edu.cn")
-    spider = Spider(mynode,spider_type = "static" ,keyword = "bjut" ,depth = 2)
+    mynode = DataNode("http://www.sjgo365.com")
+    spider = Spider(mynode,spider_type = "static" ,keyword = "sjgo365" ,depth = 2)
     #spider = Spider(mynode,spider_type = "dynamic" ,keyword = "bistu.edu.cn" ,depth = 2)
     spider.run()
 
