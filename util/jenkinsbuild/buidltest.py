@@ -7,7 +7,7 @@ import os,sys
 from termcolor import colored
 
 def build_job(name):
-    api=Jenkins('http://192.168.2.39:8080','joeyxy','test123!')
+    api=Jenkins('http://192.168.2.39:8080','','test123!')
 #    job=api.get_job('deploy_dh_client_resource_to_test')
     job=api.get_job(name)
     try:
