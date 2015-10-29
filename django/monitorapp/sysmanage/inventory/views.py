@@ -5,7 +5,9 @@ from health_check import scan_port,scan
 import models
 import os
 
-base_dir = '/data/python/django/monitorapp/sysmanage/inventory'
+#base_dir = '/data/python/django/monitorapp/sysmanage/inventory'
+
+base_dir = '/Users/joey/Documents/code/python/django/monitorapp/sysmanage/inventory'
 
             
 def check(request):

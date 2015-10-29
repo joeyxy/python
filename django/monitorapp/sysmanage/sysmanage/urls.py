@@ -20,5 +20,6 @@ urlpatterns = patterns('',
     (r'^server_list/$','inventory.views.server_list'),
     (r'^health_check/$','inventory.views.check'),
     (r'^check_list/$','inventory.views.check_list'),
+    (r'^cp/$','check.views.cp'),
 
 )
