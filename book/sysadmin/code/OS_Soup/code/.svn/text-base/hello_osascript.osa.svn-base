@@ -1,0 +1,4 @@
+#!/usr/bin/osascript
+say "Hello, Bastard Operator From Hell" using "Zarvox"
+
+

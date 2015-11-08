@@ -1,0 +1,9 @@
+#!/Users/ngift/Documents/writing/current/processes/code/test/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'liten==0.1.4.0','console_scripts','liten'
+__requires__ = 'liten==0.1.4.0'
+import sys
+from pkg_resources import load_entry_point
+
+sys.exit(
+   load_entry_point('liten==0.1.4.0', 'console_scripts', 'liten')()
+)

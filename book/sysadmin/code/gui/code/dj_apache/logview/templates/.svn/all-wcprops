@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/examples/!svn/ver/775/9780596515829/code/gui/code/dj_apache/logview/templates
+END
+list_files.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/examples/!svn/ver/775/9780596515829/code/gui/code/dj_apache/logview/templates/list_files.html
+END
+base.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/examples/!svn/ver/775/9780596515829/code/gui/code/dj_apache/logview/templates/base.html
+END
+view_logfile.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/examples/!svn/ver/775/9780596515829/code/gui/code/dj_apache/logview/templates/view_logfile.html
+END

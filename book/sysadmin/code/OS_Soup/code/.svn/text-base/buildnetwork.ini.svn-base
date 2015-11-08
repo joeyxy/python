@@ -1,0 +1,8 @@
+[MACHINES]
+CENTOS: 10.0.1.40
+UBUNTU: 10.0.1.50
+REDHAT: 10.0.1.51
+SUN: 10.0.1.60
+FREEBSD: 10.0.1.80
+[COMMANDS]
+FINGERPRINT = python /src/create_package.py

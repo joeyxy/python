@@ -1,0 +1,9 @@
+<html>
+    <head>
+        <title>{% block title %}Apache Logviewer - File Listing{% endblock %}</title>
+    </head>
+    <body>
+        <div><a href="/">Log Directory</a></div>
+        {% block content %}Empty Content Block{% endblock %}
+    </body>
+</html>

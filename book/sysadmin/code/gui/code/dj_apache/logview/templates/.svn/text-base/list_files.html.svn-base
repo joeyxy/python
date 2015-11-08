@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}Apache Logviewer - File Listing{% endblock %}
+
+{% block content %}
+<ul>
+{% for f in file_list %}
+  <li><a href="/viewlog/linesort/{{ f }}/" >{{ f }}</a></li>
+{% endfor %}
+</ul>
+{% endblock %}

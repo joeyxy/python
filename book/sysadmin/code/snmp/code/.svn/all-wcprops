@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/examples/!svn/ver/775/9780596515829/code/snmp/code
+END
+processing_ping.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/examples/!svn/ver/775/9780596515829/code/snmp/code/processing_ping.py
+END
+hitcount.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/examples/!svn/ver/775/9780596515829/code/snmp/code/hitcount.py
+END
+snmp.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/examples/!svn/ver/775/9780596515829/code/snmp/code/snmp.py
+END
+discover.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/examples/!svn/ver/775/9780596515829/code/snmp/code/discover.py
+END
+new_router_config.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/examples/!svn/ver/775/9780596515829/code/snmp/code/new_router_config.py
+END
+snmpd.conf
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/examples/!svn/ver/775/9780596515829/code/snmp/code/snmpd.conf
+END
+snmp.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/examples/!svn/ver/775/9780596515829/code/snmp/code/snmp.pyc
+END

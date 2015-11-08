@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/examples/!svn/ver/775/9780596515829/code/processes/code/test/bin
+END
+activate
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/examples/!svn/ver/775/9780596515829/code/processes/code/test/bin/activate
+END
+python
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/examples/!svn/ver/775/9780596515829/code/processes/code/test/bin/python
+END
+python2.5
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/examples/!svn/ver/775/9780596515829/code/processes/code/test/bin/python2.5
+END
+easy_install
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/examples/!svn/ver/775/9780596515829/code/processes/code/test/bin/easy_install
+END
+easy_install-2.5
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/examples/!svn/ver/775/9780596515829/code/processes/code/test/bin/easy_install-2.5
+END
+liten
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/examples/!svn/ver/775/9780596515829/code/processes/code/test/bin/liten
+END

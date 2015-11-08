@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/examples/!svn/ver/775/9780596515829/code/package_management/code/egg-example/HelloWorld.egg-info
+END
+SOURCES.txt
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/examples/!svn/ver/775/9780596515829/code/package_management/code/egg-example/HelloWorld.egg-info/SOURCES.txt
+END
+top_level.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/examples/!svn/ver/775/9780596515829/code/package_management/code/egg-example/HelloWorld.egg-info/top_level.txt
+END
+PKG-INFO
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/examples/!svn/ver/775/9780596515829/code/package_management/code/egg-example/HelloWorld.egg-info/PKG-INFO
+END
+dependency_links.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/examples/!svn/ver/775/9780596515829/code/package_management/code/egg-example/HelloWorld.egg-info/dependency_links.txt
+END

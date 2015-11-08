@@ -1,0 +1,67 @@
+8
+
+dir
+850
+https://examples.oreilly.com/svn/examples/9780596515829/code/gui/code/sysmanage/inventory
+https://examples.oreilly.com/svn/examples
+
+
+
+2008-08-19T14:02:16.646312Z
+775
+noah.gift@gmail.com
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+8e218523-d3ed-49df-b9fe-dad83a4b40bd
+
+views.py
+file
+
+
+
+
+2008-10-24T21:05:41.000000Z
+0891827b16e3bfecbe2cb1864ddeec24
+2008-08-19T14:02:16.646312Z
+775
+noah.gift@gmail.com
+
+__init__.py
+file
+
+
+
+
+2008-10-24T21:05:41.000000Z
+d41d8cd98f00b204e9800998ecf8427e
+2008-08-19T14:02:16.646312Z
+775
+noah.gift@gmail.com
+
+models.py
+file
+
+
+
+
+2008-10-24T21:05:41.000000Z
+34efa3c7e157783d9e4de0e96625360d
+2008-08-19T14:02:16.646312Z
+775
+noah.gift@gmail.com
+
+templates
+dir
+

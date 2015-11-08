@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/examples/!svn/ver/775/9780596515829/code/text/code
+END
+apache_log_parser_regex.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/examples/!svn/ver/775/9780596515829/code/text/code/apache_log_parser_regex.py
+END
+test_apache_log_parser_split.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/examples/!svn/ver/775/9780596515829/code/text/code/test_apache_log_parser_split.py
+END
+apache_log_parser_split.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/examples/!svn/ver/775/9780596515829/code/text/code/apache_log_parser_split.py
+END
+apache_conf_docroot_replace.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/examples/!svn/ver/775/9780596515829/code/text/code/apache_conf_docroot_replace.py
+END
+elementtree_system_profile.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/examples/!svn/ver/775/9780596515829/code/text/code/elementtree_system_profile.py
+END
+system_profiler.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/examples/!svn/ver/775/9780596515829/code/text/code/system_profiler.xml
+END
+tomcat-users.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/examples/!svn/ver/775/9780596515829/code/text/code/tomcat-users.xml
+END
+elementtree_tomcat_users.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/examples/!svn/ver/775/9780596515829/code/text/code/elementtree_tomcat_users.py
+END
+sys_stdin_readline.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/examples/!svn/ver/775/9780596515829/code/text/code/sys_stdin_readline.py
+END
+quotes.pl
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/examples/!svn/ver/775/9780596515829/code/text/code/quotes.pl
+END
+re_loop_nocompile.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/examples/!svn/ver/775/9780596515829/code/text/code/re_loop_nocompile.py
+END
+re_loop_compile.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/examples/!svn/ver/775/9780596515829/code/text/code/re_loop_compile.py
+END
+sys_stdin_readline_enumerate.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/examples/!svn/ver/775/9780596515829/code/text/code/sys_stdin_readline_enumerate.py
+END
+test_apache_log_parser_regex.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/examples/!svn/ver/775/9780596515829/code/text/code/test_apache_log_parser_regex.py
+END

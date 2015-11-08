@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/examples/!svn/ver/775/9780596515829/code/processes/code/test
+END
+.Python
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/examples/!svn/ver/775/9780596515829/code/processes/code/test/.Python
+END
+event.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/examples/!svn/ver/775/9780596515829/code/processes/code/test/event.py
+END

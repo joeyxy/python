@@ -1,0 +1,67 @@
+8
+
+dir
+850
+https://examples.oreilly.com/svn/examples/9780596515829/code
+https://examples.oreilly.com/svn/examples
+
+
+
+2008-08-19T14:02:16.646312Z
+775
+noah.gift@gmail.com
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+8e218523-d3ed-49df-b9fe-dad83a4b40bd
+
+gui
+dir
+
+text
+dir
+
+commandline
+dir
+
+processes
+dir
+
+OS_Soup
+dir
+
+package_management
+dir
+
+pragmatic
+dir
+
+data
+dir
+
+documentation
+dir
+
+network
+dir
+
+intro
+dir
+
+data_persistence
+dir
+
+snmp
+dir
+

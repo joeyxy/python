@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/examples/!svn/ver/775/9780596515829/code/commandline/code
+END
+verbosity_levels_count.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/examples/!svn/ver/775/9780596515829/code/commandline/code/verbosity_levels_count.py
+END
+true_false.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/examples/!svn/ver/775/9780596515829/code/commandline/code/true_false.py
+END
+choices.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/examples/!svn/ver/775/9780596515829/code/commandline/code/choices.py
+END
+snmpdf_alter.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/examples/!svn/ver/775/9780596515829/code/commandline/code/snmpdf_alter.py
+END
+hello_config.ini
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/examples/!svn/ver/775/9780596515829/code/commandline/code/hello_config.ini
+END
+multiple_option_args.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/examples/!svn/ver/775/9780596515829/code/commandline/code/multiple_option_args.py
+END
+subprocess_dd.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/examples/!svn/ver/775/9780596515829/code/commandline/code/subprocess_dd.py
+END
+snmpdf_wrap.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/examples/!svn/ver/775/9780596515829/code/commandline/code/snmpdf_wrap.py
+END
+create_files.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/examples/!svn/ver/775/9780596515829/code/commandline/code/create_files.py
+END
+hello_config_optparse.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/examples/!svn/ver/775/9780596515829/code/commandline/code/hello_config_optparse.py
+END
+simple_callback.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/examples/!svn/ver/775/9780596515829/code/commandline/code/simple_callback.py
+END
+hello_world_optparse.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/examples/!svn/ver/775/9780596515829/code/commandline/code/hello_world_optparse.py
+END
+no_options.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/examples/!svn/ver/775/9780596515829/code/commandline/code/no_options.py
+END

@@ -1,0 +1,56 @@
+#EPM List File Can Be Used To Create Package For Any Of These Vendor Platforms
+#epm -f format foo bar.list ENTER
+#The format option can be one of the following keywords:
+
+#aix - AIX software packages.
+#bsd - FreeBSD, NetBSD, or OpenBSD software packages.
+#depot or swinstall - HP-UX software packages.
+#dpkg - Debian software packages.
+#inst or tardist - IRIX software packages.
+#native - "Native" software packages (RPM, INST, DEPOT, PKG, etc.) for the platform.
+#osx - MacOS X software packages.
+#pkg - Solaris software packages.
+#portable - Portable software packages (default).
+#rpm - Red Hat software packages.
+#setld - Tru64 (setld) software packages.
+#slackware - Slackware software packages.
+
+
+# Product Information Section
+
+%product hello_epm
+%copyright 2008 Py4SA
+%vendor O'Reilly
+%license COPYING
+%readme README
+%description Command Line Hello World Tool
+%version 0.1
+
+# Autoconfiguration Variables
+
+$prefix=/usr
+$exec_prefix=/usr
+$bindir=${exec_prefix}/bin
+$datadir=/usr/share
+$docdir=${datadir}/doc/hello_epm
+$libdir=/usr/lib
+$mandir=/usr/share/man
+$srcdir=.
+
+# Executables
+
+%system all
+f 0555 root sys ${bindir}/hello_epm hello_epm.py
+
+# Documentation
+
+%subpackage documentation
+f 0444 root sys ${docdir}/README $srcdir/README
+f 0444 root sys ${docdir}/COPYING $srcdir/COPYING
+f 0444 root sys ${docdir}/hello_epm.html $srcdir/doc/hello_epm.html
+
+# Man pages
+
+%subpackage man
+%description Man pages for hello_epm
+f 0444 root sys ${mandir}/man1/hello_epm.1 $srcdir/doc/hello_epm.man

@@ -1,0 +1,6 @@
+[buildout]
+parts = mypython
+[mypython]
+recipe = zc.recipe.egg
+interpreter = mypython
+eggs = liten

@@ -1,0 +1,81 @@
+8
+
+dir
+850
+https://examples.oreilly.com/svn/examples/9780596515829/code/package_management/code/hello_epm/macosx-10.5-intel/helloEPM.mpkg/Contents/Packages/helloEPM.pkg/Contents
+https://examples.oreilly.com/svn/examples
+
+
+
+2008-08-19T14:02:16.646312Z
+775
+noah.gift@gmail.com
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+8e218523-d3ed-49df-b9fe-dad83a4b40bd
+
+Info.plist
+file
+
+
+
+
+2008-10-24T21:05:44.000000Z
+c57e99db0baff7dcd0d7ae11295e8575
+2008-08-19T14:02:16.646312Z
+775
+noah.gift@gmail.com
+
+Archive.pax.gz
+file
+
+
+
+
+2008-10-24T21:05:44.000000Z
+64ca57b9e21298ac3260f9a3281ac9ea
+2008-08-19T14:02:16.646312Z
+775
+noah.gift@gmail.com
+has-props
+
+Resources
+dir
+
+Archive.bom
+file
+
+
+
+
+2008-10-24T21:05:44.000000Z
+863785407d855e3f09b5b81ed4f1515e
+2008-08-19T14:02:16.646312Z
+775
+noah.gift@gmail.com
+has-props
+
+PkgInfo
+file
+
+
+
+
+2008-10-24T21:05:44.000000Z
+4c25b18a4b8302d92c02b8a8921ea8f3
+2008-08-19T14:02:16.646312Z
+775
+noah.gift@gmail.com
+

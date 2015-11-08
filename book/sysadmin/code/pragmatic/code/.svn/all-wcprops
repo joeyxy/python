@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/examples/!svn/ver/775/9780596515829/code/pragmatic/code
+END
+apache_log_parser_regex.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/examples/!svn/ver/775/9780596515829/code/pragmatic/code/apache_log_parser_regex.py
+END
+apache_log_parser_split.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/examples/!svn/ver/775/9780596515829/code/pragmatic/code/apache_log_parser_split.py
+END
+query_dns.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/examples/!svn/ver/775/9780596515829/code/pragmatic/code/query_dns.py
+END
+apache_log_parser_split.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/examples/!svn/ver/775/9780596515829/code/pragmatic/code/apache_log_parser_split.pyc
+END
+summarize_logfiles_mem.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/examples/!svn/ver/775/9780596515829/code/pragmatic/code/summarize_logfiles_mem.py
+END
+summarize_logfiles.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/examples/!svn/ver/775/9780596515829/code/pragmatic/code/summarize_logfiles.py
+END
+ftp_mirror.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/examples/!svn/ver/775/9780596515829/code/pragmatic/code/ftp_mirror.py
+END
+apache_log_parser_regex_mem.py
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/examples/!svn/ver/775/9780596515829/code/pragmatic/code/apache_log_parser_regex_mem.py
+END
+apache_log_parser_split_mem.py
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/examples/!svn/ver/775/9780596515829/code/pragmatic/code/apache_log_parser_split_mem.py
+END

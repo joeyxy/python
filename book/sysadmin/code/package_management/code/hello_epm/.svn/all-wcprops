@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/examples/!svn/ver/775/9780596515829/code/package_management/code/hello_epm
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/examples/!svn/ver/775/9780596515829/code/package_management/code/hello_epm/COPYING
+END
+hello_epm.py
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/examples/!svn/ver/775/9780596515829/code/package_management/code/hello_epm/hello_epm.py
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/examples/!svn/ver/775/9780596515829/code/package_management/code/hello_epm/README
+END
+hello_epm.list
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/examples/!svn/ver/775/9780596515829/code/package_management/code/hello_epm/hello_epm.list
+END

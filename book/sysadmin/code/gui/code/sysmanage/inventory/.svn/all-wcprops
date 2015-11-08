@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/examples/!svn/ver/775/9780596515829/code/gui/code/sysmanage/inventory
+END
+views.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/examples/!svn/ver/775/9780596515829/code/gui/code/sysmanage/inventory/views.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/examples/!svn/ver/775/9780596515829/code/gui/code/sysmanage/inventory/__init__.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/examples/!svn/ver/775/9780596515829/code/gui/code/sysmanage/inventory/models.py
+END

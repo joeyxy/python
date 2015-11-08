@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block title %}Server Detail{% endblock %}
+
+{% block content %}
+<div>
+    Name: {{ server.name }}
+</div>
+<div>
+    Description: {{ server.description }}
+</div>
+<div>
+    OS: {{ server.os.name }}
+</div>
+<div>
+    <div>Services:</div>
+    <ul>
+    {% for service in server.services.all %}
+        <li>{{ service.name }}</li>
+    {% endfor %}
+    </ul>
+</div>
+<div>
+    <div>Hardware:</div>
+    <ul>
+    {% for hw in server.hardware_component.all %}
+        <li>{{ hw.manufacturer }} {{ hw.type }} {{ hw.model }}</li>
+    {% endfor %}
+    </ul>
+</div>
+<div>
+    <div>IP Addresses:</div>
+    <ul>
+    {% for ip in server.ipaddress_set.all %}
+        <li>{{ ip.address }}</li>
+    {% endfor %}
+    </ul>
+</div>
+{% endblock %}

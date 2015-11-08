@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/examples/!svn/ver/775/9780596515829/code/package_management/code/hello_epm/macosx-10.5-intel/helloEPM.mpkg/Contents/Packages/helloEPM-man.pkg/Contents
+END
+Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/examples/!svn/ver/775/9780596515829/code/package_management/code/hello_epm/macosx-10.5-intel/helloEPM.mpkg/Contents/Packages/helloEPM-man.pkg/Contents/Info.plist
+END
+Archive.pax.gz
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/examples/!svn/ver/775/9780596515829/code/package_management/code/hello_epm/macosx-10.5-intel/helloEPM.mpkg/Contents/Packages/helloEPM-man.pkg/Contents/Archive.pax.gz
+END
+Archive.bom
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/examples/!svn/ver/775/9780596515829/code/package_management/code/hello_epm/macosx-10.5-intel/helloEPM.mpkg/Contents/Packages/helloEPM-man.pkg/Contents/Archive.bom
+END
+PkgInfo
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/examples/!svn/ver/775/9780596515829/code/package_management/code/hello_epm/macosx-10.5-intel/helloEPM.mpkg/Contents/Packages/helloEPM-man.pkg/Contents/PkgInfo
+END

@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}Apache Logviewer - File Viewer{% endblock %}
+
+{% block content %}
+<table border="1">
+    <tr>
+        <td><a href="/viewlog/status/{{ filename }}/">Status</a></td>
+        <td><a href="/viewlog/remote_host/{{ filename }}/">Remote Host</a></td>
+        <td><a href="/viewlog/bytes_sent/{{ filename }}/">Bytes Sent</a></td>
+        <td><a href="/viewlog/linesort/{{ filename }}/">Line</a></td>
+    </tr>
+{% for l in loglines %}
+    <tr>
+        <td>{{ l.status }}</td>
+        <td>{{ l.remote_host }}</td>
+        <td>{{ l.bytes_sent }}</td>
+        <td><pre>{{ l.logline }}</pre></td>
+    </tr>
+{% endfor %}
+</table>
+{% endblock %}

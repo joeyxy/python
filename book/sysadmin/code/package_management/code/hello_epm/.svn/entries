@@ -1,0 +1,82 @@
+8
+
+dir
+850
+https://examples.oreilly.com/svn/examples/9780596515829/code/package_management/code/hello_epm
+https://examples.oreilly.com/svn/examples
+
+
+
+2008-08-19T14:02:16.646312Z
+775
+noah.gift@gmail.com
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+8e218523-d3ed-49df-b9fe-dad83a4b40bd
+
+macosx-10.5-intel
+dir
+
+doc
+dir
+
+COPYING
+file
+
+
+
+
+2008-10-24T21:05:44.000000Z
+d41d8cd98f00b204e9800998ecf8427e
+2008-08-19T14:02:16.646312Z
+775
+noah.gift@gmail.com
+
+hello_epm.py
+file
+
+
+
+
+2008-10-24T21:05:44.000000Z
+412936d969a5514f8014cd332110dcab
+2008-08-19T14:02:16.646312Z
+775
+noah.gift@gmail.com
+
+README
+file
+
+
+
+
+2008-10-24T21:05:44.000000Z
+d41d8cd98f00b204e9800998ecf8427e
+2008-08-19T14:02:16.646312Z
+775
+noah.gift@gmail.com
+
+hello_epm.list
+file
+
+
+
+
+2008-10-24T21:05:44.000000Z
+38ebf0985b43b743d19b2119dfddf224
+2008-08-19T14:02:16.646312Z
+775
+noah.gift@gmail.com
+

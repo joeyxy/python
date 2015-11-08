@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/examples/!svn/ver/775/9780596515829/code/package_management/code
+END
+virtual_env_bootstrap.py
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/examples/!svn/ver/775/9780596515829/code/package_management/code/virtual_env_bootstrap.py
+END
+distutils_ex.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/examples/!svn/ver/775/9780596515829/code/package_management/code/distutils_ex.py
+END
+hello_epm.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/examples/!svn/ver/775/9780596515829/code/package_management/code/hello_epm.py
+END
+liten-bootstrap.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/examples/!svn/ver/775/9780596515829/code/package_management/code/liten-bootstrap.py
+END

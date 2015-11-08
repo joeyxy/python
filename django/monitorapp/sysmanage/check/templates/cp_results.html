@@ -1,0 +1,17 @@
+<p>You check chepai is: <strong>{{ cp }}</strong></p>
+
+{% if result1 %}
+    <p>Found {{ result1|length }} host{{ result1|pluralize }}.</p>
+    <table border=1>
+    <tr>
+     <th>chepai</th><th>car type</th><th>color</th><th>user</th><th>tel</th>
+    </tr>
+
+        <tr>
+        <td>{{result1}}</td> <td>{{result2}}</td><td>{{result3}}</td><td>{{result4}}</td><td>{{result5}}</td>
+        <tr>
+
+    <table>
+{% else %}
+    <p>No host need to check.</p>
+{% endif %}

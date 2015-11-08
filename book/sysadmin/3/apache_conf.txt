@@ -1,0 +1,11 @@
+<VirtualHost localhost:80>
+    DocuemntRoot /var/www/
+    
+</VirtualHost>
+
+
+<VirtualHost local2:80>
+    DocumentRoot /var/www2/
+    
+
+</VirtualHost>
