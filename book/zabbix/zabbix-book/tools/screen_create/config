@@ -1,4 +1,0 @@
-[zabbix]
-username='user'
-password='passwd'
-url='http://zabbix.itnihao.com'

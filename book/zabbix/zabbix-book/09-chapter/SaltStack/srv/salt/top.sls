@@ -1,3 +1,0 @@
-base:
-   '*.itnihao.com':
-   - zabbix
