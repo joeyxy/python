@@ -54,6 +54,7 @@ class check_chepai(object):
 					print "chepai:%s,car type:%s,color:%s,user:%s,tel:%s " % (items[1],items[3],items[4],items[14],items[15])
 				except requests.RequestException as e:
 					print "request error:%s" % e
+					pass
 
 
 
